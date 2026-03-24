@@ -1,0 +1,62 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "54EO1LAB6rBSsV3WKK6Qk",
+      "name": "Vino Tinto",
+      "value": "#ad4848"
+    },
+    {
+      "id": "By1S139bUIC0FtsVzI_Wi",
+      "name": "Azul",
+      "value": "#9ad0f9"
+    },
+    {
+      "id": "ikrRFJ62BJVJjBG3F3H2a",
+      "name": "Amarillo",
+      "value": "#e2df83"
+    },
+    {
+      "id": "bSMuM_K8c3dgj10xkZMwK",
+      "name": "Verde",
+      "value": "#6dcb6c"
+    },
+    {
+      "id": "WGmwEwMCH_FKU9iJaaGAH",
+      "name": "Morado",
+      "value": "#9736ba"
+    },
+    {
+      "id": "j-TkTXH3NLp5IvL5-FzWe",
+      "name": "Negro",
+      "value": "#040101"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "2026-1S/FEM",
+      "color": "WGmwEwMCH_FKU9iJaaGAH"
+    },
+    {
+      "path": "2026-1S/Métodos Númericos",
+      "color": "bSMuM_K8c3dgj10xkZMwK"
+    },
+    {
+      "path": "2026-1S/Modelación Matemática 2026-1",
+      "color": "ikrRFJ62BJVJjBG3F3H2a"
+    },
+    {
+      "path": "2026-1S/POO",
+      "color": "j-TkTXH3NLp5IvL5-FzWe"
+    },
+    {
+      "path": "2026-1S/Terminal y Linux",
+      "color": "By1S139bUIC0FtsVzI_Wi"
+    },
+    {
+      "path": "2026-1S/Para entrar a la U (Tips)",
+      "color": "54EO1LAB6rBSsV3WKK6Qk"
+    }
+  ]
+}

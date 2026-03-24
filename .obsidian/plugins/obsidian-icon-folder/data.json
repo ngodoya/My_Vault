@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiUniversity",
+      "SiGithub",
+      "SiFiles",
+      "SiLinux",
+      "SiElectron"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Bienvenido.md": "SiFiles",
+  "2026-1S/FEM": "SiElectron",
+  "2026-1S/Métodos Númericos": "SiNumpy",
+  "2026-1S/Modelación Matemática 2026-1": "SiPython",
+  "2026-1S/POO": "SiGithub",
+  "2026-1S/Terminal y Linux": "SiLinux",
+  "2026-1S/Para entrar a la U (Tips)": "LiUniversity"
+}

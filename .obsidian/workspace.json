@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "9c3bae9c1ae0c984",
+    "type": "split",
+    "children": [
+      {
+        "id": "2de7574298c951c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c8d74741d4c8fbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Systems of Nonlinear Equations (By Newthon rhapson method)"
+            }
+          },
+          {
+            "id": "d1ade1bd51a22951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bienvenido.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bienvenido"
+            }
+          },
+          {
+            "id": "f027836271d1d8f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-1S/Para entrar a la U (Tips)/Cómo Usar GitHub?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cómo Usar GitHub?"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d2591a3418d59f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d61f06ec492dd1b2",
+        "type": "tabs",
+        "dimension": 72.45179063360881,
+        "children": [
+          {
+            "id": "2f76689bc1c05901",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "76db3603eaff9440",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "306f1e88c136376f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "7bf543d010c5db02",
+        "type": "tabs",
+        "dimension": 27.548209366391184,
+        "children": [
+          {
+            "id": "d21eec130602ec4a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "right": {
+    "id": "cadcf9615240823b",
+    "type": "split",
+    "children": [
+      {
+        "id": "950078ad977af4b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c68b88d7816de4e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sears_Zemansky_LIBRO-signed.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Sears_Zemansky_LIBRO-signed"
+            }
+          },
+          {
+            "id": "aa13a1b897593a1f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sin título.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Sin título"
+            }
+          },
+          {
+            "id": "e840f0f4e0f6d508",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "2fb81cafe986f4f9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "799300d83ccd1fe7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sin título.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Sin título"
+            }
+          },
+          {
+            "id": "0fad944955bff82b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "graph:Abrir vista gráfica": false,
+      "obsidian-importer:Open Importer": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "f027836271d1d8f0",
+  "lastOpenFiles": [
+    "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
+    "2026-1S/Para entrar a la U (Tips)/Cómo Usar GitHub?.md",
+    "2026-1S/Para entrar a la U (Tips)/Sin nombre",
+    "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
+    "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
+    "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
+    "Bienvenido.md",
+    "2026-1S/Para entrar a la U (Tips)/Recomendaciones ¿Qué estudiar?.md",
+    "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
+    "2026-1S/POO/Bienvenida POO.md",
+    "2026-1S/Métodos Númericos/Temas/2026-03-18.md",
+    "2026-1S/POO/Temas/Ejercicio 18-03.md",
+    "2026-1S/POO/Ideas Proyecto Grupal.md",
+    "2026-1S/POO/Temas/Informe.md",
+    "2026-1S/POO/Temas/Repositorios.md",
+    "2026-1S/FEM/Bienvenida Fem.md",
+    "2026-1S/Para entrar a la U (Tips)",
+    "2026-1S/Modelación Matemática 2026-1/Temas/Modelos Basados en EDP.md",
+    "2026-1S/Modelación Matemática 2026-1/Temas/Transporte Difusivo.md",
+    "2026-1S/POO/Temas/Notas Informe/2026-03-15.md",
+    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
+    "2026-1S/Métodos Númericos/Collabs/18-03.ipynb",
+    "18-03.ipynb",
+    "2026-1S/Métodos Númericos/Imagenes/18-03.ipynb",
+    "2026-1S/Métodos Númericos/Collabs/18-03 1.ipynb",
+    "2026-1S/Métodos Númericos/Collabs",
+    "FEM/Temas/1. Ley de Coulumb.md",
+    "FEM/Temas",
+    "FEM",
+    "2026-1S/Métodos Númericos/Sin título.md",
+    "Pasted image 20260318151023.png",
+    "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150845.png",
+    "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150647.png",
+    "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150428.png",
+    "Pasted image 20260318122445.png",
+    "Pasted image 20260318142527.png",
+    "2026-1S/POO/Temas/Avances Proyecto/Avance_3M.md",
+    "Pasted image 20260318122617.png",
+    "2026-1S/Modelación Matemática 2026-1/Temas/18-03.md",
+    "2026-1S/Modelación Matemática 2026-1/Bienvenida Modelación Matemática.md",
+    "2026-1S/Modelación Matemática 2026-1/Temas/Transporte Advectivo.md",
+    "2026-1S/POO/Temas/Actividad 01.md",
+    "2026-1S/POO/Temas/Notas Informe/2026-03-14.md",
+    "2026-1S/POO/Temas/Avances Proyecto/Imagenes/UML pokemon.jpeg",
+    "2026-1S/FEM/Imagenes/Cargas.png",
+    "Pasted image 20260313204629.png",
+    "Sin título.canvas"
+  ]
+}
