@@ -27,20 +27,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenido.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bienvenido"
-            }
-          },
-          {
-            "id": "f027836271d1d8f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "2026-1S/Para entrar a la U (Tips)/Cómo Usar GitHub?.md",
                 "mode": "source",
                 "source": false
@@ -50,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,26 +227,29 @@
       "bases:Crear nueva base": false,
       "graph:Abrir vista gráfica": false,
       "obsidian-importer:Open Importer": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f027836271d1d8f0",
+  "active": "d1ade1bd51a22951",
   "lastOpenFiles": [
+    "2026-1S/Para entrar a la U (Tips)/Recomendaciones ¿Qué estudiar?.md",
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
     "2026-1S/Para entrar a la U (Tips)/Cómo Usar GitHub?.md",
+    "2026-1S/Terminal y Linux/Comandos (Aprendizaje).md",
+    "Bienvenido.md",
+    "2026-1S/POO/Temas/PEP8.md",
+    "2026-1S/POO/Temas/Repositorios.md",
     "2026-1S/Para entrar a la U (Tips)/Sin nombre",
     "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
-    "Bienvenido.md",
-    "2026-1S/Para entrar a la U (Tips)/Recomendaciones ¿Qué estudiar?.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/POO/Bienvenida POO.md",
     "2026-1S/Métodos Númericos/Temas/2026-03-18.md",
     "2026-1S/POO/Temas/Ejercicio 18-03.md",
     "2026-1S/POO/Ideas Proyecto Grupal.md",
     "2026-1S/POO/Temas/Informe.md",
-    "2026-1S/POO/Temas/Repositorios.md",
     "2026-1S/FEM/Bienvenida Fem.md",
     "2026-1S/Para entrar a la U (Tips)",
     "2026-1S/Modelación Matemática 2026-1/Temas/Modelos Basados en EDP.md",
@@ -287,8 +276,6 @@
     "2026-1S/Modelación Matemática 2026-1/Temas/18-03.md",
     "2026-1S/Modelación Matemática 2026-1/Bienvenida Modelación Matemática.md",
     "2026-1S/Modelación Matemática 2026-1/Temas/Transporte Advectivo.md",
-    "2026-1S/POO/Temas/Actividad 01.md",
-    "2026-1S/POO/Temas/Notas Informe/2026-03-14.md",
     "2026-1S/POO/Temas/Avances Proyecto/Imagenes/UML pokemon.jpeg",
     "2026-1S/FEM/Imagenes/Cargas.png",
     "Pasted image 20260313204629.png",
