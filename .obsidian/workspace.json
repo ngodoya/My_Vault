@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#proton",
+                "query": "tag:#electron",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -236,10 +236,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "561689a9cdbc3460",
+  "active": "d1ade1bd51a22951",
   "lastOpenFiles": [
-    "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
     "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
+    "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
+    "Pasted image 20260331214016.png",
     "Pasted image 20260331205048.png",
     "Pasted image 20260331202027.png",
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
@@ -282,7 +283,6 @@
     "Pasted image 20260318122617.png",
     "2026-1S/Modelación Matemática 2026-1/Temas/18-03.md",
     "2026-1S/Modelación Matemática 2026-1/Bienvenida Modelación Matemática.md",
-    "2026-1S/POO/Temas/Avances Proyecto/Imagenes/UML pokemon.jpeg",
     "Sin título.canvas"
   ]
 }
