@@ -12,4 +12,4 @@
 # Libros de Estudio:
 ![[Sears_Zemansky_LIBRO-signed.pdf]]
 
-![[Física_para ciencias e ingenierías Vol.2, Autor_ Raymond A. Serway.pdf]]
+![[Fisica_para_ciencias_e_ingenieria.pdf]]
