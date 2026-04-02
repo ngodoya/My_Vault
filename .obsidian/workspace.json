@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4e9ca42222cc8fbc",
+        "id": "e622aa244a99cecf",
         "type": "tabs",
         "children": [
           {
-            "id": "561689a9cdbc3460",
+            "id": "163304b48bca6726",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Sears_Zemansky_LIBRO-signed"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
