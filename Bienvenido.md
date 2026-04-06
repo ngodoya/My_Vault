@@ -42,3 +42,5 @@
 > [!example]
 > Puedes crear nuevas notas escribiendo `[[Nombre de la nota]]`.
 
+# Recomendaciones
+en su compu usual, utilice el obsidian git, en otras conectelo a un repo de github desde vscode, utilizando y teniendo en cuenta que es un git privado.

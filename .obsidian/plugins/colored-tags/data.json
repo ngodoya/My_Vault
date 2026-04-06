@@ -10,7 +10,6 @@
     "highTextContrast": false
   },
   "knownTags": {
-    "2026-1s": 11,
     "carga": 1,
     "coulomb": 2,
     "edp": 8,
@@ -20,8 +19,6 @@
     "gravedad": 5,
     "ley": 6,
     "proton": 7,
-    "puntaje": 12,
-    "semestre": 13,
     "valor_frontera": 10
   },
   "tagColors": {},

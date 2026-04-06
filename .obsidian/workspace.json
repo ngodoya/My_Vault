@@ -188,8 +188,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ],
@@ -208,13 +208,10 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false,
-      "obsidian-importer:Open Importer": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "graph:Abrir vista gráfica": false
     }
   },
-  "active": "163304b48bca6726",
+  "active": "306f1e88c136376f",
   "lastOpenFiles": [
     "2026-1S/POO/Temas/Retos/Reto_2.md",
     "Sin título.md",
