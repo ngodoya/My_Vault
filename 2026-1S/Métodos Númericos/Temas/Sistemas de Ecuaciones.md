@@ -78,7 +78,9 @@ $$
 x_i = \dfrac{\text{Det([A] with column i replaced by {b})}}{Det([A])}
 $$
 
->[!TIP]Máximo use matrices 3x3.
+>[!tip] Máximo use matrices 3x3.
+
+
 
 >[!IMPORTANT]
 Lo bello de este metodo es que conociendo x_1 por ejemplo encontrar x_2 y x_3 se peude hacer con una sustición hacía atrás.
