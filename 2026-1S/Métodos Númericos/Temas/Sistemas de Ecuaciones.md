@@ -154,15 +154,98 @@ $$
 >[!Tip] Note que para encontrar el multiplicador necesario por ejemplo plantea
 $F_2 \rightarrow F_2 - mF_1$ m es simplemente $A_{21}/A_{11}$
 
-# Gauss-Jrodan Method
+# Gauss-Jordan Method
 Buscar una matriz identidad, solucion de cada incognita
+- Variación de la eliminación de Gauss
+- Elimina la necesidad de hacer una sustitución hacía atras, y se utiliza elementos pivotes
+
+$$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+x_1 \\
+x_2 \\
+x_3 
+\end{bmatrix}
+
+$$
+Pivoteo y estabilidad reduce el error, más uso en procesos de **automatización**.
+Use the gauss-jordan technique to solve the same system
+>[!Example]
+$$
+\begin{cases}
+3x-0.1y-0.2z = 7.85 \\
+0.1x +7y - 0.3z = -19.3\\
+0.3x - 0.2y + 10z = 71.4
+\end{cases}
+$$
 
 > 2. Gauss elimination
 
 
 > 3. Gauus Seidel
 # Overview
+Provide an alternative to direct elimination by guessing a solution and refining it systematically.
+- The most commonly used iterative method for solving
+$$
+[A]\left\{X\right\} = \left\{B\right\}
+$$
 
+Assuming al diagonal entries $a_{11}, a_{22}, a_{33}$ are nonzero, solve each equation for one variable:
+$$
+x_1 = \dfrac{b_1-a_{12}x_2-a_{13}x_3}{a_{11}}
+x_2 = \dfrac{b_2-a_{21}x_1-a_{23}x_3}{a_{11}}
+x_1 = \dfrac{b_3-a_{31}x_1-a_{32}x_2}{a_{11}}
+
+$$
+
+Despeje y encuentra los coeficientes de cada uno, suponemos valores en $x_1, x_2, x_3$
+>[!tip] Pueden ser 0 los 3
+> $\Longrightarrow x_1 = x_2 = x_3 = 0$
+> Esto implica que en la primera ***iteración***
+>
+> $$x_1 = b_1 / a_{11}$$
+>
+>$$x_2 = b_1 / a_{22}$$
+>
+>$$x_3 = b_3 / a_{33}$$
+
+### Pasos
+
+1. Use $\left\{X\right\}^{j-1}$ previous iterate to compute $x_1^j$
+2. Substitute $x_1^j$ and previous guesses to get $x_2^j$
+3. use updated $x_1^j$ $x_2^j$ to compute $x_3^j$
+4. Repeat
+>[!Example]
+Misma Matrix
+
+
+calcule el Error relativo aprox
+
+$$
+E_a = \left|\dfrac{x_{new} - x_{old}}{x_{new}}\right| \times 100
+
+$$
+
+>[!Homework]
+Realice el proceso para nxn
+
+### Two solution methods (Excel)
+- Use the solver tool.
+Theory
+$$
+AX = b \xrightarrow[Uitlizando]{La Inversa} X = A^{-1} b
+$$
+
+
+>![important]
+> En excel podemos utilizar =MINVER para invertir la matriz que tengamos, luego utilizar =MMULT para multiplicar por el vector b del problema
+
+## MATLAB
+MATLAB stands for "MAtrix **LAB**oratory"
 > 4. Linear algebraic
 
 
