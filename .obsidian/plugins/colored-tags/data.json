@@ -12,6 +12,8 @@
   "knownTags": {
     "carga": 1,
     "coulomb": 2,
+    "coulumb": 11,
+    "edo": 12,
     "edp": 8,
     "electron": 3,
     "esquemas_int": 4,
@@ -19,6 +21,7 @@
     "gravedad": 5,
     "ley": 6,
     "proton": 7,
+    "superposición": 13,
     "valor_frontera": 10
   },
   "tagColors": {},
