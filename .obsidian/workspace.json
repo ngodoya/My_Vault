@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
+                "file": "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemas de Ecuaciones"
+              "title": "1. Ley de Coulumb"
             }
           }
         ]
@@ -216,9 +216,10 @@
   },
   "active": "163304b48bca6726",
   "lastOpenFiles": [
+    "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
+    "2026-1S/Métodos Númericos/Collabs/Semana (13-15)Abril.ipynb",
     "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
     "2026-1S/Métodos Númericos/Temas/2026-03-18.md",
-    "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/POO/Bienvenida POO.md",
     "2026-1S/Métodos Númericos/Collabs/13_04.ipynb",
@@ -252,7 +253,6 @@
     "2026-1S/POO/Temas/Notas Informe/2026-03-15.md",
     "2026-1S/Métodos Númericos/Collabs/18-03.ipynb",
     "18-03.ipynb",
-    "2026-1S/Métodos Númericos/Imagenes/18-03.ipynb",
     "FEM/Temas/1. Ley de Coulumb.md",
     "Pasted image 20260318151023.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150845.png",
