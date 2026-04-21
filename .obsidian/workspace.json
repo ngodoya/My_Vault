@@ -11,12 +11,14 @@
             "id": "163304b48bca6726",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
+                "file": "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Sears_Zemansky_LIBRO-signed"
+              "icon": "lucide-file",
+              "title": "Clases y Objetos (General) y Python"
             }
           }
         ]
@@ -212,8 +214,21 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "163304b48bca6726",
+  "active": "306f1e88c136376f",
   "lastOpenFiles": [
+    "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
+    "2026-1S/POO/Bienvenida POO.md",
+    "Informe.md",
+    "2026-1S/POO/Temas/Notas Informe/2026-03-14.md",
+    "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
+    "2026-1S/POO/Temas/Imagenes",
+    "2026-1S/POO/Temas/Imagenes/Pasted image 20260421152306.png",
+    "2026-1S/POO/Ideas Proyecto Grupal.md",
+    "2026-1S/POO/Temas/Repositorios.md",
+    "2026-1S/POO/Temas/Informe.md",
+    "2026-1S/POO/Temas/Ejercicio 18-03.md",
+    "2026-1S/POO/Temas/Actividad 01.md",
+    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/FEM/Libros/Fisica_para_ciencias_e_ingenieria.pdf",
     "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
     "2026-1S/Métodos Númericos/Temas/Optimización.md",
@@ -221,8 +236,6 @@
     "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
     "2026-1S/Métodos Númericos/Collabs/Semana (13-15)Abril.ipynb",
     "2026-1S/Métodos Númericos/Temas/2026-03-18.md",
-    "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
-    "2026-1S/POO/Bienvenida POO.md",
     "2026-1S/Métodos Númericos/Collabs/13_04.ipynb",
     "2026-1S/Métodos Númericos/Temas/13_04.ipynb",
     "2026-1S/POO/Temas/Retos/Reto_2.md",
@@ -232,7 +245,6 @@
     "2026-1S/FEM/Imagenes/Pasted image 20260331214016.png",
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
     "Física_para.md",
-    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/FEM/Bienvenida Fem.md",
     "2026-1S/FEM/Imagenes/Pasted image 20260331205048.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260331202027.png",
@@ -240,25 +252,16 @@
     "2026-1S/Para entrar a la U (Tips)/Recomendaciones ¿Qué estudiar?.md",
     "Bienvenido.md",
     "2026-1S/POO/Temas/PEP8.md",
-    "2026-1S/POO/Temas/Repositorios.md",
     "2026-1S/Para entrar a la U (Tips)/Sin nombre",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
-    "2026-1S/POO/Temas/Ejercicio 18-03.md",
-    "2026-1S/POO/Ideas Proyecto Grupal.md",
-    "2026-1S/POO/Temas/Informe.md",
     "2026-1S/Para entrar a la U (Tips)",
-    "2026-1S/Modelación Matemática 2026-1/Temas/Modelos Basados en EDP.md",
-    "2026-1S/Modelación Matemática 2026-1/Temas/Transporte Difusivo.md",
-    "2026-1S/POO/Temas/Notas Informe/2026-03-15.md",
     "2026-1S/Métodos Númericos/Collabs/18-03.ipynb",
-    "18-03.ipynb",
     "Pasted image 20260318151023.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150845.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150647.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150428.png",
     "Pasted image 20260318122445.png",
     "Pasted image 20260318142527.png",
-    "Pasted image 20260318122617.png",
     "Sin título.canvas"
   ]
 }

@@ -3,6 +3,8 @@
 [[PEP8]]
 ### Usar un Repo
 [[Repositorios]]
+# Clase 6
+[[Clases y Objetos (General) y Python]]
 # Ejercicios
 [[Ejercicio 18-03]]
 # Links:
