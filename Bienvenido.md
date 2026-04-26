@@ -20,7 +20,7 @@
 ### Programación Orientada a Objetos
 [[Bienvenida POO]]
 
-### Método de Elementos Finitos (FEM)
+### Fundamentos de Electricidad y Magnetismo (FEM)
 [[Bienvenida Fem]]
 ### Pre-U
 [[Ideas Proyecto Grupal]]
