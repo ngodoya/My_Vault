@@ -90,7 +90,7 @@ class Teacher(Employee):
 
 ## Comparación y Diferencias
 - **Herencia:** se visualiza más como un *es un/una* , esto facilita mucho la reutilización de código, busca una jerarquia y además tiene una subclase especializada a diferencia de su clase padre
-- **Composición:** se visualiza como un *Tiene un/una* , se utiliza cuando una clase tiene una o varias instancias de otras clases como parte de su estado. Favorece la flexibilidad y #encapulamiento
+- **Composición:** se visualiza como un *Tiene un/una* , se utiliza cuando una clase tiene una o varias instancias de otras clases como parte de su estado. Favorece la flexibilidad y #encapsulamiento
 ### Cuando usar Composición sobre herencia.
 La composición se utiliza para construir clases complejas a partir de componentes simples y reutilizables, facilitando la modificación y extensión del código.
 **Ejemplo de Composición:** Sistema de Audio:
@@ -148,4 +148,4 @@ class Manager(Employee):
 2. Redefine the class Rectangle, adding a new method of initialization using 4 Lines (composition at its best, a rectangle is compose of 4 lines).
     
 3. **Optional:** Define a method called discretize_line() that creates an array on _n_ equally spaced points in the line and assigned as a instance attribute.
-Tags: #Composición #herencia #encapulamiento
+Tags: #Composición #herencia #encapsulamiento 

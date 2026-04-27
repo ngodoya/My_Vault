@@ -10,7 +10,7 @@
 ## Clase 9
 [[Encapsulamiento]]
 ## Clase 10
-[[Polimorfismo]]
+[[Polimorfismo, Modulos y Paquetes]]
 
 # Ejercicios
 [[Ejercicio 18-03]]

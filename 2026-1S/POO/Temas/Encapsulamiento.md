@@ -34,7 +34,7 @@ classDiagram
 - **Facilita el manejo de versiones futuras:** cómo hay código *"Oculto"* esto evita la complejidad de tener que remitirse a todo el código.
 - **Mejora la seguridad:** Protege información sensible de objetos, contraseñas, numeros de cuenta, documentos de identidad, etc.
 ## Encapsulamiento en Python
-Python en terminos de encapsulamiento puede considerarse más débil para encapsulamiento que otros lenguajes de programación como lo son C++ o Java, pero tiene su adaptación que termina siendo util aunque conlleve otra filosofia, OJO, ***no*** es un mecanismo de encapsulamiento puro:
+Python en terminos de encapsulamiento puede considerarse más débil para encapsulamiento que otros lenguajes de programación como lo son C++ o Java, pero tiene su adaptación que termina siendo util aunque conlleve otra filosofia, OJO, ***no*** es un mecanismo de #encapsulamiento puro:
 - `(+) Public:`  Por defecto los atributos de una clase, siempre seran publicos
 - `(_) Protected:` Se indica con un prefijo de un guion bajo. Son accesibles dentro de la clase y sus subclases,  es una *notación* no una restricción del mensaje.
 - `(__) Private`Se indica con un prefijo de dos guiones bajos. Python realiza un cambio de nombre (name mangling) para hacerlos inaccesibles desde fuera, es burlable, pero es util
@@ -250,3 +250,6 @@ class ElectricVehicle(Vehicle):
   def get_battery_range(self):  # Getter para atributo propio
     return self.battery_range
 ```
+
+
+Tags: #encapsulamiento 
