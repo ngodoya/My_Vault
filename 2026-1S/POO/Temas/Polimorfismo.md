@@ -56,3 +56,5 @@ figura2 = Circulo(3)
 print(f"El area del cuadrado es: {figura1.calcular_area()}")
 print(f"El area del circulo es: {figura2.calcular_area()}")
 ```
+En este ejemplo, la clase Figura es la clase base y define el método abstracto calcular_area(). Las clases Cuadrado y Circulo heredan de Figura e implementan su propio comportamiento para el método `calcular_area()`. Cuando llamamos al método `calcular_area()` en un objeto de cualquiera de las subclases, se ejecuta la implementación correspondiente a esa clase.
+## Duck_typing
