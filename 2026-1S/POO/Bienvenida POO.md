@@ -3,8 +3,15 @@
 [[PEP8]]
 ### Usar un Repo
 [[Repositorios]]
-# Clase 6
+## Clase 6 y 7
 [[Clases y Objetos (General) y Python]]
+## Clase 8
+[[Composición vs Herencia]]
+## Clase 9
+[[Encapsulamiento]]
+## Clase 10
+[[Polimorfismo]]
+
 # Ejercicios
 [[Ejercicio 18-03]]
 # Links:
