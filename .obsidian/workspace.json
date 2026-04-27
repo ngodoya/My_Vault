@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
+                "file": "2026-1S/POO/Temas/Polimorfismo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clases y Objetos (General) y Python"
+              "title": "Polimorfismo"
             }
           }
         ]
@@ -214,9 +214,13 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "306f1e88c136376f",
+  "active": "163304b48bca6726",
   "lastOpenFiles": [
+    "2026-1S/POO/Temas/Encapsulamiento.md",
+    "2026-1S/POO/Temas/Polimorfismo.md",
     "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
+    "2026-1S/POO/Temas/Composición vs Herencia.md",
+    "2026-1S/POO/Temas/Abstracción y Herencia.md",
     "2026-1S/POO/Bienvenida POO.md",
     "Informe.md",
     "2026-1S/POO/Temas/Notas Informe/2026-03-14.md",
@@ -249,11 +253,7 @@
     "2026-1S/FEM/Imagenes/Pasted image 20260331205048.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260331202027.png",
     "2026-1S/Para entrar a la U (Tips)/Cómo Usar GitHub?.md",
-    "2026-1S/Para entrar a la U (Tips)/Recomendaciones ¿Qué estudiar?.md",
-    "Bienvenido.md",
-    "2026-1S/POO/Temas/PEP8.md",
     "2026-1S/Para entrar a la U (Tips)/Sin nombre",
-    "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "2026-1S/Para entrar a la U (Tips)",
     "2026-1S/Métodos Númericos/Collabs/18-03.ipynb",
     "Pasted image 20260318151023.png",
