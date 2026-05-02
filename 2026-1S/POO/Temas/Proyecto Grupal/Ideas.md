@@ -106,5 +106,9 @@ class Field{
 ### Alternativa 1
 
 - Pet Manager (GUI)
-- SIA (Administrador de Cursos)
-- 
+- ***SIA 2.0 (Administrador de Cursos):***  
+Todos los grupos y horarios, No se añaden cupos.
+Encuesta al grupo de POO 
+Tags: 
+
+
