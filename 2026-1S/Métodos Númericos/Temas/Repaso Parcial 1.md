@@ -122,9 +122,8 @@ $$x_3 = x_2 + \dfrac{-2c}{b\pm\sqrt{b^2-4ac}}$$
 Choose the sign in the denominator that matches the sign of b, to maximize the
 denominator and yield the estimate closest to x2​.
 **Strategy 1 (Real roots only)**: Keep the two points nearest to the new estimate x3​.
-**Strategy 2 (Real and complex roots)**: Shift points so that (x1, x2, x3​) replace (x0, x1, x2​)
-for the next cycle.
-
+**Strategy 2 (Real and complex roots)**: Shift points so that (x1, x2, x3​) replace (x0, x1, x2​) for the next cycle.
+we use $b + discriminant$ or $b - discriminant$ watching the sign of $b$
 
 
  Tags: #Errores #finite_differences #Raíces

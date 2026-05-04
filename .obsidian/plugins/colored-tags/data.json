@@ -25,6 +25,7 @@
     "encapsulamiento": 26,
     "errores": 29,
     "esquemas_int": 4,
+    "finite_differences": 30,
     "frontera": 9,
     "gravedad": 5,
     "herencia": 18,
@@ -35,6 +36,7 @@
     "pep8": 27,
     "polimorfismo": 25,
     "proton": 7,
+    "raíces": 31,
     "superposición": 13,
     "valor_frontera": 10
   },
