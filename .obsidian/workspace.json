@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
+                "file": "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemas de Ecuaciones"
+              "title": "Systems of Nonlinear Equations (By Newthon rhapson method)"
             }
           }
         ],
@@ -231,8 +231,8 @@
   },
   "active": "7030961587863ff3",
   "lastOpenFiles": [
-    "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
+    "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/Métodos Númericos/Viga (BOnus).md",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
