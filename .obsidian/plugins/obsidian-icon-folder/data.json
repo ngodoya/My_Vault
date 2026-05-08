@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDatabase",
+      "SiCoursera",
       "LiUniversity",
       "SiGithub",
-      "SiFiles",
-      "SiLinux",
-      "SiElectron"
+      "SiFiles"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,10 @@
   "2026-1S/Modelación Matemática 2026-1": "SiPython",
   "2026-1S/POO": "SiGithub",
   "2026-1S/Terminal y Linux": "SiLinux",
-  "2026-1S/Para entrar a la U (Tips)": "LiUniversity"
+  "2026-1S/Para entrar a la U (Tips)": "LiUniversity",
+  "2026-1S/Cursos": {
+    "iconName": "SiCoursera",
+    "iconColor": "#d96b30"
+  },
+  "2026-1S/Cursos/Data CódigoFacilito": "LiDatabase"
 }

@@ -31,6 +31,11 @@
       "id": "j-TkTXH3NLp5IvL5-FzWe",
       "name": "Negro",
       "value": "#040101"
+    },
+    {
+      "id": "ag0vRPNvu8esF01w_kqu0",
+      "name": "orange",
+      "value": "#ff9e42"
     }
   ],
   "fileColors": [
@@ -57,6 +62,14 @@
     {
       "path": "2026-1S/Para entrar a la U (Tips)",
       "color": "54EO1LAB6rBSsV3WKK6Qk"
+    },
+    {
+      "path": "2026-1S/Cursos",
+      "color": "54EO1LAB6rBSsV3WKK6Qk"
+    },
+    {
+      "path": "2026-1S/Cursos/Data CódigoFacilito",
+      "color": "ag0vRPNvu8esF01w_kqu0"
     }
   ]
 }
