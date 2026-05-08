@@ -25,6 +25,7 @@
     "encapsulamiento": 26,
     "errores": 29,
     "esquemas_int": 4,
+    "finally": 32,
     "finite_differences": 30,
     "frontera": 9,
     "gravedad": 5,
@@ -38,6 +39,7 @@
     "proton": 7,
     "raíces": 31,
     "superposición": 13,
+    "try": 33,
     "valor_frontera": 10
   },
   "tagColors": {},
