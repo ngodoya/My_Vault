@@ -1,10 +1,10 @@
 # Alternativa 6
 
-## Construir una aplicación orientada a objetos para la solución de problemas mediante métodos numéricos utilizando Python.
+## Construir una aplicación orientada a objetos para la gestión de una veterinaria universitaria utilizando Python.
 
-La aplicación deberá permitir resolver distintos tipos de problemas matemáticos y de ingeniería utilizando algoritmos numéricos implementados bajo un enfoque de Programación Orientada a Objetos (POO).
+La aplicación deberá permitir administrar mascotas, dueños, veterinarios, citas e historiales médicos mediante un enfoque de Programación Orientada a Objetos (POO).
 
-El proyecto debe emular la estructura básica de una librería de computación científica, permitiendo modelar problemas, aplicar métodos de solución y visualizar resultados.
+El sistema debe emular el funcionamiento básico de una veterinaria universitaria, permitiendo registrar información, consultar historiales clínicos y gestionar citas veterinarias.
 
 ---
 
@@ -20,45 +20,88 @@ El proyecto debe emular la estructura básica de una librería de computación c
 
 # Operaciones mínimas requeridas
 
-## Modelado de problemas numéricos
+## Gestión de mascotas
 
-La aplicación deberá permitir representar diferentes tipos de problemas matemáticos mediante clases.
+La aplicación deberá permitir:
 
-Ejemplos:
+- Registrar mascotas
+- Editar información de mascotas
+- Eliminar mascotas
+- Consultar listado de mascotas registradas
 
-- Problemas de raíces de ecuaciones
-- Sistemas de ecuaciones lineales
-- Problemas de ecuaciones diferenciales ordinarias (EDOs)
+Cada mascota deberá tener atributos como:
 
----
-
-# Métodos numéricos mínimos
-
-## Raíces de ecuaciones
-
-Implementar al menos dos de los siguientes métodos:
-
-- Bisección
-- Newton-Raphson
-- Secante
+- ID
+- nombre
+- especie
+- raza
+- edad
+- peso
+- dueño asociado
 
 ---
 
-## Sistemas lineales
+## Gestión de dueños
 
-Implementar al menos uno de los siguientes métodos:
+La aplicación deberá permitir:
 
-- Gauss-Seidel
-- Descomposición LU
+- Registrar dueños
+- Asociar mascotas a un dueño
+- Consultar mascotas de un dueño
+
+Cada dueño deberá incluir:
+
+- nombre
+- teléfono
+- correo electrónico
+- lista de mascotas
 
 ---
 
-## Ecuaciones diferenciales ordinarias (EDOs)
+## Gestión de veterinarios
 
-Implementar al menos uno de los siguientes métodos:
+La aplicación deberá permitir:
 
-- Euler
-- Runge-Kutta de cuarto orden (RK4)
+- Registrar veterinarios
+- Consultar veterinarios disponibles
+- Asignar veterinarios a citas
+
+Cada veterinario deberá incluir:
+
+- nombre
+- especialidad
+- código interno
+
+---
+
+## Gestión de citas
+
+La aplicación deberá permitir:
+
+- Agendar citas
+- Cancelar citas
+- Consultar citas programadas
+- Registrar estado de la cita
+
+Cada cita deberá incluir:
+
+- fecha
+- hora
+- mascota asociada
+- veterinario asignado
+- motivo de consulta
+- estado
+
+---
+
+## Historial médico
+
+La aplicación deberá permitir:
+
+- Registrar consultas médicas
+- Registrar vacunas
+- Registrar tratamientos
+- Consultar historial clínico de una mascota
 
 ---
 
@@ -66,114 +109,107 @@ Implementar al menos uno de los siguientes métodos:
 
 La implementación debe incorporar:
 
-- Clase abstracta base para métodos numéricos
-- Herencia entre métodos específicos
-- Encapsulación de atributos como:
-  - tolerancia
-  - error
-  - número máximo de iteraciones
-  - función objetivo
-- Uso de composición para modelar problemas y solucionadores
-- Métodos especializados para:
-  - resolver
-  - calcular error
-  - mostrar resultados
-  - validar convergencia
+- Clases y objetos
+- Herencia
+- Encapsulación
+- Composición entre entidades
+- Métodos especializados para cada entidad
+
+Ejemplos:
+
+- Una mascota pertenece a un dueño
+- Una cita relaciona una mascota con un veterinario
+- Una mascota posee un historial médico
+
+---
+
+# Persistencia de datos
+
+La aplicación deberá permitir:
+
+- Guardar información en archivos JSON o CSV
+- Cargar información previamente almacenada
+- Mantener registros entre ejecuciones del programa
 
 ---
 
 # Resultados y visualización
 
-La aplicación deberá:
+La aplicación deberá permitir:
 
-- Mostrar iteraciones del método
-- Reportar errores absolutos y relativos
-- Mostrar criterio de convergencia
-- Generar tablas de resultados
-- Generar gráficas de convergencia y comportamiento numérico
-
-Ejemplos:
-
-- Error vs iteraciones
-- Comparación entre métodos
-- Aproximación de soluciones
+- Mostrar listados organizados
+- Consultar información específica
+- Mostrar historial médico de mascotas
+- Mostrar citas programadas
 
 ---
 
 # Features extra
 
-## Persistencia y manejo de archivos
+## Reportes
 
-- Guardar resultados en archivos CSV o JSON
-- Exportar reportes automáticos
+Generar reportes como:
 
----
-
-## Comparación de métodos
-
-Permitir resolver un mismo problema utilizando distintos métodos y comparar:
-
-- precisión
-- velocidad de convergencia
-- número de iteraciones
+- mascotas registradas
+- citas del día
+- historial clínico completo
+- veterinario con más citas
 
 ---
 
-## Validación numérica
+## Estadísticas
 
-Comparar resultados obtenidos con:
+Mostrar información como:
 
-- soluciones analíticas conocidas
-- librerías científicas como:
-  - SciPy
-  - NumPy
+- cantidad de mascotas por especie
+- número de citas por mes
+- tratamientos más frecuentes
 
 ---
 
 ## Visualización avanzada (Bonus)
 
 - GUI
-- Animaciones de convergencia
-- Gráficas interactivas
-- Manejo de múltiples problemas simultáneamente
+- Calendario de citas
+- Búsqueda avanzada
+- Manejo de múltiples usuarios
 
 ---
 
 # Referencias sugeridas
 
-- Numerical Methods for Engineers — Chapra & Canale
-- Numerical Analysis — Burden & Faires
-- SciPy Documentation
-- SymPy Documentation
-- Curso "Practical Numerical Methods with Python" — Lorena Barba
+- Documentación oficial de Python
+- Documentación de JSON y CSV
+- Tutoriales de Programación Orientada a Objetos en Python
+- Buenas prácticas de modelado orientado a objetos
 
 ---
 
 # Ejemplo de estructura del proyecto
 
 ```text
-numerical_solver/
+pet_manager/
 │
 ├── core/
-│   ├── metodo_numerico.py
-│   ├── resultado.py
+│   ├── sistema.py
 │
-├── problemas/
-│   ├── raiz.py
-│   ├── sistema_lineal.py
-│   ├── edo.py
+├── models/
+│   ├── mascota.py
+│   ├── dueno.py
+│   ├── veterinario.py
+│   ├── cita.py
+│   ├── historial.py
 │
-├── metodos/
-│   ├── biseccion.py
-│   ├── newton.py
-│   ├── gauss_seidel.py
-│   ├── runge_kutta.py
+├── services/
+│   ├── gestor_mascotas.py
+│   ├── gestor_citas.py
+│   ├── gestor_reportes.py
+│
+├── persistence/
+│   ├── json_manager.py
 │
 ├── utils/
-│   ├── parser.py
-│   ├── graficas.py
-│
-├── tests/
+│   ├── validaciones.py
 │
 ├── main.py
 ├── requirements.txt
@@ -202,8 +238,8 @@ Se deberá elaborar un repositorio donde se presente:
 - GUI
 - Docker
 - Manejo de hilos
-- Comparación automática entre métodos
 - Reportes en PDF
+- Exportación de datos
 
 ---
 
@@ -230,97 +266,92 @@ Criterios de evaluación:
 - Bonus (5%)
 ```mermaid
 classDiagram
-    direction LR
+    direction TB
 
     namespace core {
-        class Funcion {
-            <<Value Object>>
-            +expresion: callable
-            +derivada: callable
-            +evaluar(x): float
-        }
-
-        class Resultado {
-            <<Data Holder>>
-            +valor_solucion: any
-            +error_final: float
-            +iteraciones: int
-            +metodo_usado: str
-            +historial_convergencia: list
-            +__str__()
-            +graficar_convergencia()
+        class SistemaVeterinaria {
+            -gestor_mascotas: GestorMascotas
+            -gestor_duenos: GestorDuenos
+            -gestor_veterinarios: GestorVeterinarios
+            -gestor_citas: GestorCitas
+            -json_manager: JSONManager
+            +iniciar_sistema()
+            +cerrar_sistema()
         }
     }
 
-    namespace problemas {
-        class Problema {
+    namespace models {
+        class Persona {
             <<Abstract>>
-            +resolver_con(metodo_clase, **kwargs): Resultado
+            #id: string
+            #nombre: string
         }
-
-        class ProblemaRaiz {
-            +funcion: Funcion
-            +intervalo_o_x0: any
+        class Dueno {
+            +telefono: string
+            +email: string
+            +mascotas_ids: list
         }
-
-        class SistemaLineal {
-            +matriz_A: list[list]
-            +vector_b: list
+        class Veterinario {
+            +especialidad: string
         }
-
-        class ProblemaEDO {
-            +funcion_edo: callable
-            +condicion_inicial: tuple
-            +intervalo_t: tuple
-            +paso: float
+        class Mascota {
+            +id: string
+            +nombre: string
+            +especie: string
+            +dueno_id: string
+            +historial_id: string
+        }
+        class Cita {
+            +id: string
+            +fecha_hora: datetime
+            +mascota_id: string
+            +veterinario_id: string
+        }
+        class HistorialMedico {
+            +id: string
+            +entradas: list
         }
     }
 
-    namespace metodos {
-        class MetodoNumerico {
+    namespace services {
+        class Gestor {
             <<Abstract>>
-            #tolerancia: float
-            #max_iter: int
-            +resolver(problema): Resultado
+            #elementos: dict
+            +obtener_por_id(id)
+            +obtener_todos()
         }
-
-        class MetodoRaiz { <<Abstract>> }
-        class Biseccion { +resolver(problema: ProblemaRaiz): Resultado }
-        class NewtonRaphson { +resolver(problema: ProblemaRaiz): Resultado }
-        class Secante { +resolver(problema: ProblemaRaiz): Resultado }
-
-
-        class MetodoSistemaLineal { <<Abstract>> }
-        class GaussSeidel { +resolver(problema: SistemaLineal): Resultado }
-        class DescomposicionLU { +resolver(problema: SistemaLineal): Resultado }
-
-        class MetodoEDO { <<Abstract>> }
-        class Euler { +resolver(problema: ProblemaEDO): Resultado }
-        class RungeKutta4 { +resolver(problema: ProblemaEDO): Resultado }
+        class GestorMascotas
+        class GestorDuenos
+        class GestorVeterinarios
+        class GestorCitas
     }
 
-    Problema <|-- ProblemaRaiz
-    Problema <|-- SistemaLineal
-    Problema <|-- ProblemaEDO
+    namespace persistence {
+        class JSONManager {
+            +guardar_datos(archivo, datos)
+            +cargar_datos(archivo)
+        }
+    }
 
-    ProblemaRaiz o-- Funcion
+    models.Persona <|-- models.Dueno
+    models.Persona <|-- models.Veterinario
+    services.Gestor <|-- services.GestorMascotas
+    services.Gestor <|-- services.GestorDuenos
+    services.Gestor <|-- services.GestorVeterinarios
+    services.Gestor <|-- services.GestorCitas
 
-    Problema --> MetodoNumerico : usa
-    Problema --> Resultado : produce
-
-    MetodoNumerico <|-- MetodoRaiz
-    MetodoNumerico <|-- MetodoSistemaLineal
-    MetodoNumerico <|-- MetodoEDO
-
-    MetodoRaiz <|-- Biseccion
-    MetodoRaiz <|-- NewtonRaphson
-    MetodoRaiz <|-- Secante
-
-    MetodoSistemaLineal <|-- GaussSeidel
-    MetodoSistemaLineal <|-- DescomposicionLU
-
-    MetodoEDO <|-- Euler
-    MetodoEDO <|-- RungeKutta4
+    core.SistemaVeterinaria o-- services.GestorMascotas
+    core.SistemaVeterinaria o-- services.GestorDuenos
+    core.SistemaVeterinaria o-- services.GestorVeterinarios
+    core.SistemaVeterinaria o-- services.GestorCitas
+    
+    core.SistemaVeterinaria ..> persistence.JSONManager : usa
+    services.GestorDuenos ..> models.Dueno : gestiona
+    services.GestorMascotas ..> models.Mascota : gestiona
+    services.GestorCitas ..> models.Cita : gestiona
+    models.Dueno "1" -- "*" models.Mascota : tiene (por ID)
+    models.Cita "1" -- "1" models.Mascota : para
+    models.Cita "1" -- "1" models.Veterinario : con
+    models.Mascota "1" -- "1" models.HistorialMedico : tiene
 ```
 
-	
