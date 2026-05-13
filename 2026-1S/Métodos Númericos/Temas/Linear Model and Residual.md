@@ -58,3 +58,48 @@ $$f[x_n,x_{n-1},\dots,x_1,x_0] = \dfrac{f[x_n,x_{n-1},\dots,x_1]-f[x_{n-1},x_{n-
 >[!Example] Example 4
 >In Example 3, same data, now, adding a fourth point, $[x_3 = 5; f(x_3) = 1.609438]$, estimate $Ln 2$ with a third- order Newton's interpolating polynomial
 
+This is so boring, as you watched this method is so complex que you got $n+1$ points, but we can get a solution with a new method
+## Lagrange Interpolating Polynomial
+- **Definition:** A reformulation of Newton's polynomial that avoids computing divided differences.
+- **General form:** $$f_n(x)=\sum_{i=0}^nL_i(x)f(x_i)$$
+- **Basis polynomials $L_i(x)$**: $$L_i(x)=\prod_{j=0}^n\frac{x-x_j}{x_i-x_j} \quad; j\neq i$$
+>[!Example]- Example 5
+>Use a Lagrange interpolating polynomial of the first and second order to evaluate In 2 based on the following data:
+>$$x_0 = 0\quad f(x_0) = 0$$
+>$$x_1 = 4\quad f(x_1) = ln(4)$$
+>$$x_2 = 6\quad f(x_2) = ln(6)$$
+
+## Fourier Approximation
+A systematic framework for representing arbitrary waveforms using trigonometric (sine/cosine) series.
+### Periodic Functions
+Definition: $f(t)$ is periodic if $$f(t) = f(t+T)$$
+Where $T$ is the (smallest) period.
+### Sinusoidal Model
+General form: $$f(t) = A_0 + C_1cos(\omega_0t+\theta)$$
+Parameters:
+$A_0:$ mean (DC) value
+$C_1:$ amplitude
+$w_0:$ how much does repeat
+### Least - Squares Fit of a Single Single Sinusoid
+Model:$$y_i = A_0 + A_1cos(\omega_0t_i) + B_0cos(\omega_0t_i) +e_i$$
+Normal Equations (Matrix Form)
+$$\begin{bmatrix}
+N & \sum cos(\omega_0 t) & \sum sin(\omega_0 t) \\
+N & \sum cos^2(\omega_0 t) & \sum cos(\omega_0 t)sin(\omega_0 t) \\
+N & \sum sin(\omega_0 t)cos(\omega_0 t) & \sum sin^2(\omega_0 t) 
+\end{bmatrix} \begin{Bmatrix}A_0 \\ A_1 \\ A_2\end{Bmatrix} = \begin{Bmatrix}\sum y \\ \sum y cos(\omega_ot) \\ \sum y sin (w\omega_ot)\end{Bmatrix}$$
+>[!Example]- Example 6
+>The sinusoid curve is described by $y=1.7+cos(4.189t + 1.0472)$. Generate 10 discrete values for this curve at intervalts of $\Delta t = 0.15$ for the range $t=0$ to 1.35. Use this information to evaluate the coefficientes of by a least squares fit
+>
+
+# Excel zzzz
+You are asked to fit the given data series (pairs of x and y values) to the logarithmic model $$y = a_0 +_1log(x)$$
+Using Excel's Trendline too, in order to determine the coefficients $a_0$ and $a_1$ that best match the provided points.
+>[!example] Example 8
+>Generate a set of data point by sampling the function: $$f(x) = sin(x)$$
+>at equally spaced xx-values from 0 to 10 with a step size of 1. then, using MATLAB, fit the resulting data {(x,y)} by means of:
+>1. Linear interpolation
+>2. A fifth-order polynomial
+>3. A cubic spline
+>Finally, comapre each fitted curve to the original sine data by evaluating and potting them on a finer x-grid (for example, with step size 0.25) over the interval [0, 10].
+
