@@ -12,6 +12,7 @@
   "knownTags": {
     "abstracción": 16,
     "atributos": 19,
+    "campo": 35,
     "carga": 1,
     "clase": 14,
     "composición": 20,
@@ -21,6 +22,7 @@
     "dry": 17,
     "edo": 12,
     "edp": 8,
+    "electrico": 36,
     "electron": 3,
     "encapsulamiento": 26,
     "errores": 29,

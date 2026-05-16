@@ -4,17 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f865cbb8e382adfc",
+        "id": "f6452e01acdae567",
         "type": "tabs",
         "children": [
           {
-            "id": "c6e6a7d09fc7efd5",
+            "id": "b967a1cde532740f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "2. Campos Eléctromagneticos"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e2f6da6fc3336d29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f9b73e1043b7dcb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Sears_Zemansky_LIBRO-signed"
             }
           }
         ]
@@ -74,11 +96,11 @@
         "currentTab": 2
       },
       {
-        "id": "0fd6cb41982603a6",
+        "id": "03df2ea31fffe53d",
         "type": "tabs",
         "children": [
           {
-            "id": "d1ade1bd51a22951",
+            "id": "4d722bb487138fba",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -91,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -210,8 +233,19 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "c6e6a7d09fc7efd5",
+  "active": "b967a1cde532740f",
   "lastOpenFiles": [
+    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
+    "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
+    "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
+    "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
+    "2026-1S/FEM/Bienvenida Fem.md",
+    "2026-1S/FEM/Imagenes/Pasted image 20260515190743.png",
+    "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
+    "2026-1S/FEM/Temas/5. Capacitancia.md",
+    "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
+    "2026-1S/FEM/Temas/3. Ley de Gauss.md",
+    "2026-1S/POO/Ideas Proyecto Grupal.md",
     "2026-1S/Métodos Númericos/Temas/24_04.md",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Cursos/Data CódigoFacilito/Lenguajes y Herramientas.md",
@@ -230,21 +264,10 @@
     "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
     "2026-1S/Terminal y Linux/Comandos (Aprendizaje).md",
     "Informe.md",
-    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
-    "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
     "2026-1S/POO/Temas/Excepciones",
-    "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
-    "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
-    "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
-    "2026-1S/Métodos Númericos/Viga (BOnus).md",
     "2026-1S/POO/Temas/Proyecto Grupal",
-    "2026-1S/POO/Temas/Composición vs Herencia.md",
-    "2026-1S/POO/Temas/Notas Informe/2026-03-14.md",
-    "2026-1S/POO/Temas/Notas Informe/2026-03-15.md",
-    "2026-1S/POO/Temas/Retos/Reto_2.md",
     "2026-1S/POO/Temas/Imagenes",
     "2026-1S/POO/Temas/Imagenes/Pasted image 20260421152306.png",
-    "2026-1S/POO/Ideas Proyecto Grupal.md",
     "2026-1S/FEM/Libros/Fisica_para_ciencias_e_ingenieria.pdf",
     "2026-1S/Métodos Númericos/Collabs/Semana (13-15)Abril.ipynb",
     "2026-1S/Métodos Númericos/Collabs/13_04.ipynb",
@@ -257,7 +280,6 @@
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150647.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260318150428.png",
     "Pasted image 20260318122445.png",
-    "Pasted image 20260318142527.png",
     "Sin título.canvas"
   ]
 }

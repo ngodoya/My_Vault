@@ -3,6 +3,12 @@
 [[1. Ley de Coulumb]]
 ### Campos Electromagnetismo
 [[2. Campos Eléctromagneticos]]
+### Ley de Gauss
+[[3. Ley de Gauss]]
+### Potencial Eléctrico
+[[4. Potencial Eléctrico]]
+### Capacitancia
+[[5. Capacitancia]]
 # Links:
 #### [Drive](https://drive.google.com/drive/folders/1zadOlZI4co2hY3qLkAH7j0N3MI2TUjgQ?usp=drive_link) 
 #### [Classroom Magistral](https://classroom.google.com/u/2/c/ODQxNDAwMjk2MDc1)
