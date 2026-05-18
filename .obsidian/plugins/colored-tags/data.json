@@ -43,7 +43,9 @@
     "raíces": 31,
     "superposición": 13,
     "try": 33,
-    "valor_frontera": 10
+    "valor_frontera": 10,
+    "vectorial": 38,
+    "vectoriales": 37
   },
   "tagColors": {},
   "_version": 4
