@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f6452e01acdae567",
+        "id": "9b925e743399497b",
         "type": "tabs",
         "children": [
           {
-            "id": "b967a1cde532740f",
+            "id": "5a1714033a951217",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2. Campos Eléctromagneticos"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e2f6da6fc3336d29",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6f9b73e1043b7dcb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Sears_Zemansky_LIBRO-signed"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -113,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -233,10 +210,11 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "b967a1cde532740f",
+  "active": "5a1714033a951217",
   "lastOpenFiles": [
-    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
+    "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
+    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/FEM/Bienvenida Fem.md",
@@ -247,7 +225,6 @@
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/POO/Ideas Proyecto Grupal.md",
     "2026-1S/Métodos Númericos/Temas/24_04.md",
-    "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Cursos/Data CódigoFacilito/Lenguajes y Herramientas.md",
     "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
     "2026-1S/POO/Temas/Excepciones.md",
