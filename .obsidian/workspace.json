@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9b925e743399497b",
+        "id": "f51eb3173abd233a",
         "type": "tabs",
         "children": [
           {
-            "id": "5a1714033a951217",
+            "id": "0da5a5e235e93ebb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "2. Campos Eléctromagneticos"
             }
           }
         ]
@@ -210,11 +214,11 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "5a1714033a951217",
+  "active": "0da5a5e235e93ebb",
   "lastOpenFiles": [
-    "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
-    "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
+    "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
+    "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/FEM/Bienvenida Fem.md",
