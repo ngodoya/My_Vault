@@ -11,10 +11,32 @@
             "id": "604cb09302a468e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-1S/FEM/Temas/3. Ley de Gauss.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "3. Ley de Gauss"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ec19553e88ca0e35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d42b0c1f42426d9d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Sears_Zemansky_LIBRO-signed"
             }
           }
         ]
@@ -36,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#gay",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +92,7 @@
               "title": "Explorador de archivos"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "03df2ea31fffe53d",
@@ -91,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -212,8 +234,13 @@
   },
   "active": "604cb09302a468e7",
   "lastOpenFiles": [
-    "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
+    "2026-1S/FEM/Temas/3. Ley de Gauss.md",
+    "Pasted image 20260519125136.png",
+    "Pasted image 20260519125134.png",
+    "Pasted image 20260519123649.png",
+    "Pasted image 20260519122816.png",
+    "Pasted image 20260519122127.png",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "Pasted image 20260518143706.png",
     "Pasted image 20260518143601.png",
@@ -224,7 +251,6 @@
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/FEM/Bienvenida Fem.md",
-    "2026-1S/FEM/Imagenes/Pasted image 20260515190743.png",
     "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
     "2026-1S/FEM/Temas/5. Capacitancia.md",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
@@ -249,14 +275,10 @@
     "2026-1S/POO/Temas/Excepciones",
     "2026-1S/POO/Temas/Proyecto Grupal",
     "2026-1S/POO/Temas/Imagenes",
-    "2026-1S/POO/Temas/Imagenes/Pasted image 20260421152306.png",
     "2026-1S/FEM/Libros/Fisica_para_ciencias_e_ingenieria.pdf",
     "2026-1S/Métodos Númericos/Collabs/Semana (13-15)Abril.ipynb",
     "2026-1S/Métodos Númericos/Collabs/13_04.ipynb",
     "2026-1S/Métodos Númericos/Temas/13_04.ipynb",
-    "2026-1S/FEM/Imagenes/Pasted image 20260331214016.png",
-    "2026-1S/FEM/Imagenes/Pasted image 20260331205048.png",
-    "2026-1S/FEM/Imagenes/Pasted image 20260331202027.png",
     "Sin título.canvas"
   ]
 }
