@@ -1,0 +1,30 @@
+Python no siempre copia los elementos creando un objeto distinto, python puede utilizar una libreria muy util dada por:
+```python
+!pip3 -q install tutormagic 
+%load_ext tutormagic
+```
+Visualice como funcionan las copias profundas, los apuntadores y los  objetos creador por un tipo de dato en python:
+```python
+%%tutor -s -h 500 
+a = [81, 82, 83] 
+b = a[:] 
+print(a is b) 
+print(a) 
+print(b) 
+a[1] = "wow" 
+print(a) 
+print(b)
+```
+
+jeje, recomendaron este canal
+[Nate Gentile](https://www.youtube.com/@NateGentile7/videos)
+# Sets
+Los conjuntos se puede ver como (sets) con colecciones no ordenadas de elementos únicos. A diferencia de las listas NO pueden contener elementos duplicados, se deriva de la clase ``set``, operaciónes utiles en los conjuntos, **LOS DICCIONARIOS SON CONJUTOS**.
+## Propiedades
+`union()`
+`add`
+`intersection(otro_conjunto)`
+`difference(otro_conjunto)`
+recuerde lo que podemos utilizar dentro de conjuntos como $2 \in R$`2 in reales`, esto es excesivamente util porque se abstraen ideas generales de la computación y las matématicas,
+# Queues
+colas son estructuras de datos particulares, no importa el tipo de dato que este dentro, importa como se interactúa con el dato mismo, no es lo mismo computacionalmente trabajar con los objetos definidos en un principio sabiendo como se gestiona la interacción de las estructuras de datos
