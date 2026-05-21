@@ -11,10 +11,12 @@
             "id": "e7f53a09f3f50e1f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Sears_Zemansky_LIBRO-signed"
             }
           }
         ]
@@ -93,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -215,20 +216,22 @@
   },
   "active": "e7f53a09f3f50e1f",
   "lastOpenFiles": [
+    "2026-1S/POO/Temas/Filas (Queues)",
+    "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519145146.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519125136.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519125134.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519123649.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519122816.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260519122127.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260518143706.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260518143601.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260518130306.png",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
-    "Pasted image 20260519145350.png",
-    "Pasted image 20260519145146.png",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
-    "Pasted image 20260519125136.png",
-    "Pasted image 20260519125134.png",
-    "Pasted image 20260519123649.png",
-    "Pasted image 20260519122816.png",
-    "Pasted image 20260519122127.png",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
-    "Pasted image 20260518143706.png",
-    "Pasted image 20260518143601.png",
-    "Pasted image 20260518130306.png",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
@@ -252,7 +255,6 @@
     "2026-1S/POO/Temas/Abstracción y Herencia.md",
     "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
     "2026-1S/Terminal y Linux/Comandos (Aprendizaje).md",
-    "Informe.md",
     "2026-1S/POO/Temas/Excepciones",
     "2026-1S/POO/Temas/Proyecto Grupal",
     "2026-1S/POO/Temas/Imagenes",
