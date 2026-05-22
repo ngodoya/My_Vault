@@ -11,12 +11,14 @@
             "id": "e7f53a09f3f50e1f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf"
+                "file": "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Sears_Zemansky_LIBRO-signed"
+              "icon": "lucide-file",
+              "title": "Ideas"
             }
           }
         ]
@@ -216,6 +218,7 @@
   },
   "active": "e7f53a09f3f50e1f",
   "lastOpenFiles": [
+    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/POO/Temas/Filas (Queues)",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
@@ -229,7 +232,6 @@
     "2026-1S/FEM/Imagenes/Pasted image 20260518143601.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260518130306.png",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
-    "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
