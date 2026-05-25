@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "63f18ddbd9c33d07",
+        "id": "2f3cda2234ae7770",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f53a09f3f50e1f",
+            "id": "69f04e8ecbde7b8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Ideas"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -216,8 +212,9 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "e7f53a09f3f50e1f",
+  "active": "69f04e8ecbde7b8e",
   "lastOpenFiles": [
+    "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/POO/Temas/Filas (Queues)",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
@@ -234,7 +231,6 @@
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
-    "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/FEM/Bienvenida Fem.md",
@@ -263,7 +259,6 @@
     "2026-1S/FEM/Libros/Fisica_para_ciencias_e_ingenieria.pdf",
     "2026-1S/Métodos Númericos/Collabs/Semana (13-15)Abril.ipynb",
     "2026-1S/Métodos Númericos/Collabs/13_04.ipynb",
-    "2026-1S/Métodos Númericos/Temas/13_04.ipynb",
     "Sin título.canvas"
   ]
 }
