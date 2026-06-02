@@ -71,3 +71,29 @@ For an overall odd number of segments: apply $1/3$ rule on al but the last three
 >Use simpson's 3/8 rule to integrate the previous function
 >Use it in conjuction with simpson's 1/3 rule to integrate the same function for five segments.
 
+# 3. Numerical Differentiation
+Euler Method (Finite Differences)
+## High-accuracy Differentiation Formulas
+**What are these Formulas for?**
+When you know the value of a function $f(x)$ only at equally spaced points $x_i$,$x_{i\pm1}$,$x_{i\pm2}$... (spacing h), yo ucan approximate its derivatives by replacing Taylor-series terms with finite-difference quotients.
+- The **"short" formulas** use the minimum number of points and keep only the leading term
+- the include additional taylor terms and combine several useful
+### Three families schemes
+| **Family**   | **Where it samples $f$**             | **Typical use** |
+| ------------ | ------------------------------------ | --------------- |
+| **Forward**  | $$x_i,x_{i+1}$$                      |                 |
+| **Backward** | $$x_i,x_{i-1}$$                      |                 |
+| **Centered** | Symetrically $$x_{i\pm1},x_{i\pm2}$$ |                 |
+[Diapositivas](https://classroom.google.com/w/NzkzNjgwMDI3NzI4/t/all)
+
+![[Pasted image 20260527142757.png]]
+>[!Example]- Example 4
+>Estimated the derivative of at $x = 0.5$ using finite divided differences and a step size
+of $h = 0.25$: $$f(x) = -0.1x^4-0.15x^3-0.5x^2-0.25x+12$$
+
+## Derivatives of Unequally Spaced Data
+### Lagrange Interpolating Polynomial
+Fit a second-order Lagrange polynomial to any three adjacent points (no equal spacing required) and differentiate it analytically.
+### Resulting Expression (Three-Point Formula)
+$$f'(x) = f(x_{i-1})\dfrac{x_i-x_{i+1}}{(x_{i-1}-x_i)(x_{i-1}-x_{i+1})}+f(x_i)\dfrac{2x_i-x_{i-1}-x_{i+1}}{(x_{i}-x_{i-1})(x_{i}-x_{i+1})} + f(x_{i+1})\dfrac{x_{i}-x_{i-1}}{(x_{i+1}-x_{i-1})(x_{i+1}-x_{i})}$$
+![[Pasted image 20260527150516.png]]
