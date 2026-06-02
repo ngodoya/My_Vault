@@ -39,11 +39,8 @@ classDiagram
 
     namespace core {
         class SistemaVeterinaria {
-            -gestor_mascotas: GestorMascotas
-            -gestor_duenos: GestorDuenos
-            -gestor_veterinarios: GestorVeterinarios
             -gestor_citas: GestorCitas
-            -json_manager: JSONManager
+            -calendario: Calendario
             +iniciar_sistema()
             +cerrar_sistema()
         }
@@ -58,7 +55,6 @@ classDiagram
         class Dueno {
             +telefono: string
             +email: string
-            +mascotas_ids: list
         }
         class Veterinario {
             +especialidad: string
@@ -67,60 +63,95 @@ classDiagram
             +id: string
             +nombre: string
             +especie: string
+            +raza: string
             +dueno_id: string
-            +historial_id: string
         }
         class Cita {
             +id: string
-            +fecha_hora: datetime
+            +fecha: date
+            +hora: time
             +mascota_id: string
             +veterinario_id: string
-        }
-        class HistorialMedico {
-            +id: string
-            +entradas: list
+            +motivo: string
+            +estado: string
         }
     }
 
     namespace services {
-        class Gestor {
-            <<Abstract>>
-            #elementos: dict
-            +obtener_por_id(id)
-            +obtener_todos()
+        class GestorCitas {
+            -citas: dict
+            +agendar_cita(cita)
+            +cancelar_cita(id)
+            +obtener_citas(fecha)
+            +obtener_todas()
         }
-        class GestorMascotas
-        class GestorDuenos
-        class GestorVeterinarios
-        class GestorCitas
+        class Calendario {
+            -citas_por_fecha: dict
+            +mostrar_mes(mes, año)
+            +marcar_disponibilidad(fecha, hora)
+            +obtener_citas_dia(fecha)
+        }
     }
 
     namespace persistence {
-        class JSONManager {
-            +guardar_datos(archivo, datos)
-            +cargar_datos(archivo)
+        class GestorDatos {
+            +cargar_citas_csv(archivo)
+            +guardar_citas_csv(archivo, citas)
         }
     }
 
     models.Persona <|-- models.Dueno
     models.Persona <|-- models.Veterinario
-    services.Gestor <|-- services.GestorMascotas
-    services.Gestor <|-- services.GestorDuenos
-    services.Gestor <|-- services.GestorVeterinarios
-    services.Gestor <|-- services.GestorCitas
 
-    core.SistemaVeterinaria o-- services.GestorMascotas
-    core.SistemaVeterinaria o-- services.GestorDuenos
-    core.SistemaVeterinaria o-- services.GestorVeterinarios
     core.SistemaVeterinaria o-- services.GestorCitas
+    core.SistemaVeterinaria o-- services.Calendario
+    core.SistemaVeterinaria ..> persistence.GestorDatos : usa
     
-    core.SistemaVeterinaria ..> persistence.JSONManager : usa
-    services.GestorDuenos ..> models.Dueno : gestiona
-    services.GestorMascotas ..> models.Mascota : gestiona
     services.GestorCitas ..> models.Cita : gestiona
-    models.Dueno "1" -- "*" models.Mascota : tiene (por ID)
+    services.Calendario ..> models.Cita : visualiza
     models.Cita "1" -- "1" models.Mascota : para
     models.Cita "1" -- "1" models.Veterinario : con
-    models.Mascota "1" -- "1" models.HistorialMedico : tiene
 ```
-
+````
+```text
+pet_manager/
+│
+├── core/
+│   ├── __init__.py
+│   └── sistema.py                 # SistemaVeterinaria: orquestador central
+│
+├── models/
+│   ├── __init__.py
+│   ├── persona.py                 # Clase abstracta Persona
+│   ├── dueno.py                   # Clase Dueño (hereda de Persona)
+│   ├── veterinario.py             # Clase Veterinario (hereda de Persona)
+│   ├── mascota.py                 # Clase Mascota
+│   └── cita.py                    # Clase Cita
+│
+├── services/
+│   ├── __init__.py
+│   ├── gestor_citas.py            # GestorCitas: gestión de citas (CRUD básico)
+│   └── calendario.py              # Calendario: visualización y gestión de disponibilidad
+│
+├── persistence/
+│   ├── __init__.py
+│   └── gestor_datos.py            # GestorDatos: lectura/escritura con pandas y CSV
+│
+├── utils/
+│   ├── __init__.py
+│   └── validaciones.py            # Funciones de validación (emails, teléfonos, fechas, etc)
+│
+├── gui/
+│   ├── __init__.py
+│   ├── ventana_principal.py       # Ventana principal de la aplicación
+│   ├── ventana_citas.py           # Interfaz para gestionar citas
+│   └── ventana_mascotas_duenos.py # Interfaz para mascotas y dueños
+│
+├── data/
+│   ├── citas.csv                  # Archivo CSV con las citas (persistencia)
+│   └── mascotas.csv               # Archivo CSV con las mascotas (persistencia)
+│
+├── main.py                        # Punto de entrada de la aplicación
+├── requirements.txt               # Dependencias del proyecto
+└── README.md                      # Documentación principal
+````
