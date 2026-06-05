@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
+                "file": "2026-1S/POO/Temas/Avances Proyecto/Avance por Nivel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ideas"
+              "title": "Avance por Nivel"
             }
           }
         ]
@@ -218,8 +218,17 @@
   },
   "active": "69f04e8ecbde7b8e",
   "lastOpenFiles": [
-    "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
+    "2026-1S/Métodos Númericos/Temas/Second Exam.md",
+    "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
+    "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
+    "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
+    "2026-1S/Métodos Númericos/PDFs/4. Optimization.pdf",
+    "2026-1S/Métodos Númericos/PDFs/3. Systems of Linear Algebraic Equations.pdf",
+    "2026-1S/Métodos Númericos/PDFs/2. Roots of Equations.pdf",
+    "2026-1S/Métodos Númericos/PDFs/1. Modeling and Error Analysis.pdf",
+    "2026-1S/Métodos Númericos/PDFs",
+    "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods",
     "2026-1S/FEM/Libros/Sears_Zemansky_LIBRO-signed.pdf",
     "2026-1S/POO/Temas/Filas (Queues)",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
@@ -246,8 +255,6 @@
     "2026-1S/Cursos/Data CódigoFacilito/Lenguajes y Herramientas.md",
     "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
     "2026-1S/POO/Temas/Excepciones.md",
-    "2026-1S/Cursos/Data CódigoFacilito",
-    "2026-1S/Cursos",
     "2026-1S/POO/Temas/Encapsulamiento.md",
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
     "2026-1S/POO/Bienvenida POO.md",
@@ -257,13 +264,6 @@
     "2026-1S/POO/Temas/Polimorfismo, Modulos y Paquetes.md",
     "2026-1S/POO/Temas/Abstracción y Herencia.md",
     "2026-1S/POO/Temas/Clases y Objetos (General) y Python.md",
-    "2026-1S/Terminal y Linux/Comandos (Aprendizaje).md",
-    "2026-1S/POO/Temas/Excepciones",
-    "2026-1S/POO/Temas/Proyecto Grupal",
-    "2026-1S/POO/Temas/Imagenes",
-    "2026-1S/FEM/Libros/Fisica_para_ciencias_e_ingenieria.pdf",
-    "2026-1S/Métodos Númericos/Collabs/Semana (13-15)Abril.ipynb",
-    "2026-1S/Métodos Númericos/Collabs/13_04.ipynb",
     "Sin título.canvas"
   ]
 }
