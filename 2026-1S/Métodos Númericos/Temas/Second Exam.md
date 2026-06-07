@@ -77,7 +77,15 @@ Many method reduce optimization to solving the root problem $f'(x)=0$, it's comm
 >[!Example]- Example 1
 >Use the golden-section search to find the maximum of $$f(x)=2sin(x)-\dfrac{x^2}{10}$$
 >within the interval $x_l=0$ and $x_u = 4$
-## 3. Multidimensional Unconstrained Optimization
+># Golden Search
+>Find the minimum of the following funciton in  interval $[0, 4]$ $$f(x)=x^2-6x+15$$
+
+
+
+**Video** [Here](https://www.youtube.com/watch?v=hLm8xfwWYPw)
+![[Pasted image 20260607162222.png]]
+![[Pasted image 20260607162105.png]]
+ ## 3. Multidimensional Unconstrained Optimization
 
 ## 4. Constrained Optimization
 
