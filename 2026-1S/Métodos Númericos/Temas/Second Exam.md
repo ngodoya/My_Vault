@@ -92,6 +92,12 @@ The method only discards intervals without knowing exactly where the optimum is.
 - **Key idea:** Just as a straight line uniquely defined by two points, a parabola is uniquely defined by three points.
 - Formula:$$x_3 = \dfrac{f(x_0)(x_1^2-x_2^2) + f(x_1)(x_2^2-x_0^2) + f(x_2)(x_0^2-x_1^2)}{2[f(x_0)(x_1-x_2) + f(x_1)(x_2-x_0) + f(x_2)(x_0-x_1)]}$$
 - Where $x_0, x_1, x_2$ are three guesses bracketing the optimum, and $x_3$ is the stimated extremum.
+>[!Note]- Convergences
+>Parabolic interpolation generally converges faster than the Golden-Section Search because it uses the function values at three points to approximate the local curvature of the objective function.
+>	Unlike the Golden-Section Search, which only reduces the search interval, parabolic interpolation attempts to estimate the optimum directly by fitting a quadratic polynomial and computing its vertex.
+>	The method can achieve significantly faster convergence near the optimum, but it is less robust and may fail when the fitted parabola poorly approximates the objective function.
+
+
 ### Newton's Method for Optimization
 - Background: Adaptation of Newton-Rapshon root-finding to extrema of f(x).
 - Iteration Formula: $$x_{i+1}=x_i-\dfrac{f'(x_i)}{f''(x_i)}$$
