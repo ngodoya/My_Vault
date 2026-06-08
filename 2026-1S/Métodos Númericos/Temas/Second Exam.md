@@ -80,12 +80,32 @@ Many method reduce optimization to solving the root problem $f'(x)=0$, it's comm
 ># Golden Search
 >Find the minimum of the following funciton in  interval $[0, 4]$ $$f(x)=x^2-6x+15$$
 
-
+The method only discards intervals without knowing exactly where the optimum is.
 
 **Video** [Here](https://www.youtube.com/watch?v=hLm8xfwWYPw)
+
 ![[Pasted image 20260607162222.png]]
 ![[Pasted image 20260607162105.png]]
- ## 3. Multidimensional Unconstrained Optimization
+
+### Parabolic Interpolation
+- **Purpose:** Approximate the shape of a function f(x) near its extremum using a quadratic (parabola).
+- **Key idea:** Just as a straight line uniquely defined by two points, a parabola is uniquely defined by three points.
+- Formula:$$x_3 = \dfrac{f(x_0)(x_1^2-x_2^2) + f(x_1)(x_2^2-x_0^2) + f(x_2)(x_0^2-x_1^2)}{2[f(x_0)(x_1-x_2) + f(x_1)(x_2-x_0) + f(x_2)(x_0-x_1)]}$$
+- Where $x_0, x_1, x_2$ are three guesses bracketing the optimum, and $x_3$ is the stimated extremum.
+### Newton's Method for Optimization
+- Background: Adaptation of Newton-Rapshon root-finding to extrema of f(x).
+- Iteration Formula: $$x_{i+1}=x_i-\dfrac{f'(x_i)}{f''(x_i)}$$
+- Characteristics:
+	- Open method: Does not require initial bracketing of the optimum.
+	- Rapid (quadratic) convergence when close to the solution.
+	- Potential Divergence: if the initial guess is poor of if $f''(x_i)$ is zeros/changes sign. 
+- Practical advice: Always check that the second derivative has the desired sign (positive for a minimum, negative for a maximum) to ensure convergence to the intended extremum.
+>[!Example]- Example 2
+>Use the parabolic interpolation and Newton's Method to find the maximum of $f(x) = 2sin(x) - \dfrac{x^2}{10}$
+>FOr parabolic interpolation use an initial guesses of $x_0=0,x_1=1,x_4$, For Newton's Method use an initial guess of $x_0 = 2.5$
+
+
+## 3. Multidimensional Unconstrained Optimization
 
 ## 4. Constrained Optimization
 
