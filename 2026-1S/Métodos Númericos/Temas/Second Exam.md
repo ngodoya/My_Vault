@@ -112,9 +112,59 @@ The method only discards intervals without knowing exactly where the optimum is.
 
 
 ## 3. Multidimensional Unconstrained Optimization
+### Overview: Multidimensional UNconstrained Optimization
+- **Goal:** Find minima or maxima of functions of several variables.
+- Focus here: Two-dimensional case (mountains and valleys analogy).
+- Classification of methods:
+	- Non-gradient (Direct) methods
+	- Gradient (Descent/ascent) methods
+### Direct Methods (Non-gradient)
+#### Random Search
+- Brute-force sampling of function at random points.
+- In theory, random search can approach the global optimum as the number of samples tends to infinity.
+- Drawbacks:
+	- HIghly ineddificiente as dimensionality grows.
+	- Ignores any information about function behavior
+#### More sophisticated Heuristics
+- Simulated annealing
+- Tabu Search
+- Artificial neural network
+- **Genetic algorithms** most widely used; pioneered by Holland 1975; overviews by Davis 1991 and Goldberg 1989)
+
+
+>[!Code]- Useful For Python
+>if you want to generate a random interval (array), the best option would be
+>```python
+>x_range = np.random.uniform(-2, 2, n)
+># np.argmax() useful for finding the index from maxima 
+>```
+
+
+
+>[!Tip]- Searching max or min
+Random search evaluates the objective function at many randomly generated points and keeps the best solution found so far.
 
 ## 4. Constrained Optimization
-
+- Deals with optimization problem where constraints play a role.
+- When both the objective function and the constraints are linear, specialized methods (linear programming) can solve very large problems efficiently.
+- Applicable in diverse engineering and management settings.
+- Nonlineear constrained optimization is discussed more briefly, and software package options are surveyed
+### Linear Programming (LP) Definition 
+- An LP problem seeks to maximize (or minimize) a linear objective (e.g., profit or cost) subject to linear constraints representing limited resources.
+- Linear” refers to the fact that both the objective and all constraints are linear functions of the decision variables.
+- Programming” here means “scheduling” or “setting an agenda,” not computer programming
+### Graphical Solution (for Two-Variable LPs)
+- Plot each linear constraint as a straight line in the $x_1 - x_2$ plane
+- (with 𝑥1 on the horizontal axis, 𝑥2 on the vertical axis). 
+- The region where all constraints overlap (including 𝑥1 ≥ 0 and 𝑥2 ≥ 0) is the feasible solution space, containing all points that satisfy every constraint.
+>[!Example] Example 4
+>Develop a graphical solution for the following problem:
+>$$maximize \quad Z  = 150x_1 + 175x_2$$
+>subject to
+>$$7x_1+11x_2 \leq 77$$
+>$$10x_1 + 8x_2 \leq 80$$
+>$$0\leq x_1 \leq 9$$
+>$$0 \leq x_2 \leq 6$$
 ## 5. Case Studies: Optimization
 
 ## 6. Summary
