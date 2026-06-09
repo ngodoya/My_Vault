@@ -11,10 +11,32 @@
             "id": "8caaf510a3d4d490",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-1S/Métodos Númericos/Temas/Second Exam.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Second Exam"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8ac08c593210a6fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8481235d36cec28",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "5. Curve Fitting"
             }
           }
         ]
@@ -215,9 +237,9 @@
   },
   "active": "8caaf510a3d4d490",
   "lastOpenFiles": [
-    "2026-1S/Métodos Númericos/PDFs/4. Optimization.pdf",
-    "2026-1S/Métodos Númericos/Temas/Second Exam.md",
     "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
+    "2026-1S/Métodos Númericos/Temas/Second Exam.md",
+    "2026-1S/Métodos Númericos/PDFs/4. Optimization.pdf",
     "2026-1S/Métodos Númericos/Temas/Optimización.md",
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/POO/Temas/Avances Proyecto/Avance por Nivel.md",

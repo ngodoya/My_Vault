@@ -168,3 +168,26 @@ Random search evaluates the objective function at many randomly generated points
 ## 5. Case Studies: Optimization
 
 ## 6. Summary
+# Curve Fitting
+You can check the official Presentation :D, click [[5. Curve Fitting.pdf]] 
+## CONTENT 
+[[#1. Introduction|1. Introduction]] 
+[[#2. Least-Squares Regression|2. Least-Squares Regression]] 
+[[#3. Interpolation|3. Interpolation]] 
+[[#4. Fourier Approximation|4. Fourier Approximation]] 
+[[#5. Curve Fitting with Software Packages|5. Curve Fitting with Software Packages]] 
+[[#6. Summary|6. Summary]]
+## 1. Introduction
+### Motivation
+* Useful for estimating intermediate values from discrete data.
+* Two general approaches:
+	* **Trend-Fitting** (noisy data -> least-squares regression)
+	* **Interpolation** (precise data -> exact passage through points)
+### Mathematical Background
+**Simple Statistics**
+ARithmetic mean, variance, standar deviation, coefficient of variation
+**THe normal distribution**
+## 2. Least-Squares Regression
+## 3. Interpolation
+## 4. Fourier Approximation
+## 5. Curve Fitting with Software Packages
