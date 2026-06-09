@@ -158,7 +158,7 @@ Random search evaluates the objective function at many randomly generated points
 - (with 𝑥1 on the horizontal axis, 𝑥2 on the vertical axis). 
 - The region where all constraints overlap (including 𝑥1 ≥ 0 and 𝑥2 ≥ 0) is the feasible solution space, containing all points that satisfy every constraint.
 >[!Example] Example 4
->Develop a graphical solution for the following problem:
+>**Obtain a graphical solution to the following linear programming problem.**
 >$$maximize \quad Z  = 150x_1 + 175x_2$$
 >subject to
 >$$7x_1+11x_2 \leq 77$$
