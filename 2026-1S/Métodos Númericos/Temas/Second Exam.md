@@ -1,3 +1,5 @@
+[[# Optimization|Optimization]]
+[[#Curve Fitting|Curve Ftting]]
 # Optimization
 You can check the official Presentation :D, click [[4. Optimization.pdf|Here]] 
 ## CONTENIDO
