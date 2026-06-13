@@ -100,6 +100,7 @@ The method only discards intervals without knowing exactly where the optimum is.
 >	The method can achieve significantly faster convergence near the optimum, but it is less robust and may fail when the fitted parabola poorly approximates the objective function.
 
 ### Brent Method
+*"Use the fast method whenever it seems trustworthy; otherwise, fall back to the safe method."*
 In this section we describe an algorithm which combines **golden section search** and **successive parabolic interpolation** 
 
 | **Golden-Section Search**   | **Succesive Parabolic Interpolation** |
