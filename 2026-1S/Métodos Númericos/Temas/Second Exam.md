@@ -99,6 +99,30 @@ The method only discards intervals without knowing exactly where the optimum is.
 >	Unlike the Golden-Section Search, which only reduces the search interval, parabolic interpolation attempts to estimate the optimum directly by fitting a quadratic polynomial and computing its vertex.
 >	The method can achieve significantly faster convergence near the optimum, but it is less robust and may fail when the fitted parabola poorly approximates the objective function.
 
+### Brent Method
+In this section we describe an algorithm which combines **golden section search** and **successive parabolic interpolation** 
+
+| **Golden-Section Search**   | **Succesive Parabolic Interpolation** |
+| --------------------------- | ------------------------------------- |
+| Guaranteed Mnimum (Maximum) | Not Guaranteed                        |
+| $$\alpha = 1$$              | $$\alpha = 1.325$$                    |
+In this case $\alpha$ is used for talking about the convergence order
+![[Pasted image 20260613171909.png]]
+$Given:$
+unimodal $f(x) [a, b]$
+$v \leftarrow w \leftarrow x$
+$a + \left(\dfrac{3-\sqrt5}{2}\right)(b-a)$
+![[Pasted image 20260613172335.png]]
+**SPI:** Sucessive Parabolic Interpolation
+"Then $f$ is evaluated at the new point u, the points $a, b, v, w$ and $x$ are uptated as necessary, and the cycle is repeated"
+$$x_{n+1}= x_n + \dfrac{1}{2}\left[\dfrac{(x_{n-1}-x_n)^2(y_n-y_{n-2})+(x_{n-2}-x_n)^2(y_{n-1}-y_n)}{(x_{n-1}-x_n)(y_n-y_{n-2})+(x_{n-2}-x_n)(y_{n-1}-y_n)}\right]$$
+$$u = x + \frac{p}{q}$$
+
+The main idea is avoid the case when $q \approx 0$, this happened when whatever points are the same, other common mistake from SPI method is: u is not always in $[a,b]$, if those case occurs the best idea would be switch to **GSS** $$u= \begin{cases}\dfrac{\sqrt5 - 1}{2}x + \dfrac{3-\sqrt 5}{2} a \quad \text{if }x \geq m \\ \dfrac{\sqrt5 - 1}{2}x + \dfrac{3-\sqrt 5}{2} b \quad \text{if }x \leq m \end{cases}$$
+>[!Example]- Brent Method
+>$$f(x) = \frac{x^3}{3} -\frac{x^2}{2} - x - 1 \quad \epsilon = 10^{-6} \quad [1, 2]$$ 
+>**Note:** Usually the algorithm stops doing GSS steps, and eventually does only PSI
+
 
 ### Newton's Method for Optimization
 - Background: Adaptation of Newton-Rapshon root-finding to extrema of f(x).
