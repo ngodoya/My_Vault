@@ -212,9 +212,28 @@ You can check the official Presentation :D, click [[5. Curve Fitting.pdf]]
 	* **Interpolation** (precise data -> exact passage through points)
 ### Mathematical Background
 **Simple Statistics**
-ARithmetic mean, variance, standar deviation, coefficient of variation
-**THe normal distribution**
+- Arithmetic mean, variance, standar deviation, coefficient of variation
+**The normal distribution**
+- Histogram Approximation by bell-shaped curve
+- Relation Between $\sigma, \mu$ and probability intervals
+**Estimation of Confidence Intervals**
+z- and t- distributions of two-sided intervals
+### Methods
+**Trade-offs**
+Comparative Advantages and limitations of regression vs. interpolation
+**Important Methods:** Key methods for regression, Interpolation, Fourier fits, confidence intervals
+**Advanced Methods**
+Matrix Formulations, general linear models, software-based implementations
 ## 2. Least-Squares Regression
+### Motivation for Least-Squares Regression
+- Experimental data often noisy; high-order interpolating polynomials oscillate and yield poor predictions between points.
+- A simpler trend-fitting function capture the overall behavior without overfitting.
+### Linear Model and Residuals
+- Model $y = a_0 + a_1x + e$
+- Residual (error) for each point $(x_i, y_i)$:$$e_i = y_i - (a_0+ a_1x_i)$$
+**Closed-Form Solutions:**
+Slope $$a_1 = \dfrac{n\sum x_i y_i -\sum x_i \sum y_i }{n\sum x_i^2 - (\sum x_i)^2}$$
+Intercept $$a_0 = \bar y - a_1 x$$
 ## 3. Interpolation
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
