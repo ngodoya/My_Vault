@@ -233,7 +233,16 @@ Matrix Formulations, general linear models, software-based implementations
 - Residual (error) for each point $(x_i, y_i)$:$$e_i = y_i - (a_0+ a_1x_i)$$
 **Closed-Form Solutions:**
 Slope $$a_1 = \dfrac{n\sum x_i y_i -\sum x_i \sum y_i }{n\sum x_i^2 - (\sum x_i)^2}$$
-Intercept $$a_0 = \bar y - a_1 x$$
+Intercept $$a_0 = \bar y - a_1 \bar x$$
+### Extension to Higher-Order Polynomials
+Instead of fitting $$y = a_0 + a_1 x + e$$
+we fit an mth-order polynomial $$y = a_0 + a_1x + a_2x^2 + \cdots + a_mx^m + e$$
+### Extension to Higher-Order Polynomials
+$$\begin{cases}(n)a_0 + \left(\sum{x_i}\right)a_1 + \left(\sum{x_i^2}\right)a_2 = \sum{y_i}\\ 
+\left(\sum{x_i}\right)a_0 + \left(\sum{x_i^2}\right)a_1 + \left(\sum{x_i^3}\right)a_2 = \sum{x_iy_i}\\
+\left(\sum{x_i^2}\right)a_0 + \left(\sum{x_i^3}\right)a_1 + \left(\sum{x_i^4}\right)a_2 = \sum{x_i^2y_i}\end{cases}$$
+
+
 ## 3. Interpolation
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
