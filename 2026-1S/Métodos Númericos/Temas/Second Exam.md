@@ -241,8 +241,11 @@ we fit an mth-order polynomial $$y = a_0 + a_1x + a_2x^2 + \cdots + a_mx^m + e$$
 $$\begin{cases}(n)a_0 + \left(\sum{x_i}\right)a_1 + \left(\sum{x_i^2}\right)a_2 = \sum{y_i}\\ 
 \left(\sum{x_i}\right)a_0 + \left(\sum{x_i^2}\right)a_1 + \left(\sum{x_i^3}\right)a_2 = \sum{x_iy_i}\\
 \left(\sum{x_i^2}\right)a_0 + \left(\sum{x_i^3}\right)a_1 + \left(\sum{x_i^4}\right)a_2 = \sum{x_i^2y_i}\end{cases}$$
-
-
+but also, in my case this is unpractical, the best idea it could be:
+	**polynomial nth grade** $n=1$ $$\underset{m\times 2}{\begin{bmatrix}1 & x_1 \\\vdots & \vdots\\ 1 & x_m\end{bmatrix}}\underset{2\times 1}{\begin{bmatrix}c_0  \\ c_1 \end{bmatrix}} = \underset{m\times 1}{\begin{bmatrix}\text{All Observed Data}\end{bmatrix}} $$
+	$nth$	
+	$$\underset{m\times (n+1)}{\overset{x^0 \quad x^1 \qquad x^n}{\begin{bmatrix}1 & x_1 & \cdots & x_1^n \\\vdots & \vdots & \ddots & \vdots\\ 1 & x_m & \cdots & x_m^n\end{bmatrix}}}\underset{(n+1)\times 1}{\begin{bmatrix}c_0  \\ \vdots \\ c_n \end{bmatrix}} = \underset{m\times 1}{\begin{bmatrix}\text{All Observed Data}\end{bmatrix}} $$
+Notice that m is the quantity of data that we got (point), and n is the polynomial grade
 ## 3. Interpolation
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
