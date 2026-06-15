@@ -263,6 +263,21 @@ Rearranged (linear-interpolation formula):$$f_1(x)= f(x_0)+\dfrac{f(x_1)-f(x_0)}
 **Coefficient formulas:**
 $$b_0 = f(x_0)$$
 $$b_1 = \dfrac{f(x_1)-f(x_0)}{x_1-x_0}$$
-	$$b_2 = \dfrac{\dfrac{f(x_2)-f(x_1)}{x_2- x_1}-\dfrac{f(x_1)-f(x_0)}{x_1-x_0}}{x_2-x_0}$$
+$$b_2 = \dfrac{\dfrac{f(x_2)-f(x_1)}{x_2- x_1}-\dfrac{f(x_1)-f(x_0)}{x_1-x_0}}{x_2-x_0}$$
+### General Newton's Divided-Difference Interpolating Polynomial
+**Objective:** Fit an nth-order polynomial through $n+1$ points
+$[x_0, f(x_0)],\dots,[x_n,f(x_n)]$
+**Polynomial form:** $$f_n(x)=b_0+b_1(x_1-x_0)+\dots+b_n(x-x_0)\dots(x-x_{n-1})$$
+**Divided-difference coefficients:**
+$b_0 = f(x_0)$ #Derivatives
+$b_1 = f[x_1,x_0]$ #Slope function (Also First derivative)
+$b_2 = f[x_2,x_1,x_0]$
+$\vdots$
+$b_n = f[x_n, x_{n-1},\dots,x_n,x_0]$
+$f[x_i,x_j]=\dfrac{f(x_i)-f(x_j)}{x_i-x_j}$
+$f[x_i,x_j,x_k]=\dfrac{f[x_i,x_j]-f[x_j,x_k]}{x_i-x_k}$
+$f[x_n,x_{n-1},\dots,x_1,x_0]=\dfrac{f[x_n,x_{n-1},\dots,x_1]-f[x_{n-1},x_{n-2},\dots,x_0]}{x_n-x_k-0}$
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
+
+#Derivatives #Slope
