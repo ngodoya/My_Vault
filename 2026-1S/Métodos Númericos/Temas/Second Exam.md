@@ -263,6 +263,6 @@ Rearranged (linear-interpolation formula):$$f_1(x)= f(x_0)+\dfrac{f(x_1)-f(x_0)}
 **Coefficient formulas:**
 $$b_0 = f(x_0)$$
 $$b_1 = \dfrac{f(x_1)-f(x_0)}{x_1-x_0}$$
-$$b_2 = \dfrac{\dfrac{f(x_2)-f(x_1)}{x_1-x_1}-\dfrac{f(x_1)-f(x_0)}{x_1-x_0}}{x_2-x_0}$$
+	$$b_2 = \dfrac{\dfrac{f(x_2)-f(x_1)}{x_2- x_1}-\dfrac{f(x_1)-f(x_0)}{x_1-x_0}}{x_2-x_0}$$
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
