@@ -277,6 +277,10 @@ $b_n = f[x_n, x_{n-1},\dots,x_n,x_0]$
 $f[x_i,x_j]=\dfrac{f(x_i)-f(x_j)}{x_i-x_j}$
 $f[x_i,x_j,x_k]=\dfrac{f[x_i,x_j]-f[x_j,x_k]}{x_i-x_k}$
 $f[x_n,x_{n-1},\dots,x_1,x_0]=\dfrac{f[x_n,x_{n-1},\dots,x_1]-f[x_{n-1},x_{n-2},\dots,x_0]}{x_n-x_0}$
+### Lagrange Interpolating Polynomial
+- **Definition** A reformulation of Newton's polynomial that avoids computing divided differences.
+- **General form:**$$f_n(x)=\sum_{i=0}^n{L_i(x)f(x_i)}$$
+- **Basis Polynomials $L_i(x)$:** $$L_i(x)=\underset{j\neq i}{\prod_{j=0}^n{\dfrac{x-x_j}{x_i-x_j}}}$$
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
 
