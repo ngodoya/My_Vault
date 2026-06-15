@@ -258,6 +258,11 @@ Rearranged (linear-interpolation formula):$$f_1(x)= f(x_0)+\dfrac{f(x_1)-f(x_0)}
 >[!Example]- Example 2
 >Estimate the natural logarithm of 2 using linear interpolation. First, perform the computation by interpolating between $Ln(1)=0$ and $Ln(6)=1.791759.$ Then, repeat the procedure, but use a smaller interval from $[1, 4]$. Note that the true value of $Ln(2) = 0.6931472$
 
-
+### Quadratic Interpolation (Three Points)
+**Newton's form:**$$f_2(x)= b_0 + b_1(x-x_0)+b_2(x-x_0)(x-x_1)$$
+**Coefficient formulas:**
+$$b_0 = f(x_0)$$
+$$b_1 = \dfrac{f(x_1)-f(x_0)}{x_1-x_0}$$
+$$b_2 = \dfrac{\dfrac{f(x_2)-f(x_1)}{x_1-x_1}-\dfrac{f(x_1)-f(x_0)}{x_1-x_0}}{x_2-x_0}$$
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
