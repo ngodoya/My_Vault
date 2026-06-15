@@ -282,6 +282,13 @@ $f[x_n,x_{n-1},\dots,x_1,x_0]=\dfrac{f[x_n,x_{n-1},\dots,x_1]-f[x_{n-1},x_{n-2},
 - **General form:**$$f_n(x)=\sum_{i=0}^n{L_i(x)f(x_i)}$$
 - **Basis Polynomials $L_i(x)$:** $$L_i(x)=\underset{j\neq i}{\prod_{j=0}^n{\dfrac{x-x_j}{x_i-x_j}}}$$
 ## 4. Fourier Approximation
+A systematic framework for representing arbitrary waveforms using trigonometric (sine/cosine) series.
+### Sinusoidal Model
+General form:$$f(t) = A_0 + C_1cos(\omega_0 t + \theta)$$
+Parameters:
+$A_0:$ mean (DC) value
+$C_1:$ Amplitude
+$\omega_0$ angular frequency
 ## 5. Curve Fitting with Software Packages
 
 #Derivatives #Slope
