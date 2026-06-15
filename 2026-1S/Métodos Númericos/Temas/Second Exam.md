@@ -247,5 +247,17 @@ but also, in my case this is impractical, the best idea it could be:
 	$$\underset{m\times (n+1)}{\overset{x^0 \quad x^1 \qquad x^n}{\begin{bmatrix}1 & x_1 & \cdots & x_1^n \\\vdots & \vdots & \ddots & \vdots\\ 1 & x_m & \cdots & x_m^n\end{bmatrix}}}\underset{(n+1)\times 1}{\begin{bmatrix}c_0  \\ \vdots \\ c_n \end{bmatrix}} = \underset{m\times 1}{\begin{bmatrix}\text{All Observed Data}\end{bmatrix}} $$
 Notice that m is the numer of data points, and n is the polynomial grade
 ## 3. Interpolation
+### Overview
+- You often need to estimate intermediate value between precise data points.
+- The most  common method is polynomial interpolation, where an nth-order polynomial $$f(x)=a_0+a_1x+a_2x^2+\cdots+a_nx^n$$ passes exactly through $n+1$ given data points.
+- **Note:** This is not the single method, other method use  trigonometric functions for interpolating
+### Linear Interpolation (FIrst-Order Case)
+- The simplest interpolation connects two data points $(x_0, f(x_0))$ and $(x_1, f(x_1))$ with a straight line.
+- From similar triangles: $$\dfrac{f_1(x)-f(x_0)}{x-x_0}=\dfrac{f(x_1)-f(x_0)}{x_1-x_0}$$![[Pasted image 20260615134113.png]]
+Rearranged (linear-interpolation formula):$$f_1(x)= f(x_0)+\dfrac{f(x_1)-f(x_0)}{x_1-x_0}(x-x_0)$$
+>[!Example]- Example 2
+>Estimate the natural logarithm of 2 using linear interpolation. First, perform the computation by interpolating between $Ln(1)=0$ and $Ln(6)=1.791759.$ Then, repeat the procedure, but use a smaller interval from $[1, 4]$. Note that the true value of $Ln(2) = 0.6931472$
+
+
 ## 4. Fourier Approximation
 ## 5. Curve Fitting with Software Packages
