@@ -289,6 +289,18 @@ Parameters:
 $A_0:$ mean (DC) value
 $C_1:$ Amplitude
 $\omega_0$ angular frequency
+### Least-Squares fit of a single SInusoid
+Model:$$y_i = A_0 +A_1cos(\omega_0 t_i) + B_0sin(\omega_0 t_i) + e_i$$
+Normal Equations (Matrix form)
+$$\begin{bmatrix}
+N & \sum cos(\omega_0 t) & \sum sin(\omega_0 t) \\
+N & \sum cos^2(\omega_0 t) & \sum cos(\omega_0 t)sin(\omega_0 t) \\
+N & \sum sin(\omega_0 t)cos(\omega_0 t) & \sum sin^2(\omega_0 t) 
+\end{bmatrix} \begin{Bmatrix}A_0 \\ A_1 \\ A_2\end{Bmatrix} = \begin{Bmatrix}\sum y \\ \sum y cos(\omega_ot) \\ \sum y sin (w\omega_ot)\end{Bmatrix}$$
+>[!Example]- Example 6
+>The sinusoid curve is described by $y=1.7+cos(4.189t + 1.0472)$. Generate 10 discrete values for this curve at intervalts of $\Delta t = 0.15$ for the range $t=0$ to 1.35. Use this information to evaluate the coefficientes of by a least squares fit
+>
 ## 5. Curve Fitting with Software Packages
+Excel zzz
 
 #Derivatives #Slope
