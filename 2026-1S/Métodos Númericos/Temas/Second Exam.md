@@ -386,7 +386,7 @@ $$\approx \frac{b-a}{6}\left[f(a)+4f\left(\frac{a+b}{2}\right)+f(b)\right]$$
 **Composite Simpson's 1/2 Rule**
 - Split $[a,b]$ into n even numbered subintervarls of widht h = (b-a)/n.
 - Apply 1/3 rule on each adjacent pair and sum:
-$$\approx\dfrac{h}{3}\left[f(x_0)+4\sum_{\text{i odd}}f(x_i)+ 2 \sum_{\text{j pair}}f(x_j) + f(x_n)\right]$$
+$$\approx\dfrac{h}{3}\left[f(x_0)+4\sum_{\text{i odd}}^{n-1}f(x_i)+ 2 \sum_{\text{j pair}}^{n-2}f(x_j) + f(x_n)\right]$$
 ### Simpson's 3/8 Rule (single segment)
 Use four points $x_0$, $a$, $x_1=a+h$ , $x_2 = a+2h$, $x_3 = b$ with $h= (b-a)/3$
 Formula:$$I \approx \dfrac{3h}{8}[f(x_0)+3f(x_1)+3f(x_2)+f(x_3)]$$
