@@ -362,7 +362,7 @@ Summary about the previous subjects in engineer.
 Replace $f(x)$ over $[a, b]$ by a polynomial $f_n(x) = a_0 +a_1x+\cdots+a_nx^n$ , then integrate the polynomial instead of the original function.
 ### Closed vs. open forms
 - Closed: use data at both endpoints a and b
-- OPpen: integration limits extend beyond the data limits
+- Open: integration limits extend beyond the data limits
 ### Trapezoidal Rule
 **Single-segment Trapezoidal Rule**
 $$I = \int_a^bf(x)dx \approx (b-a)\dfrac{f(b)+f(a)}{2}$$
