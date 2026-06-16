@@ -407,11 +407,11 @@ When you know the value of a function $f(x)$ only at equally spaced points $x_i$
 - The **"short" formulas** use the minimum number of points and keep only the leading term
 - the include additional taylor terms and combine several useful
 ### Three families schemes
-| **Family**   | **Where it samples $f$**             | **Typical use** |
-| ------------ | ------------------------------------ | --------------- |
-| **Forward**  | $$x_i,x_{i+1}$$                      |                 |
-| **Backward** | $$x_i,x_{i-1}$$                      |                 |
-| **Centered** | Symetrically $$x_{i\pm1},x_{i\pm2}$$ |                 |
+| **Family**   | **Where it samples $f$**             | **Typical use**                                            |
+| ------------ | ------------------------------------ | ---------------------------------------------------------- |
+| **Forward**  | $$x_i,x_{i+1}$$                      | Left boundary of the grid when no points exist to the lest |
+| **Backward** | $$x_i,x_{i-1}$$                      | RIght Boundary -- Mirror image of forward                  |
+| **Centered** | Symetrically $$x_{i\pm1},x_{i\pm2}$$ | Interior Nodes; generally the most accurate                |
 [Diapositivas](https://classroom.google.com/w/NzkzNjgwMDI3NzI4/t/all)
 
 
