@@ -38,19 +38,19 @@
         ]
       },
       {
-        "id": "8ac08c593210a6fa",
+        "id": "d5d9b2c899d80cf5",
         "type": "tabs",
         "children": [
           {
-            "id": "a8481235d36cec28",
+            "id": "46633585dbafa044",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf"
+                "file": "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "5. Curve Fitting"
+              "title": "6. Numerical Differentiation and Integration"
             }
           }
         ]
@@ -251,8 +251,10 @@
   },
   "active": "8caaf510a3d4d490",
   "lastOpenFiles": [
-    "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
+    "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
     "2026-1S/Métodos Númericos/Temas/Second Exam.md",
+    "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
+    "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
     "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
     "Pasted image 20260615134113.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260613173153.png",
@@ -269,13 +271,11 @@
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260607162105.png",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
-    "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
     "2026-1S/Métodos Númericos/PDFs/3. Systems of Linear Algebraic Equations.pdf",
     "2026-1S/Métodos Númericos/PDFs/2. Roots of Equations.pdf",
     "2026-1S/Métodos Númericos/PDFs/1. Modeling and Error Analysis.pdf",
     "2026-1S/Métodos Númericos/PDFs",
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods",
-    "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145146.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519125136.png",
