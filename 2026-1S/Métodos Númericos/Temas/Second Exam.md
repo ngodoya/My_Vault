@@ -381,8 +381,8 @@ Use higher-order interpolating polynomials (parabolas, cubics) through equally s
 ## Simpson's 1/3 Rule (single segment)
 - Divide $[a, b]$ at midpoint $x_1 = \frac{(a+b)}{2}$, with  $h=\frac{b-a}{2}$
 - Formula:
-$$I = \dfrac{h}{3}[f(x_0)+4f(x_1)+f(x_2)]$$
-$$\frac{b-a}{6}\left[f(a)+4f\left(\frac{a+b}{2}\right)+f(b)\right]$$
+$$I \approx \dfrac{h}{3}[f(x_0)+4f(x_1)+f(x_2)]$$
+$$\approx \frac{b-a}{6}\left[f(a)+4f\left(\frac{a+b}{2}\right)+f(b)\right]$$
 **Composite Simpson's 1/2 Rule**
 - Split $[a,b]$ into n even numbered subintervarls of widht h = (b-a)/n.
 - Apply 1/3 rule on each adjacent pair and sum:
