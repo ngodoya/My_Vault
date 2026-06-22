@@ -4,40 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "346737a47504db99",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8caaf510a3d4d490",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-1S/Métodos Númericos/Temas/Second Exam.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Second Exam"
-            }
-          },
-          {
-            "id": "8e0835548976e69b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Model and Residual"
-            }
-          }
-        ]
-      },
-      {
         "id": "d5d9b2c899d80cf5",
         "type": "tabs",
         "children": [
@@ -53,6 +19,24 @@
               },
               "icon": "lucide-file",
               "title": "Workshop 2 (Optimization and Curve Fitting)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bd66bdbdecb35adc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4079c044ff376b13",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Taller 2 - Métodos Numéricos (2026-1)"
             }
           }
         ]
@@ -131,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -250,13 +235,14 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "46633585dbafa044",
+  "active": "4079c044ff376b13",
   "lastOpenFiles": [
-    "Sin título.md",
     "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
+    "2026-1S/Métodos Númericos/Temas/Second Exam.md",
+    "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
+    "Sin título.md",
     "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
     "2026-1S/Métodos Númericos/Talleres",
-    "2026-1S/Métodos Númericos/Temas/Second Exam.md",
     "2026-1S/Métodos Númericos/Collabs/Second_Exam.ipynb",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
     "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
@@ -278,7 +264,6 @@
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
     "2026-1S/Métodos Númericos/PDFs/3. Systems of Linear Algebraic Equations.pdf",
     "2026-1S/Métodos Númericos/PDFs/2. Roots of Equations.pdf",
-    "2026-1S/Métodos Númericos/PDFs/1. Modeling and Error Analysis.pdf",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145146.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519125136.png",
@@ -297,7 +282,6 @@
     "2026-1S/POO/Temas/Encapsulamiento.md",
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
     "2026-1S/POO/Bienvenida POO.md",
-    "Bienvenido.md",
     "Sin título.canvas"
   ]
 }
