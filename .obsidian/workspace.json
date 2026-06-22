@@ -45,12 +45,14 @@
             "id": "46633585dbafa044",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf"
+                "file": "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "6. Numerical Differentiation and Integration"
+              "icon": "lucide-file",
+              "title": "Workshop 2 (Optimization and Curve Fitting)"
             }
           }
         ]
@@ -248,11 +250,14 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "8caaf510a3d4d490",
+  "active": "46633585dbafa044",
   "lastOpenFiles": [
+    "Sin título.md",
+    "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
     "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
-    "2026-1S/Métodos Númericos/Collabs/Second_Exam.ipynb",
+    "2026-1S/Métodos Númericos/Talleres",
     "2026-1S/Métodos Númericos/Temas/Second Exam.md",
+    "2026-1S/Métodos Númericos/Collabs/Second_Exam.ipynb",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
     "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
     "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
@@ -274,8 +279,6 @@
     "2026-1S/Métodos Númericos/PDFs/3. Systems of Linear Algebraic Equations.pdf",
     "2026-1S/Métodos Númericos/PDFs/2. Roots of Equations.pdf",
     "2026-1S/Métodos Númericos/PDFs/1. Modeling and Error Analysis.pdf",
-    "2026-1S/Métodos Númericos/PDFs",
-    "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145146.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519125136.png",
@@ -295,7 +298,6 @@
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
     "2026-1S/POO/Bienvenida POO.md",
     "Bienvenido.md",
-    "2026-1S/POO/Temas/Repositorios.md",
     "Sin título.canvas"
   ]
 }
