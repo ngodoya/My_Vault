@@ -71,6 +71,7 @@ el Slicing también aplica para los valores de una lista, así mismo a los valor
 
 ## Diccionarios
 Se utilizan llaves para definirlos, permiten manejar parejas clase y valor, lo cual resulta util para llamar un tipo de dato, son conjuntos `sets`dentro de python. ***Tip:*** Las llaves es recomendable organizarlas por el mismo tipo de dato.
+Los mismos no manejan indices.
 Ejemplo:
 ```python
 dic = {'key1': 10,'key2': 'pato'}
@@ -82,5 +83,25 @@ También podemos anidar diccionarios dentro de diccionarios, similiar a las list
 Son como listas, pero inmutables, no hay mucho que agregar, son poderosas para las redes neuronales del machine learning
 ## Conjuntos
 Los sets pueden verse desde las propiedades matematicas, no se pueden repetir cosas en un conjunto (no existe la multiplicidad), así mismo podemos realizar todas la operaciones que conocemos de los conjuntos, union (|), intersección (&), la diferencia entre los conjuntos o incluso operaciones más complejas (recordar los diagramas de #Venn)
+## Operadores condicionales
+Los operadores  de este tipo resultan utiles para comprobar valores o desigualdades, sabiendo si son verdaderas o falsas, suelen tener en cuenta el orden de indexacion de las listas, los operadores pueden utilizarse para saber cuando debe de parar un programa o incluso cuando debemos tomar otra ruta (diagramas de flujo). Se combinan con las tablas de la verdad, casos donde vemos los condicionales de and (disyuncion), or (conjuncion), negación, condicionalidad y bicondicionalidad, existe otro operador conocido como **XOR** el cual es solo verdadero cuando uno y unicamente una de las proposiciones es verdadera.
+![[Pasted image 20260627112615.png]]
+## Control de Flujo
+Cómo se mencionó previamente, al realizar  código es importante utilizar condicionales para saber que secciones del código se van a correr, para ello existen las palabras reservadas **if, elif, else**
+>[!Python]- Code
+>```python
+>if 1 > 2:
+  print("Si")
+  print("SiSi")
+  print("NoNo")
+print("SiSiSi")```
+
+Los previamente descritos se pueden leer como, si, si no se cumplio x pero se cumple y, si no se cumplio ninguna, respectivamente, parte vital del código es comprender correctamente estos casos y evaluarlos (desglosar y abstraer un problema).
+***Tip:*** Si se cumple uno de los casos, automaticamente python ignorara los siguientes elif o else.
+### Ciclos
+Existen dos ciclos en python, los **For** y los **While**,en el caso del For el código dentro del ciclo se repetira la cantidad de veces que se establezca, el while es un poco más peligroso, ya que dependera de un condicional para ejecutar el codigo, hasta que este condicional sea falso o verdadero (dependiendo de cuando queremos que pare) el código no se detendra.
+Es util combinarlo con la función `range(inicio, fin, paso)`, ambos pueden realizar el mismo tipo de tareas (dependiendo de la que se necesite uno puede ser más fácil y otro más complejo).
+
+
 
 Tags: #venv #notebook #Latex #Venn 

@@ -213,14 +213,16 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false
+      "graph:Abrir vista gráfica": false,
+      "callout-manager:Insert Callout": false
     }
   },
   "active": "b84b7422ded5b32a",
   "lastOpenFiles": [
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627084509.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627112615.png",
     "Pasted image 20260615134113.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627084509.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes",
     "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos",
@@ -249,7 +251,6 @@
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145146.png",
-    "2026-1S/FEM/Imagenes/Pasted image 20260519125136.png",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
