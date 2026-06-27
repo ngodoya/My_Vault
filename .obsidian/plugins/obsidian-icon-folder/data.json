@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPython",
+      "SiScipy",
       "LiDatabase",
       "SiCoursera",
-      "LiUniversity",
-      "SiGithub",
-      "SiFiles"
+      "LiUniversity"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,7 +37,7 @@
   "Bienvenido.md": "SiFiles",
   "2026-1S/FEM": "SiElectron",
   "2026-1S/Métodos Númericos": "SiNumpy",
-  "2026-1S/Modelación Matemática 2026-1": "SiPython",
+  "2026-1S/Modelación Matemática 2026-1": "SiScipy",
   "2026-1S/POO": "SiGithub",
   "2026-1S/Terminal y Linux": "SiLinux",
   "2026-1S/Para entrar a la U (Tips)": "LiUniversity",
@@ -45,5 +45,6 @@
     "iconName": "SiCoursera",
     "iconColor": "#d96b30"
   },
-  "2026-1S/Cursos/Data CódigoFacilito": "LiDatabase"
+  "2026-1S/Cursos/Data CódigoFacilito": "LiDatabase",
+  "2026-1S/Introducción a Python para el Análisis de Datos": "SiPython"
 }
