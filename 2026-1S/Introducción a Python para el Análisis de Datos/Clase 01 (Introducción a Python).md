@@ -101,7 +101,31 @@ Los previamente descritos se pueden leer como, si, si no se cumplio x pero se cu
 ### Ciclos
 Existen dos ciclos en python, los **For** y los **While**,en el caso del For el código dentro del ciclo se repetira la cantidad de veces que se establezca, el while es un poco más peligroso, ya que dependera de un condicional para ejecutar el codigo, hasta que este condicional sea falso o verdadero (dependiendo de cuando queremos que pare) el código no se detendra.
 Es util combinarlo con la función `range(inicio, fin, paso)`, ambos pueden realizar el mismo tipo de tareas (dependiendo de la que se necesite uno puede ser más fácil y otro más complejo).
+>[!Example]- Fibonnaci Code
+># Ejercicio
+Generar los primeros N numeros de la secuencia de Fibonacci utilizando la estructura repetitiva **for** y la estructura repetitiva **while**
+$f(n) = 0, 1, 1, 2, 3, 5, 8, 13, ...$
 
+>[!python] Solución
+>```python
+>n = 8
+>val = [0, 1]
+>for k in range(2, n):
+i = val[k - 2]
+j = val[k - 1]
+val.append(i + j)
+print(val)
+>```
+
+Otra Solución puede ser obtenida utiliza la igualda en python, una igualdad de varias variables, donde se hacen intercambios de información al tiempo.
+```python
+n = 10
+a, b = 0.0, 1.0
+for k in range(2, n):
+    a, b = b, a + b
+    print(b)
+
+```
 
 
 Tags: #venv #notebook #Latex #Venn 
