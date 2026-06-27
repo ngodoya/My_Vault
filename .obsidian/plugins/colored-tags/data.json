@@ -37,9 +37,11 @@
     "herencia": 18,
     "imports": 28,
     "instancia": 15,
+    "latex": 45,
     "lenguajes": 34,
     "ley": 6,
     "metodos": 23,
+    "notebook": 44,
     "pep8": 27,
     "polimorfismo": 25,
     "proton": 7,
@@ -49,7 +51,8 @@
     "try": 33,
     "valor_frontera": 10,
     "vectorial": 38,
-    "vectoriales": 37
+    "vectoriales": 37,
+    "venv": 43
   },
   "tagColors": {},
   "_version": 4

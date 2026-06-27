@@ -11,12 +11,14 @@
             "id": "b84b7422ded5b32a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf"
+                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Taller 2 - Métodos Numéricos (2026-1)"
+              "icon": "lucide-file",
+              "title": "Clase 01 (Introducción a Python)"
             }
           }
         ]
@@ -214,11 +216,15 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "306f1e88c136376f",
+  "active": "b84b7422ded5b32a",
   "lastOpenFiles": [
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627084509.png",
+    "Pasted image 20260615134113.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes",
+    "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos",
     "2026-1S/Métodos Númericos/Temas/Second Exam.md",
-    "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
     "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
     "2026-1S/Métodos Númericos/Temas/Optimización.md",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
@@ -228,7 +234,6 @@
     "2026-1S/Métodos Númericos/Talleres",
     "2026-1S/Métodos Númericos/Collabs/Second_Exam.ipynb",
     "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
-    "Pasted image 20260615134113.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260613173153.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260613172335.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260613171909.png",
@@ -242,12 +247,9 @@
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260607162105.png",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
-    "2026-1S/Métodos Númericos/PDFs/3. Systems of Linear Algebraic Equations.pdf",
-    "2026-1S/Métodos Númericos/PDFs/2. Roots of Equations.pdf",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145350.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519145146.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260519125136.png",
-    "2026-1S/FEM/Imagenes/Pasted image 20260519125134.png",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
@@ -261,7 +263,6 @@
     "2026-1S/POO/Temas/Excepciones.md",
     "2026-1S/POO/Temas/Encapsulamiento.md",
     "2026-1S/Para entrar a la U (Tips)/Convenio Otras Universidades.md",
-    "2026-1S/POO/Bienvenida POO.md",
     "Sin título.canvas"
   ]
 }
