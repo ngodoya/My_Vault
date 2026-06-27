@@ -11,10 +11,12 @@
             "id": "b84b7422ded5b32a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Taller 2 - Métodos Numéricos (2026-1)"
             }
           }
         ]
@@ -93,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "right": {
     "id": "cadcf9615240823b",
