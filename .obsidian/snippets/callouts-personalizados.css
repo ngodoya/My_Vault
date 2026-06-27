@@ -1,0 +1,122 @@
+/* --- ICONO DE PYTHON AUTOMÁTICO --- */
+.callout[data-callout="python"] {
+    --callout-color: 55, 118, 171;
+    background-color: rgba(55, 118, 171, 0.08);
+}
+.callout[data-callout="python"] .callout-icon svg {
+    display: none; /* Esconde el icono por defecto de Callout Manager */
+}
+.callout[data-callout="python"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    /* Enlace directo al SVG limpio de Simple Icons */
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* --- ICONO DE NUMPY AUTOMÁTICO --- */
+.callout[data-callout="numpy"] {
+    --callout-color: 77, 121, 255;
+    background-color: rgba(77, 121, 255, 0.08);
+}
+.callout[data-callout="numpy"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="numpy"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/numpy.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/numpy.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+/* --- ICONO DE JULIA AUTOMÁTICO --- */
+.callout[data-callout="julia"] {
+    /* El color oficial de Julia es un morado/magenta característico */
+    --callout-color: 224, 170, 48; 
+    background-color: rgba(146, 89, 165, 0.08);
+}
+.callout[data-callout="julia"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="julia"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/julia.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/julia.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* --- ICONO DE SCIPY AUTOMÁTICO --- */
+.callout[data-callout="scipy"] {
+    /* El color oficial de SciPy es un azul marino/eléctrico elegante */
+    --callout-color: 0, 83, 159; 
+    background-color: rgba(0, 83, 159, 0.08);
+}
+.callout[data-callout="scipy"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="scipy"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scipy.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scipy.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+/* --- ICONO DE R AUTOMÁTICO --- */
+.callout[data-callout="r"] {
+    /* El azul grisáceo oficial de la comunidad de R */
+    --callout-color: 39, 109, 194; 
+    background-color: rgba(39, 109, 194, 0.08);
+}
+.callout[data-callout="r"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="r"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/r.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/r.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* --- ICONO DE C++ AUTOMÁTICO --- */
+.callout[data-callout="cplusplus"] {
+    /* El azul oscuro corporativo de C++ */
+    --callout-color: 0, 89, 156; 
+    background-color: rgba(0, 89, 156, 0.08);
+}
+.callout[data-callout="cplusplus"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="cplusplus"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}

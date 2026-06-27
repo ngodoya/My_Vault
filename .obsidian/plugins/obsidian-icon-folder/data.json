@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiJulia",
       "SiPython",
       "SiScipy",
       "LiDatabase",
-      "SiCoursera",
-      "LiUniversity"
+      "SiCoursera"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,7 +37,7 @@
   "Bienvenido.md": "SiFiles",
   "2026-1S/FEM": "SiElectron",
   "2026-1S/Métodos Númericos": "SiNumpy",
-  "2026-1S/Modelación Matemática 2026-1": "SiScipy",
+  "2026-1S/Modelación Matemática 2026-1": "SiJulia",
   "2026-1S/POO": "SiGithub",
   "2026-1S/Terminal y Linux": "SiLinux",
   "2026-1S/Para entrar a la U (Tips)": "LiUniversity",

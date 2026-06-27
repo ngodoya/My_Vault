@@ -49,5 +49,38 @@ cadena[inicio:fin:paso]
 ```
 El paso final no sera tomado en cuenta, python siempre va al entero anterior.
 el paso no necesariamente tiene que ser un entero positivo, puede ser un entero negativo, dando pasos hacía atrás, util para encontrar palindromos, cuando los pasos son negativos el inicio es -1, no 0.
+>[!abstract]- Shell
+>Cuando solicitamos a notebook que ejecute una comando shell (bash) podemos hacerlo poniendo ```python !python --version```
+### Listas
+Son secuencias de elementos que pueden pertenecer a cualquier tipo de dato. Estas listas guardan un órden que está definido el índice, incluso podemos tener Listas dentro de listas, dentro de listas... y así indefinidamente, los métodos más relevantes son los siguientes.
+**Métodos:**
+- `append`El método añade un valor a la lista en una nueva posición (existe un nuevo -1 en los indices)
+- `remove()` elimina el primer elemento solicitado que encuentre.
+- `pop()`elimina pero podemos enviar ese valor a una nueva variable:
+Ejemplo: 
+```python 
+  # Eliminar un elemento de la lista por su posición y retorno el dato
+		eliminado = my_list.pop(1)
+		my_list
+```
 
-Tags: #venv #notebook #Latex 
+el Slicing también aplica para los valores de una lista, así mismo a los valores internos de una lista,
+
+>[!Example]- Ejercicio
+>Recuperar la cadena "hola" de la siguiente lista: `["a",2,3,["1","2"],["hola",[0,2,"encuentrame"]]]`
+
+## Diccionarios
+Se utilizan llaves para definirlos, permiten manejar parejas clase y valor, lo cual resulta util para llamar un tipo de dato, son conjuntos `sets`dentro de python. ***Tip:*** Las llaves es recomendable organizarlas por el mismo tipo de dato.
+Ejemplo:
+```python
+dic = {'key1': 10,'key2': 'pato'}
+dic = {(0,1): 25, (1,0): 10} # Utilizando Tuplas como llaves
+```
+También podemos anidar diccionarios dentro de diccionarios, similiar a las listas.
+- `keys`Trae las llaves del primer nivel del diccionario, similar a `values`
+## Tuplas
+Son como listas, pero inmutables, no hay mucho que agregar, son poderosas para las redes neuronales del machine learning
+## Conjuntos
+Los sets pueden verse desde las propiedades matematicas, no se pueden repetir cosas en un conjunto (no existe la multiplicidad), así mismo podemos realizar todas la operaciones que conocemos de los conjuntos, union (|), intersección (&), la diferencia entre los conjuntos o incluso operaciones más complejas (recordar los diagramas de #Venn)
+
+Tags: #venv #notebook #Latex #Venn 

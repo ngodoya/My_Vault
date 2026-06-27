@@ -1,0 +1,43 @@
+{
+  "callouts": {
+    "custom": [
+      "install-plugin",
+      "install",
+      "numpy",
+      "python"
+    ],
+    "settings": {
+      "install": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "2, 122, 255"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "2, 122, 255"
+          }
+        }
+      ],
+      "python": [
+        {
+          "changes": {}
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
