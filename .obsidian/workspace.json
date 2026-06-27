@@ -11,12 +11,14 @@
             "id": "b84b7422ded5b32a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf"
+                "file": "2026-1S/Métodos Númericos/Temas/Optimización.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Taller 2 - Métodos Numéricos (2026-1)"
+              "icon": "lucide-file",
+              "title": "Optimización"
             }
           }
         ]
@@ -216,15 +218,15 @@
   },
   "active": "b84b7422ded5b32a",
   "lastOpenFiles": [
-    "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
+    "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
+    "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
     "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
+    "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
     "2026-1S/Métodos Númericos/Temas/Second Exam.md",
     "Sin título.md",
     "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
     "2026-1S/Métodos Númericos/Talleres",
     "2026-1S/Métodos Númericos/Collabs/Second_Exam.ipynb",
-    "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
-    "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
     "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
     "Pasted image 20260615134113.png",
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260613173153.png",
