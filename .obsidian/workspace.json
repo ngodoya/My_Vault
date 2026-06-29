@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Scoope",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Explorador de archivos"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "03df2ea31fffe53d",
