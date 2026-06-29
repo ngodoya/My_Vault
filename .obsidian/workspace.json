@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "eda93a643e151341",
+        "id": "a1ae381a7df77cc6",
         "type": "tabs",
         "children": [
           {
-            "id": "b84b7422ded5b32a",
+            "id": "71c2b3f2dc7d8f7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Clase 01 (Introducción a Python)"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -217,11 +213,11 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "b84b7422ded5b32a",
+  "active": "71c2b3f2dc7d8f7a",
   "lastOpenFiles": [
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627112615.png",
     "Pasted image 20260615134113.png",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627084509.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes",
     "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
