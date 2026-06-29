@@ -75,7 +75,8 @@
               "title": "Explorador de archivos"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "03df2ea31fffe53d",
@@ -216,7 +217,7 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "71c2b3f2dc7d8f7a",
+  "active": "306f1e88c136376f",
   "lastOpenFiles": [
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
