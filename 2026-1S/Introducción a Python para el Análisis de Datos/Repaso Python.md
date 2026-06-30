@@ -102,6 +102,9 @@ In Python there is a concept call *"dynamic typing"*, in some cases this will be
 ### Comments
 Python has commenting capability for the purpose of in-code documentation.
 Comments start with a `#`, and Python will render the rest of the line as a comment, this is so useful for explaining code, analog to raw code.
+Comments can be used to explain Python code.
+Comments can be used to make the code more readable.
+Comments can be used to prevent execution when testing code.
 ## Statements
 A **computer program** is a list of "instructions" to be "executed" by a computer.
 In a programming language, these programming instructions are called **statements**.
@@ -135,5 +138,41 @@ print("Hello World!", "I will print on the same line.")
 
 ```
 notice the comma after the `str`, this is the beginning for functions and arguments, print is so useful when you need to output numbers, math operations and other things.
+A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:
+## Multiline Comments
+Python does not really have a syntax for multiline comments.
+To add a multiline comment you could insert a `#` for each line or...
+Or, not quite as intended, you can use a multiline string, this is so good for define functions.
+Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it #PEP8 
+# Variables
+## Creating Variables
+Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
+Some IDE will track your variables in code (or datasets if you need), this is important cause the kernel usually save the information in his internal memory.
+Variables do not need to be declared with any particular _type_, and can even change type after they have been set.
+```python
+x = 4       # x is of type int  
+x = "Sally" # x is now of type str  
+print(x)
+```
+## Casting
+If you want to specify the data type of a variable, this can be done with casting.
+```python
+x = str(3)    # x will be '3'  
+y = int(3)    # y will be 3  
+z = float(3)  # z will be 3.0
+```
+also `type()` function is useful for knowking the data type of a variable
+## Case-Sensitive
+
+Variable names are case-sensitive. Doesn't matter if we put lower and upper.
+```python
+a = 4  
+A = "Sally"  
+#A will not overwrite a
+```
+
+
+
 
 Tags: #Scope #terminal #PEP8
