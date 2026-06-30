@@ -134,6 +134,6 @@ print("I will print on the same line.")
 print("Hello World!", "I will print on the same line.")
 
 ```
-notice the comma after the `str`, this is the beginning for functions and arguments
+notice the comma after the `str`, this is the beginning for functions and arguments, print is so useful when you need to output numbers, math operations and other things.
 
 Tags: #Scope #terminal #PEP8
