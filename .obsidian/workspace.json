@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/Para entrar a la U (Tips)/Ideas.md",
+                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ideas"
+              "title": "Repaso Python"
             }
           }
         ]
@@ -217,8 +217,9 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "306f1e88c136376f",
+  "active": "71c2b3f2dc7d8f7a",
   "lastOpenFiles": [
+    "2026-1S/Para entrar a la U (Tips)/Ideas.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627112615.png",
@@ -264,7 +265,6 @@
     "2026-1S/Cursos/Data CódigoFacilito/Lenguajes y Herramientas.md",
     "2026-1S/POO/Temas/Excepciones.md",
     "2026-1S/POO/Temas/Encapsulamiento.md",
-    "2026-1S/Para entrar a la U (Tips)/Ideas.md",
     "Sin título.canvas"
   ]
 }
