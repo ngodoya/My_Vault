@@ -352,7 +352,8 @@ print(type(c))
 >[!python] **Note:** You cannot convert complex numbers into another number type.
 ## Random Number
 
-Python does not have a `random()` function to make a random number, but Python has a built-in module called `[random]` that can be used to make random numbers:
+Python does not have a `random()` function to make a random number, but Python has a built-in module called `[random]` that can be used to make random numbers
+# Python Strings
 
 Tags: #Scope #terminal #PEP8
 
