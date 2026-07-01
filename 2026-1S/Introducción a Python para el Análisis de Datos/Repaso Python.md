@@ -171,8 +171,142 @@ a = 4
 A = "Sally"  
 #A will not overwrite a
 ```
+## Variable Names
+Rules for Python variables:
 
+- A variable name must start with a letter or the underscore character
+- A variable name cannot start with a number
+- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- Variable names are case-sensitive (age, Age and AGE are three different variables)
+- A variable name cannot be any of the [Python keywords](https://www.w3schools.com/python/python_ref_keywords.asp).
+>[!python]  Remember that variable names are case-sensitive
+### Python keywords
+| Keyword                                                               | Description                                                                                           |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [and](https://www.w3schools.com/python/ref_keyword_and.asp)           | A logical operator                                                                                    |
+| [as](https://www.w3schools.com/python/ref_keyword_as.asp)             | To create an alias                                                                                    |
+| [assert](https://www.w3schools.com/python/ref_keyword_assert.asp)     | For debugging                                                                                         |
+| [async](https://www.w3schools.com/python/ref_keyword_async.asp)       | Define an asynchronous function                                                                       |
+| [await](https://www.w3schools.com/python/ref_keyword_await.asp)       | Wait for and get a result from an awaitable                                                           |
+| [break](https://www.w3schools.com/python/ref_keyword_break.asp)       | To break out of a loop                                                                                |
+| [case](https://www.w3schools.com/python/ref_keyword_case.asp)         | Pattern in a match statement                                                                          |
+| [class](https://www.w3schools.com/python/ref_keyword_class.asp)       | To define a class                                                                                     |
+| [continue](https://www.w3schools.com/python/ref_keyword_continue.asp) | To continue to the next iteration of a loop                                                           |
+| [def](https://www.w3schools.com/python/ref_keyword_def.asp)           | To define a function                                                                                  |
+| [del](https://www.w3schools.com/python/ref_keyword_del.asp)           | To delete an object                                                                                   |
+| [elif](https://www.w3schools.com/python/ref_keyword_elif.asp)         | Used in conditional statements, same as else if                                                       |
+| [else](https://www.w3schools.com/python/ref_keyword_else.asp)         | Used in conditional statements                                                                        |
+| [except](https://www.w3schools.com/python/ref_keyword_except.asp)     | Used with exceptions, what to do when an exception occurs                                             |
+| [False](https://www.w3schools.com/python/ref_keyword_false.asp)       | Boolean value, result of comparison operations                                                        |
+| [finally](https://www.w3schools.com/python/ref_keyword_finally.asp)   | Used with exceptions, a block of code that will be executed no matter if there is an exception or not |
+| [for](https://www.w3schools.com/python/ref_keyword_for.asp)           | To create a for loop                                                                                  |
+| [from](https://www.w3schools.com/python/ref_keyword_from.asp)         | To import specific parts of a module                                                                  |
+| [global](https://www.w3schools.com/python/ref_keyword_global.asp)     | To declare a global variable                                                                          |
+| [if](https://www.w3schools.com/python/ref_keyword_if.asp)             | To make a conditional statement                                                                       |
+| [import](https://www.w3schools.com/python/ref_keyword_import.asp)     | To import a module                                                                                    |
+| [in](https://www.w3schools.com/python/ref_keyword_in.asp)             | To check if a value is present in a list, tuple, etc.                                                 |
+| [is](https://www.w3schools.com/python/ref_keyword_is.asp)             | To test if two variables are equal                                                                    |
+| [lambda](https://www.w3schools.com/python/ref_keyword_lambda.asp)     | To create an anonymous function                                                                       |
+| [match](https://www.w3schools.com/python/ref_keyword_match.asp)       | Start a match statement (compare a value against cases)                                               |
+| [None](https://www.w3schools.com/python/ref_keyword_none.asp)         | Represents a null value                                                                               |
+| [nonlocal](https://www.w3schools.com/python/ref_keyword_nonlocal.asp) | To declare a non-local variable                                                                       |
+| [not](https://www.w3schools.com/python/ref_keyword_not.asp)           | A logical operator                                                                                    |
+| [or](https://www.w3schools.com/python/ref_keyword_or.asp)             | A logical operator                                                                                    |
+| [pass](https://www.w3schools.com/python/ref_keyword_pass.asp)         | A null statement, a statement that will do nothing                                                    |
+| [raise](https://www.w3schools.com/python/ref_keyword_raise.asp)       | To raise an exception                                                                                 |
+| [return](https://www.w3schools.com/python/ref_keyword_return.asp)     | To exit a function and return a value                                                                 |
+| [True](https://www.w3schools.com/python/ref_keyword_true.asp)         | Boolean value, result of comparison operations                                                        |
+| [try](https://www.w3schools.com/python/ref_keyword_try.asp)           | To make a try...except statement                                                                      |
+| [while](https://www.w3schools.com/python/ref_keyword_while.asp)       | To create a while loop                                                                                |
+| [with](https://www.w3schools.com/python/ref_keyword_with.asp)         | Used to simplify exception handling                                                                   |
+| [yield](https://www.w3schools.com/python/ref_keyword_yield.asp)       | To return a list of values from a generator                                                           |
 
+## Multi Words Variable Names
+Variable names with more than one word can be difficult to read.
+There are several techniques you can use to make them more readable, if you want to know more about when is useful those types, read about the #PEP8 guide [PEP8 Guide](https://peps.python.org/pep-0008/0.)
+## Camel Case
 
+Each word, except the first, starts with a capital letter:
 
+`myVariableName = "John"`
+## Pascal Case
+
+Each word starts with a capital letter:
+`MyVariableName = "John"`
+## Snake Case
+Each word is separated by an underscore character:
+`my_variable_name = "John""
+## Many Values to Multiple Variables
+Python allows you to assign values to multiple variables in one line:
+```python
+x, y, z = "Orange", "Banana", "Cherry"  
+print(x)  
+print(y)  
+print(z)
+```
+>[!python] **Note:** Make sure the number of variables matches the number of values, or else you will get an error.
+
+it also works for changing values in variables with other variables without losing info, for example:
+```python
+a = 5
+b = 2
+a, b = b, a
+```
+## One Value to Multiple Variables
+
+And you can assign the _same_ value to multiple variables in one line:
+```python
+x = z = y = "uwu"
+```
+## Unpack a Collection
+
+If you have a collection of values in a `list`, `tuple` etc. Python allows you to extract the values into variables. This is called _unpacking_.
+## Print Variables
+You can also use the `+` operator to output multiple variables:
+```python
+x = "Python "  
+y = "is "  
+z = "awesome"  
+print(x + y + z)
+```
+
+>[!python] Notice the space character after `"Python "` and `"is "`, without them the result would be "Pythonisawesome".
+
+Notice that x, y and are str, python can't combine different variables types in a print function.
+The best way to output multiple variables in the `[print()]`functions support different data types.
+## Global Variables
+
+Variables that are created outside of a function (as in all of the examples in the previous pages) are known as global variables.
+Global variables can be used by everyone, both inside of functions and outside.
+If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+```python
+x = "awesome"  
+  
+def myfunc():  
+  x = "fantastic"  
+  print("Python is " + x)  
+  
+myfunc()  
+  
+print("Python is " + x)
+# output will be "Python is awesome"
+```
+we can also define global variables inside a function, using `global name_variable`.
+
+## Built-in Data Types
+#Built-in : is something that is defined in the core of the language, for example python `"print()"`function.
+In programming, data type is an important concept.
+Variables can store data of different types, and different types can do different things.
+Python has the following data types built-in by default, in these categories:
+
+| Text Type:      | `str`                              |
+| --------------- | ---------------------------------- |
+| Numeric Types:  | `int`, `float`, `complex`          |
+| Sequence Types: | `list`, `tuple`, `range`           |
+| Mapping Type:   | `dict`                             |
+| Set Types:      | `set`, `frozenset` "immutable set" |
+| Boolean Type:   | `bool`                             |
+| Binary Types:   | `bytes`, `bytearray`, `memoryview` |
+| None Type:      | `NoneType`                         |
 Tags: #Scope #terminal #PEP8
+
