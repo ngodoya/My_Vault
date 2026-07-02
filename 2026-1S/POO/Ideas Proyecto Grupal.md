@@ -147,3 +147,5 @@ MascotasDuenosView ..> GestorMascotas
 MascotasDuenosView ..> GestorDuenos
 CitasView ..> GestorCitas
 ```
+>[!Important] Citar la Wiki en el README.
+>
