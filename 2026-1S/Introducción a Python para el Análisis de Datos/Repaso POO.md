@@ -306,4 +306,20 @@ class Student(Person):
 
 ```
 If you add a method in the child class with the same name as a function in the parent class, the inheritance of the parent method will be overridden.
+
+
+###  Reto
+🏆 Reto 3: Motor de Regresión Lineal (Avanzado)
+
+**Objetivo:** Desarrollar un simulador estadístico que prediga valores futuros basados en datos históricos.
+
+- **Clase Base `ModeloPredictivo`**:
+    - Clase abstracta con métodos vacíos `entrenar(x, y)` y `predecir(x)`.
+- **Clase `RegresiónLineal` (Hereda de `ModeloPredictivo`)**:
+    - Atributos: Pendiente (m) e intersección (b).
+    - Método `entrenar()`: Calcula m y b usando las fórmulas de mínimos cuadrados.
+    - Método `predecir()`: Aplica la ecuación y = mx + b.
+    - Método `coeficiente_correlacion()`: Calcula el valor R de Pearson para medir la fuerza de la relación.
+- **Concepto POO clave:** Herencia, polimorfismo y clases abstractas.
+- 
 Tags: #Built-in #pep8
