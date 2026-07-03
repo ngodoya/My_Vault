@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Scoope",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Explorador de archivos"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "03df2ea31fffe53d",
@@ -219,8 +218,8 @@
   },
   "active": "8b5341209d5c41c5",
   "lastOpenFiles": [
-    "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso POO.md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
     "2026-1S/POO/Ideas Proyecto Grupal.md",
     "2026-1S/Para entrar a la U (Tips)/Ideas.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
