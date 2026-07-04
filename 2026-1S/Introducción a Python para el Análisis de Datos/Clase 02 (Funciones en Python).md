@@ -50,7 +50,15 @@ python -m venv mi_entorno
 source mi_entorno/bin/activate
 
 ```
-Aunque para hacer esto no olvide instalar su entorno virtual, `pip`es el gestor de paquetes de python
+Aunque para hacer esto no olvide instalar su entorno virtual, `pip`es el gestor de paquetes de python.
+## Listas por comprensión (list comprehension)
+Los creadores de python se dieron cuenta que crear listas en versiones antiguas resultaba incomodo, para ello en vez de utilizar ciclos for, crear listas aparte y luego hacer el append python agrego una estructura bastante util para resumir estos procesos.
+![[Pasted image 20260704094919.png]]
+## Funciones Lambda
+Unas funciones anónimas (no tienen nombre a menos que se les asigne en una variable) de python para crear funciones rápidas que no tengan mucho impacto en el código, solo pueden ejecutar **una sola expresión matemática o lógica**
+>[!python] **Note:** No es muy recomendable usarlas si son funciones recursivas dentro del código (funciones que se van a utilizar mucho)
+
+Las ventajas es que se pueden definir rápido y son utiles para devolver valores que se vayan a utilizar una vez en el código, a diferencia de una función tradicional (`def`), las expresiones lambda devuelven el resultado de forma implícita ; no requieren (ni permiten) escribir la palabra `return`
 
 Tags: #PEP8
 
