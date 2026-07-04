@@ -73,6 +73,8 @@ Python viene por defecto con bastantes funciones ùtiles para manejo de datos.
 - `.items()`: entrega los pares de un diccionario (llaves y valores)
 - `.values()`: entrega los valores de los diccionarios (sin sus llaves)
 El resto se pueden encontrar en el siguiente [Link](https://www.w3schools.com/python/python_strings_methods.asp)
+>[!python] en los for `_` se utiliza de forma en que se interprete que la variable `_` no tiene nigun impacto en la iteración, simplemente se va aumentando y el proceso se repite.
+
 
 Tags: #PEP8
 
