@@ -59,6 +59,20 @@ Unas funciones anónimas (no tienen nombre a menos que se les asigne en una vari
 >[!python] **Note:** No es muy recomendable usarlas si son funciones recursivas dentro del código (funciones que se van a utilizar mucho)
 
 Las ventajas es que se pueden definir rápido y son utiles para devolver valores que se vayan a utilizar una vez en el código, a diferencia de una función tradicional (`def`), las expresiones lambda devuelven el resultado de forma implícita ; no requieren (ni permiten) escribir la palabra `return`
+# Operadores Map y Filter
+Aquí se utiliza en mayor medida la función lambda, ya que facilita hacer expresiones lógico mátematicas en una sola línea.
+La expresión map recibe 2 parametros `map(función a aplicar, colección de datos que recibe la función)`filter como su nombre lo indica sirve para filtrar los datos que necesitemos `filter(condicion, conjunto a aplicar la condición)`como se pueden dar cuenta la función y la condición se pueden utilizar con funciones lambda, esto facilita en **EXCESO** el desarrollo de los códigos.
+[Ejercicio](https://www.hackerrank.com/challenges/map-and-lambda-expression/problem?isFullScreen=true)
+## Métodos Python
+
+Python viene por defecto con bastantes funciones ùtiles para manejo de datos.
+- `.lower()`: Convierte todos los caracteres de una cadena en minuscula
+- `.upper()`: Convierte todos los caracteres de una cadena en mayuscula
+- `.split()`: parte una cadena en una lista de caracteres, separandolos por el atributo que se le de a la función
+- `.keys()`: entrega las llaves de un diccionario
+- `.items()`: entrega los pares de un diccionario (llaves y valores)
+- `.values()`: entrega los valores de los diccionarios (sin sus llaves)
+El resto se pueden encontrar en el siguiente [Link](https://www.w3schools.com/python/python_strings_methods.asp)
 
 Tags: #PEP8
 
