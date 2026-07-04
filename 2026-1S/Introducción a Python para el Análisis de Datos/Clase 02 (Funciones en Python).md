@@ -35,9 +35,22 @@ Las funciones en python son envidiosas, lo que crean dentro de ellas se conoce c
 3. Valores que retorna, Ejemplo x_: Cuadrado del número solicitado
 ## Range()
 
-Retorna una lista de elementos desde 0 y hasta el parámetro que se envíe dentro de los paréntesis, aunque la mejor definición que se le puede dar es `range(inicio, final, pasos)`importante recordar que python suele tomar rel entero previo al final, si solicito un `range(10)`y lo imprimo en un for de una lista, me devolvera los números de 0 al 9
+Retorna una lista de elementos desde 0 y hasta el parámetro que se envíe dentro de los paréntesis, aunque la mejor definición que se le puede dar es `range(inicio, final, pasos)`importante recordar que python suele tomar rel entero previo al final, si solicito un `range(10)`y lo imprimo en un for de una lista, me devolvera los números de 0 al 9.
+## Funciones ajenas
+A veces las funciones predeterminadas de python no suelen ser suficiente para trabajar en nuestro contexto, en este punto podemos acceder a algo conocido como **Librerias** y importar estas funciones (usualmente son clases) y ahora si aprovecharlas en nuestro código, una de las mayores ventajas de python frente a lenguajes como R o Julia es su libreria y comunidad constante, la cual ofrece muchas soluciones.
+```python
+import datetime as dt #Importar todas las funciones especificas
+from datetime import datetime # Importar funciones especificas
+```
+Estas funciones tienen sus propias librerias y para ser instaladas se hacen por medio de la libreria `pip`, en la terminal de linux se pueden instalar como:
+```bash
+python -m pip install mi_libreria
+# entorno virtual
+python -m venv mi_entorno
+source mi_entorno/bin/activate
 
-
+```
+Aunque para hacer esto no olvide instalar su entorno virtual, `pip`es el gestor de paquetes de python
 
 Tags: #PEP8
 
