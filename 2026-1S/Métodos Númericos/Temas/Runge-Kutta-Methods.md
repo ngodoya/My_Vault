@@ -60,4 +60,7 @@ $i = 3$
 
 $$T_{4} - T_{3}(2+\Delta  x^2 h) + T_2 = -0.8$$
 $$200 - T_{4}(2+\Delta  x^2 h) + T_{3} = -0.8$$
+
+
+
 Tags: #Thomas-algorithm 
