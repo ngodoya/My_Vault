@@ -1,3 +1,4 @@
+[[Parcial 3]]
 # Temas:
 ### Ley del Culón
 [[1. Ley de Coulumb]]
@@ -19,3 +20,6 @@
 ![[Sears_Zemansky_LIBRO-signed.pdf]]
 
 ![[Fisica_para_ciencias_e_ingenieria.pdf]]
+
+ ---
+ 

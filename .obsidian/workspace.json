@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
+                "file": "2026-1S/FEM/Parcial 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 02 (Funciones en Python)"
+              "title": "Parcial 3"
             }
           }
         ]
@@ -219,8 +219,10 @@
   },
   "active": "8b5341209d5c41c5",
   "lastOpenFiles": [
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260704094919.png",
+    "2026-1S/FEM/Bienvenida Fem.md",
+    "2026-1S/FEM/Parcial 3.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260704094919.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso POO.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
@@ -260,7 +262,6 @@
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
-    "2026-1S/FEM/Bienvenida Fem.md",
     "2026-1S/FEM/Temas/1. Ley de Coulumb.md",
     "2026-1S/FEM/Temas/5. Capacitancia.md",
     "2026-1S/Métodos Númericos/Temas/24_04.md",
