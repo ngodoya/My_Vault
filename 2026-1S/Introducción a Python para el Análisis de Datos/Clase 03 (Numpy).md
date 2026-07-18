@@ -97,6 +97,95 @@ Crea un arreglo del tamaño dado y lo llena con una muestra aleatoria de número
 np.random.rand(7)  # Un array de 7 elementos 
 # Si corrio la semilla anterior el resultado nunca cambiara, se aplica para TODOS los aleatorios que se calcules despues de correr la celda de la semilla
 ```
+### Randn
+Retorna un arreglo con una muestra de números aleatorios con una distribución normal (centrada en 0), a diferencia de rand cuya distribución es uniforme:
+```python
+np.random.randn(4,5)
+```
+Más info acerca de distribuciones de probabilidad en este [**enlace**](https://www.healthknowledge.org.uk/public-health-textbook/research-methods/1b-statistical-methods/statistical-distributions).
+### Randint
+Retorna números enteros aleatorios desde el primer parámetro (inclusive) hasta el segundo parámetro (excluido). Si tiene un tercer argumento, éste será el número de elementos que tendrá el arreglo de enteros aleatorios que retorna.
+```python
+np.random.randint(1,100,12)
+```
+## Atributos y manipulación de los arreglos
+
+```python
+arr = np.arange(6)
+ranarr = np.random.randint(0,50,10)
+ranarr2 = np.random.randint(0,50,(10,10))
+```
+## Shape: Forma del arreglo
+
+Shape  es un atributo de los arreglos que indica las dimensiones del arreglo:
+```python
+arr.shape
+ranarr2.ndim # da la dimension (en ejes) del objeto
+```
+## Reshape
+Retorna un arreglo que contiene los mismos datos que el arreglo original pero con unas dimensiones nuevas, podemos pasar una  3x2 a una 2x3 o un arreglo 6x1 a un 2x3 (note que se mantiene la dimensión)
+```python
+arr.reshape(6, 1)
+```
+## Max, min, argmax, argmin
+
+Estos métodos se usan para encontrar los valores máximos y mínimos en un arreglo. También, para encontrar los índices donde están ubicados mediante argmin/argmax.
+## dtype
+
+También es posible averiguar el tipo de dato del arreglo usando el atributo dtype:
+## Importar directamente función de un módulo
+
+Para evitar tener que llamar el módulo y luego la función, por ejemplo:
+
+**np.random**
+
+Se puede importar la función directamente.
+```python
+from numpy.random import randint
+```
+## NumPy Indices
+
+En un arreglo el índice es la posición de la secuencia para cada uno de los elementos.
+```python
+vector1 = np.array([0,1,2,3,4,5,6,7,8,9,10])
+print(vector1)
+print('Elemento en posición 0: ', vector1[0])
+```
+### Arreglos uni-dimesionales Vectores
+
+La forma más sencilla de seleccionar un elemento o un conjunto de ellos de un arreglo es muy similar a las listas de Python:
+## Obtiene el elemento ubicado en el índice dado
+```python
+# Obtiene los elementos en el rango dado (sin incluir el límite superior)
+vector1[1:5]
+# Obtiene los elementos desde el inicio hasta el elemento en la posición 7
+vector1[:7]
+# Obtener desde una posición hasta el final del erreglo
+print(vector1[5:])
+print(vector1[5:11])
+# Obtener desde la posición inicial y hasta la 8, cada 2 posiciones
+vector1[0:8:2]
+# Obtener todo el arreglo pero en órden inverso
+vector1[::-1]
+```
+### Arreglos bi-dimensionales (Matrices)
+```python
+# Inicialización
+arr2d = np.zeros((5,5))
+for i in range(5):
+    arr2d[i] = i
+
+arr2d
+# Tamaño de la fila 1
+arr_length = arr2d.shape[1]
+
+arr_length
+#Obtener todos los elementos de la primera fila
+print(matriz_a[0,:])
+#Obtener todos los elementos de la primera columna
+print(matriz_a[:,0])
+```
+
 
 # Operaciones Entre Matrices
 

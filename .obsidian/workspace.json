@@ -217,8 +217,9 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "8b5341209d5c41c5",
+  "active": "306f1e88c136376f",
   "lastOpenFiles": [
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
@@ -264,7 +265,6 @@
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
-    "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "Sin título.canvas"
   ]
 }
