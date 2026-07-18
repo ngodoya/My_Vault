@@ -74,6 +74,30 @@ np.eye(4)
 ```
 
 >[!numpy]- **TODO**, absolutamente **TODO** es un vector en el mundo del análisis de datos, podríamos definir una **matriz** como un conjunto de **vectores** o sea de información aplicada en una colección de datos
+# Generación de números y arreglos de números aleatorios
+
+Los números aleatorios son importantísimos en computación. Como veremos, NumPy ofrece funciones para generar datos aleatorios simples y basados en algunas distribuciones estadísticas.
+```python
+# Sin argumentos se general un número aleatorio entre 0 y 1
+np.random.rand() 
+```
+## Crear un arreglo de números aleatorios
+
+Numpy también ofrece varias maneras de crear arreglos de número aleatorios:
+### Seed
+Semilla para números aleatorios
+```python
+np.random.seed(10)
+```
+
+### Rand
+
+Crea un arreglo del tamaño dado y lo llena con una muestra aleatoria de números con una distribución uniforme en el rango $[0, 1)$.
+```python
+np.random.rand(7)  # Un array de 7 elementos 
+# Si corrio la semilla anterior el resultado nunca cambiara, se aplica para TODOS los aleatorios que se calcules despues de correr la celda de la semilla
+```
+
 # Operaciones Entre Matrices
 
 ## Multiplicación
