@@ -186,8 +186,111 @@ print(matriz_a[0,:])
 print(matriz_a[:,0])
 ```
 
+### Arreglo n-dimensionales (Tensores)
+```python
+arr_3d = np.array(([[[5,10,],[20,25]],[[7,21],[7,28]]]))
+print(arr_3d) # Matrices dentro de matrices
+```
 
-# Operaciones Entre Matrices
+El formato general es **arr_nd[d1][d2][dn]** o **arr_2d[d1,d2,dn]**.
+
+Por claridad, se recomienda la notación con coma.
+## Broadcasting e Indexado Elegante
+```python
+c = np.zeros((3, 3))
+print(c)
+print(c.shape)
+n = np.array([1, 2, 3])
+print(n)
+print(n.shape)
+t = n + c  # Se expande la primera dimensión de n
+print(t)
+arr = np.arange(1,11)
+print(arr)
+# Asignar un valor dado a un rango de índices en un arreglo (Broadcasting)
+arr[0:5] = 100
+
+# Resultado
+arr
+arr[0::2] = -1
+
+arr
+# Troceado de arreglos
+trozo_de_arr = arr[0:6]
+
+# Resultado
+trozo_de_arr
+# Cambios
+trozo_de_arr[:] = 99
+
+#Show Slice again
+trozo_de_arr
+# Para obtener una copia, es necesario usar el método copy()
+copia_arr = arr.copy()
+
+copia_arr
+```
+
+>[!python] **OJO: los cambios también ocurren en el arreglo original!**
+**Los datos no se copian, un "trozo" de un arreglo es simplemente una vista del arreglo original! ** Esto sirve para prevenir problemas de memoria!
+### "Indexado elegante" (fancy indexing)
+
+Se permite indexar filas o columnas enteras de una sola vez:
+```python
+arr = np.arange(10,21)
+arr
+# Obtener elementos también en cualquier orden
+arr[[7,3,4]]
+```
+## Selección condicional
+
+```python
+#Validación elemento a elemento
+indices_cond = arr > 3
+print(indices_cond)
+# Seleccion de elementos basados en alguna condición
+arr[indices_cond]
+arr[arr > 3]
+#Usando condiciones más complejas
+arr[(arr>=1) & (arr<=4)]
+x = 2
+arr[arr>x]
+```
+# NumPy  - Operaciones
+## Aritméticas
+
+Es posible hacer operaciones aritméticas entre arreglos; y también, entre arreglos y escalares. Se usan los operadores aritméticos tradicionales.
+```python
+v1 = np.array([2,10,10])
+print(v1)
+#Multiplicación vector por escalar
+print(2*v1)
+#Suma de dos vectores
+v2 = np.array([1,2,1])
+print(v1)
+print(v2)
+# suma y resta
+v1+v2 
+# multiplicación
+v1*v2 #elemtento con elemento pero sin sumar Rn -> Rn
+# división
+print(v1/v2)
+
+# En Python, la siguiente división retorna un error
+1/0
+# Sin embargo, en NumPy si dividimos arr/arr, obtendremos un Warning de división por cero, pero no se considera como un error!
+# Se reemplaza por 'NaN' (Not a Number)
+
+arr/arr
+# 1/arr también produce un warning, pero no un error. En la división 1/0 se obtiene 'inf' (infinito)
+1/arr
+# Potencia
+arr**3
+```
+>[!python] Diferencia con las listas de Python
+## Operaciones Entre Matrices
+El operador * multiplica los elementos uno a uno (NO es multiplicación matricial)
+print(a * b)
 
 ## Multiplicación
 ### Multiplicación Vector-vector
@@ -218,3 +321,11 @@ El producto de las matrices $A \in \mathbb{R}^{m \times n}$ y $B \in \mathbb{R}^
 $$AB = \begin{pmatrix} a_{r,1}^T b_{c,1} & \cdots & a_{r,1}^T b_{c,p} \\ \vdots & \ddots & \vdots \\ a_{r,m}^T b_{c,1} & \cdots & a_{r,m}^T b_{c,p} \end{pmatrix} = \sum_{i=1}^{n} a_{c,i} b_{r,i}^T \in \mathbb{R}^{m \times p}$$
 
 Donde $a_{r,i}^T, b_{r,i}^T$ son los vectores fila y $a_{c,j}, b_{c,j}$ son los vectores columna de $A$ y $B$ respectivamente.
+## Otras Operaciones
+```python
+a = np.array([[0, 1, 2], [3, 4, 5]]) # arreglo 2 x 3
+a.transpose()
+a.sum()
+a.sum(axis=1)
+a.sum(axis=0)
+```
