@@ -4,7 +4,8 @@
       "install-plugin",
       "install",
       "numpy",
-      "python"
+      "python",
+      "math"
     ],
     "settings": {
       "install": [
@@ -31,6 +32,27 @@
       "python": [
         {
           "changes": {}
+        }
+      ],
+      "math": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "2, 122, 255"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "2, 122, 255"
+          }
         }
       ]
     }

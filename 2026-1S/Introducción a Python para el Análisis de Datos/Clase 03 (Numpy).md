@@ -73,4 +73,35 @@ eye(4)
 np.eye(4)
 ```
 
->[!math]- **TODO**, absolutamente **TODO** es un vector en el mundo del análisis de datos, podríamos definir una **matriz** como un conjunto de **vectores** o sea de información aplicada en una colección de datos
+>[!numpy]- **TODO**, absolutamente **TODO** es un vector en el mundo del análisis de datos, podríamos definir una **matriz** como un conjunto de **vectores** o sea de información aplicada en una colección de datos
+# Operaciones Entre Matrices
+
+## Multiplicación
+### Multiplicación Vector-vector
+
+Hay dos tipos de multiplicaciones vector-vector:
+
+* **Producto interno:** Para $x,y \in \mathbb{R}^n$, se tiene que:
+  $$x^T y = \sum_{i=1}^{n} x_i y_i \in \mathbb{R}$$
+* **Producto diádico:** Para $x \in \mathbb{R}^m, y \in \mathbb{R}^n$, se tiene que:
+  $$xy^T = \begin{pmatrix} x_1y_1 & \cdots & x_1y_n \\ \vdots & \ddots & \vdots \\ x_my_1 & \cdots & x_my_n \end{pmatrix} \in \mathbb{R}^{m \times n}$$
+
+---
+
+### Multiplicación Matriz-vector
+
+El producto de la matriz $A \in \mathbb{R}^{m \times n}$ y el vector $x \in \mathbb{R}^n$ es un vector de tamaño $\mathbb{R}^m$, tal que:
+
+$$Ax = \begin{pmatrix} a_{r,1}^T x \\ \vdots \\ a_{r,m}^T x \end{pmatrix} = \sum_{i=1}^{n} a_{c,i} x_i \in \mathbb{R}^m$$
+
+Donde $a_{r,i}^T$ son los vectores fila y $a_{c,i}$ son los vectores columna de $A$, y $x_i$ son las entradas de $x$.
+
+---
+
+### Multiplicación Matriz-matriz
+
+El producto de las matrices $A \in \mathbb{R}^{m \times n}$ y $B \in \mathbb{R}^{n \times p}$ es una matriz de tamaño $\mathbb{R}^{m \times p}$, tal que:
+
+$$AB = \begin{pmatrix} a_{r,1}^T b_{c,1} & \cdots & a_{r,1}^T b_{c,p} \\ \vdots & \ddots & \vdots \\ a_{r,m}^T b_{c,1} & \cdots & a_{r,m}^T b_{c,p} \end{pmatrix} = \sum_{i=1}^{n} a_{c,i} b_{r,i}^T \in \mathbb{R}^{m \times p}$$
+
+Donde $a_{r,i}^T, b_{r,i}^T$ son los vectores fila y $a_{c,j}, b_{c,j}$ son los vectores columna de $A$ y $B$ respectivamente.
