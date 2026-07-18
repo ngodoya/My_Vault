@@ -329,3 +329,39 @@ a.sum()
 a.sum(axis=1)
 a.sum(axis=0)
 ```
+## Funciones Universales con Arreglos
+
+Numpy viene con muchas [funciones universales para arreglos](http://docs.scipy.org/doc/numpy/reference/ufuncs.html), las cuales son operaciones matemáticas que se pueden usar para efectuar una operación sobre el arreglo. Por ejemplo:
+- Cuadraticas
+- Logaritmicas
+- Sin, cos, tan
+- np.max: devuelve el valor máximo del arreglo
+- np.argmax: devuelve el **índice** 
+Ejemplo de iteraciones:
+```python
+# Iterar sobre el par de coordenadas x,y
+a = np.array([[1,2],[3,4],[5,6]])
+print(a)
+for index, value in np.ndenumerate(a):
+  print('index:',index,', value: ',value)
+```
+  **Consultar más info: https://docs.scipy.org/doc/numpy/user/quickstart.html**
+  #Ejercicio: Multiplicación de Matrices
+
+Escribe una función en Python que reciba dos matrices (listas de listas) y retorne su producto matricial.
+
+**Instrucciones**:
+* Crea una función llamada multiplica_matrices que tome como parámetros dos matrices A y B.
+* La función debe verificar que el número de columnas de A sea igual al número de filas de B.
+* Si no es así, la función debe retornar un mensaje indicando que la multiplicación no es posible.
+* Si las dimensiones son correctas, la función debe calcular el producto matricial y devolver la matriz resultante.
+```python
+def multiplica_matrices(Lista_A, Lista_B):
+    A = np.array(Lista_A)
+    B = np.array(Lista_B)
+    if A.shape[1] == B.shape[0]:
+        resultado = np.dot(A, B)
+        return resultado
+    return "No se puede realizar la multiplicación de matrices"
+```
+Solución Básica
