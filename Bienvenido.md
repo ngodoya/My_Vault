@@ -23,7 +23,7 @@
 ### Fundamentos de Electricidad y Magnetismo (FEM)
 [[Bienvenida Fem]]
 ### Pre-U
-[[Ideas Proyecto Grupal]]
+[[Parcial 2 Ideas]]
 
 ---
 

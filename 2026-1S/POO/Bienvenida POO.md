@@ -24,4 +24,4 @@
 # Informe Proyecto (PM)
 [[Informe]]
 # Proyecto
-[[Ideas Proyecto Grupal]]
+[[Parcial 2 Ideas]]
