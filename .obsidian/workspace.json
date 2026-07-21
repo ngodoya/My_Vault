@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
+                "file": "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clase 03 (Numpy)"
+              "title": "Numerical Differentiation and Integration"
             }
           }
         ]
@@ -219,10 +219,10 @@
   },
   "active": "8b5341209d5c41c5",
   "lastOpenFiles": [
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Taller 3 - Métodos Numéricos (2026-1).pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
     "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
     "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
@@ -259,7 +259,6 @@
     "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "2026-1S/POO/Temas/Avances Proyecto/Avance por Nivel.md",
     "2026-1S/Métodos Númericos/PDFs/2. Roots of equations.pdf",
-    "2026-1S/Métodos Númericos/PDFs/1. Introduction.pdf",
     "2026-1S/POO/Temas/CSV en Pokemon.md",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
