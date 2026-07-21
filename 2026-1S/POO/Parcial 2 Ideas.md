@@ -1,12 +1,12 @@
 # Airport Check-In System: Estrategia y Arquitectura
 
-## Misión del Proyecto
+## Misión
 
 Construir una simulación robusta, orientada a objetos e impulsada por eventos para el flujo de check-in de un aeropuerto. El sistema garantiza encapsulamiento, manejo seguro de errores mediante excepciones personalizadas y un procesamiento eficiente utilizando colas de prioridad y generadores.
 
 ---
 
-## 5 Conceptos Clave
+## Claves
 
 1. **Abstracción y Contratos (`Luggage` como ABC):**
    Definir `Luggage` como una clase abstracta (`abc.ABC`) asegura que no existan instancias de equipaje sin un tipo definido y obliga a todas las subclases a implementar su propia lógica de validación de peso (`validate_weight()`).
