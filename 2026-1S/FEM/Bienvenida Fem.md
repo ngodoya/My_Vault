@@ -9,7 +9,7 @@
 ### Potencial Eléctrico
 [[4. Potencial Eléctrico]]
 ### Capacitancia
-[[5. Capacitancia]]
+[[5. Corriente (Conceptos de Circuitos)]]
 # Links:
 #### [Drive](https://drive.google.com/drive/folders/1zadOlZI4co2hY3qLkAH7j0N3MI2TUjgQ?usp=drive_link) 
 #### [Classroom Magistral](https://classroom.google.com/u/2/c/ODQxNDAwMjk2MDc1)

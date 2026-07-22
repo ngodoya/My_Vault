@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
+                "file": "2026-1S/FEM/Temas/5. Corriente (Conceptos de Circuitos).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Potencial Eléctrico"
+              "title": "5. Corriente (Conceptos de Circuitos)"
             }
           }
         ]
@@ -219,6 +219,7 @@
   },
   "active": "8b5341209d5c41c5",
   "lastOpenFiles": [
+    "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/POO/Parcial 2 Ideas.md",
     "2026-1S/Métodos Númericos/Temas/Numerical Differentiation and Integration.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
@@ -261,7 +262,6 @@
     "2026-1S/Métodos Númericos/PDFs/2. Roots of equations.pdf",
     "2026-1S/POO/Temas/CSV en Pokemon.md",
     "2026-1S/POO/Temas/Proyecto Grupal/Ideas.md",
-    "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/FEM/Temas/3. Ley de Gauss.md",
     "2026-1S/FEM/Temas/2. Campos Eléctromagneticos.md",
     "Sin título.canvas"
