@@ -13,6 +13,11 @@ También tenemos un analogo conocido como las **líneas de campo mágnetico** es
 Podemos definir la **fuerza mágnetica** como:
 $$\vec{F_B}=q\vec{v}\times \vec{B}$$
 Su magnitud se define como:$$F_b = |q||v||b|\sin(\theta)$$
+>[!Abstract]- La mano Derecha tiene dos formas de verse 
+>1. El dedo indice apuntara en la dirección del primer vector que aparece en la operación del producto escalar, el dedo medio apuntara en la dirección del segundo vector y el dedo pulgar dara como resultado la d irecicón del producto cruz (no olvide que la carga influye en la dirección)
+>2. Su dedo pulgar indicara la dirección del primer vector, donde apunten sus dedos sera la dirección del segundo y como resultado su palma dira la dirección en la que se establece la fuerza (note que se puede visualizar como hacía donde tiene que empujar).
+
+
 Estas dos definiciones son la mismas que las de un producto punto clásico, note que si no hay movimiento de la #carga (no hay *velocidad*), esto implica que no hay campo magnético generado.
 el valor mínimo de la fuerza (0) se dara cuando $\theta= 0, \pi$ note que se maximiza cuando el producto cruz es mayor ($\theta = \pi/2$ gracias al $\sin(\theta)$)
 Hay diferencias entre la fuerza eléctrica (Ley de Coulumb) y la Fuerza Mágnetica?
@@ -26,4 +31,9 @@ Con base en este último enunciado y también con el teorema trabajo-energía ci
 ## Unidad del SI
 $$1T = 1\dfrac{N}{C\cdot m/s}$$
 $$1T = 10^4 G$$
+>[!Example]- Recuerde que la fuerza de una carga negativa siempre es **antiparalela** a una fuerza de una carga positiva
+
+
+
+
 Tags: #carga #electrico #mágnetica
