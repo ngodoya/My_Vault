@@ -18,5 +18,12 @@ el valor mínimo de la fuerza (0) se dara cuando $\theta= 0, \pi$ note que se ma
 Hay diferencias entre la fuerza eléctrica (Ley de Coulumb) y la Fuerza Mágnetica?
 - El vector fuerza eléctrica actúa a lo largo de la dirección del campo eléctrico (los unía una linea), el vector de fuerza #mágnetica es perpendicular al campo magnético (por el producto cruz).
 - la fuerza eléctrica solo necesita una carga (no necesita estar en movimiento), la fuerza magnética necesita ***velocidad*** (movimiento)
+- La fuerza eléctrica efectúa trabajo al desplazar una partícula con carga, en tanto que la fuerza magnética asociada con un campo magnético estable no efectúa trabajo cuando se desplaza una partícula, debido a que la fuerza es perpendicular al desplazamiento $W=Fd\cos{\theta}$
+Con base en este último enunciado y también con el teorema trabajo-energía ci- nética, se concluye que la energía cinética de una partícula con carga que se mueve a través de un campo magnético no puede ser modificada por el campo magnético solo.
 
+>[!important]- El campo magnético, puede modificar la dirección del vector velocidad pero no puede cambiar la rapidez ni la energía cinética de la partícula.
+
+## Unidad del SI
+$$1T = 1\dfrac{N}{C\cdot m/s}$$
+$$1T = 10^4 G$$
 Tags: #carga #electrico #mágnetica
