@@ -38,26 +38,6 @@
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
 }
-/* --- ICONO DE JULIA AUTOMÁTICO --- */
-.callout[data-callout="julia"] {
-    /* El color oficial de Julia es un morado/magenta característico */
-    --callout-color: 224, 170, 48; 
-    background-color: rgba(146, 89, 165, 0.08);
-}
-.callout[data-callout="julia"] .callout-icon svg {
-    display: none;
-}
-.callout[data-callout="julia"] .callout-icon {
-    width: 1.2rem;
-    height: 1.2rem;
-    background-color: currentColor;
-    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/julia.svg');
-    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/julia.svg');
-    -webkit-mask-size: contain;
-    mask-size: contain;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-}
 
 /* --- ICONO DE SCIPY AUTOMÁTICO --- */
 .callout[data-callout="scipy"] {
@@ -79,6 +59,49 @@
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
 }
+
+/* --- ICONO DE SCIKIT AUTOMÁTICO --- */
+.callout[data-callout="scikit"] {
+    /* El característico color naranja/amarillo del logo de Scikit-learn */
+    --callout-color: 241, 148, 56; 
+    background-color: rgba(241, 148, 56, 0.08);
+}
+.callout[data-callout="scikit"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="scikit"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scikitlearn.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/scikitlearn.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* --- ICONO DE JULIA AUTOMÁTICO --- */
+.callout[data-callout="julia"] {
+    /* El color oficial de Julia es un morado/magenta característico */
+    --callout-color: 224, 170, 48; 
+    background-color: rgba(146, 89, 165, 0.08);
+}
+.callout[data-callout="julia"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="julia"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/julia.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/julia.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
 /* --- ICONO DE R AUTOMÁTICO --- */
 .callout[data-callout="r"] {
     /* El azul grisáceo oficial de la comunidad de R */
@@ -115,6 +138,49 @@
     background-color: currentColor;
     -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg');
     mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* --- ICONO DE SQL AUTOMÁTICO --- */
+.callout[data-callout="sql"] {
+    /* Logo Amarillo (RGB 255, 193, 7) y Fondo Naranja muy suave (RGB 241, 148, 56) */
+    --callout-color: 255, 193, 7;
+    background-color: rgba(241, 148, 56, 0.08);
+}
+.callout[data-callout="sql"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="sql"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    /* Se utiliza el icono de SQLite por ser el estándar de SQL en Simple Icons */
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/sqlite.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/sqlite.svg');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+/* --- ICONO DE PROBABILIDAD (DADOS) AUTOMÁTICO --- */
+.callout[data-callout="prob"] {
+    /* Un color verde esmeralda matemático/estadístico (RGB: 46, 125, 50) */
+    --callout-color: 46, 125, 50; 
+    background-color: rgba(46, 125, 50, 0.08);
+}
+.callout[data-callout="prob"] .callout-icon svg {
+    display: none;
+}
+.callout[data-callout="prob"] .callout-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: currentColor;
+    /* Enlace al icono de dado (dice-d6) de Font Awesome en formato SVG limpio */
+    -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/dice-d6.svg');
+    mask-image: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/dice-d6.svg');
     -webkit-mask-size: contain;
     mask-size: contain;
     -webkit-mask-repeat: no-repeat;
