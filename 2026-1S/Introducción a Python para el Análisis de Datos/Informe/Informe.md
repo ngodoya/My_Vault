@@ -10,9 +10,16 @@ Esto es conocido como un proceso #binomial , solo tenemos dos caminos, **"éxito
 Encontrar si la probabilidad de éxito de una variable depende o no de otras variables.
 Ejemplos:
 - Probabilidad de un derrame cerebral teniendo en cuenta variables como: predisposición genetica, consumo de drogas, alcohol, edad, etc.
-
+### Modelo Inicial
+$$p = \alpha_0 + \alpha_1X$$
+- $X$: Variable explicativa
+- p:  probabilidad de éxito
+Vamos a modelizar respecto a **"Odds"** pero utilizando un logaritmo para poder recibir todos los valores posibles $$\ln\left(\dfrac{p}{1-p}\right)=\alpha_0 + \alpha_1X$$
+Despejando se obtiene la función #sigmoide.
+==asumimos que cada dato es independiente y que la meta de cada observación es predecir la probabilidad correcta de su propia clase==
+Recuerde que habíamos utilizado la idea de los logaritmos para evitar que algoritmos como #MSE le den más peso a ciertas diferencias de probabilidad (Por ejemplo $(0.2-0.1)^2=0.1^2$ y $(0.6-0.3)^2=(0.3)^2$ la segunda tendra mayor peso segun la media cuadratica de error).$$ln(2\times p)-ln(p)=2$$
 ## Likehood (Verosimilitud)
-
+Conocemos el resultado (ejemplo 7 caras) y evaluamos que parametros $p$ pueden causar ese resultado
 ### Maximum Likehood
 **¿Qué valor del parámetro $(\beta)$ hace más probable haber observado exactamente estos datos?**
 No buscamos conocer $p$ sino "adivinar" un $\beta$ el cual nos de la probabilidad de los datos
@@ -73,9 +80,20 @@ classDiagram
 	LogisticRegression "1"--*"1" Optimizer: use
 ```
 En el caso de este Proyecto se puede preguntar que tiene que hacer apenas reciba los datos (recibe los datos y los envía de una vez??), lo mejor sería realizar un **preprocesamiento**, muchas veces los datos en el Internet están *contaminados*
+### Clases
+Qué sabe hacer cada clase, como se descompone y que métodos tiene?
+Ejemplo:
+```mermaid
+classDiagram
+	class LogisticRegression{
+		-Object optimizador
+		+float beta
+		+entrenar()
+		+predecir()
+		+almacenar_coef()
+		+ajustar()
+		}
+```
 
 
-
-
-
-Tags: #sigmoide #binomial #probabilidad 
+Tags: #sigmoide #binomial #probabilidad #MSE
