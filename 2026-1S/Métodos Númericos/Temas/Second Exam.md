@@ -224,9 +224,9 @@ z- and t- distributions of two-sided intervals
 ### Methods
 **Trade-offs**
 Comparative Advantages and limitations of regression vs. interpolation
-**Important Methods:** Key methods for regression, Interpolation, Fourier fits, confidence intervals
+**Important Methods:** Key methods for #regression, Interpolation, Fourier fits, confidence intervals
 **Advanced Methods**
-Matrix Formulations, general linear models, software-based implementations
+Matrix Formulations, general #linear models, software-based implementations
 ## 2. Least-Squares Regression
 ### Motivation for Least-Squares Regression
 - Experimental data often noisy; high-order interpolating polynomials oscillate and yield poor predictions between points.
@@ -426,4 +426,4 @@ Fit a second-order Lagrange polynomial to any three adjacent points (no equal sp
 $$f'(x) = f(x_{i-1})\dfrac{x_i-x_{i+1}}{(x_{i-1}-x_i)(x_{i-1}-x_{i+1})}+f(x_i)\dfrac{2x_i-x_{i-1}-x_{i+1}}{(x_{i}-x_{i-1})(x_{i}-x_{i+1})} + f(x_{i+1})\dfrac{x_{i}-x_{i-1}}{(x_{i+1}-x_{i-1})(x_{i+1}-x_{i})}$$
 
 
-#Derivatives #Slope
+Tags: #Derivatives #Slope #linear #regression
