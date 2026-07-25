@@ -38,7 +38,7 @@ Imagine que el campo magnético esta entrando a la pagina del libro, la velocida
 Ya con esto podemos utilizar las formulas de Física I (recuerde que el angulo entre $v$ y $B$ es de 90°)
 $$F_B = ma \rightarrow qvB = m\frac{v^2}{r}$$
 Después de haber aplicado la aceleración centripeta puede encontrar el radio el cual va a depender en mayoria de la velocidad de la particula (como clásico en los MCU), la velocidad angular la cual no depende la velocidad de la particula, sino del campo magnetico, la carga y la masa y finalmente el periodo de la misma particula.
-[Página del Libro](Serway.pdf#page=204)
+[Página del Libro](Serway.pdf.md#page=204)
 
 
 >[!Tip] En los ejercicios los siguientes enunciados pueden facilitar ciertos valores
