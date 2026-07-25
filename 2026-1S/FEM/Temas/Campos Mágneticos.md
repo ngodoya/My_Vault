@@ -76,6 +76,23 @@ Ahora imagine que doblamos ese iman en una figura a convenir, podemos visualiza,
 $$\vec{F}=I\int_a^bd\vec{s}\times \vec{B}$$
 puede separar la integral en más integral aprovechando la simetría y visualizando los casos donde el producto cruz **maximice** o **minimice** su valor siendo perpendicular o paralelo respectivamente.
 
+>[!IMPORTANT] La fuerza magnética neta que actúa sobre cualquier espira de corriente cerrada en un campo magnético uniforme es **CERO**
+>- En general, la fuerza magnética sobre un alambre portador de corriente curvo en un campo magnético uniforme es igual a la de un alambre recto que conecta los puntos finales y porta la misma corriente
 
+## 29.5 Momento de torsión sobre una espira de corriente en un campo magnético uniforme
+Considere una espira rectangular que tiene una corriente I en presencia de un campo magnético uniforme dirigido paralelamente al plano de la espira, como se observa en la figura 29.20a
+![[Pasted image 20260724222733.png]]
+Note que 1 y 3 se anulan al ser paralelos y anti paralelos al plano, la suma de 2 y 4 es cero, debido a que transportan la misma corriente, misma longitud y el campo es uniforme.
+Observe que las dos fuerzas apuntan en direcciones opuestas pero no actúan a lo largo de la misma línea de acción. Si se logra que la espira gire alrededor del punto O, estas dos fuerzas producen, en relación con este punto, un momento de torsión que hace que la espira gire en el sentido de las manecillas del reloj. La magnitud de este momento de torsión.$$\tau_{max}=IAB$$
+Este resultado de máximo momento de torsión sólo es válido cuando el campo magnético es paralelo al plano de la espira. El sentido de rotación es el de las manecillas del reloj cuando se le observa desde el lado 3, como se observa en la figura 29.20b. Si se invirtiera la dirección de la corriente, las direcciones de las fuerzas también se invertirían, y la tenden- cia a la rotación sería en la dirección contraria a las manecillas del reloj
+>[!note]- Recuerde que el torque se define como la palanca, el angulo que utilizamos es entre la fuerza y el objeto que estamos rotando.
+
+en otro caso donde el angulo sea menor a 90° quedara la expresion definida como producto cruz
+$$\tau = I\vec{A}\times\vec{B}$$
+note que A es el area de la espira, $\vec{A}$ es perpendicular al plano de la espira y tiene una magnitud igual al área del a misma.
+definimos el momento magnético como $$\vec{u}=I\vec{A}$$
+$$\vec{\mu}=NI\vec{A}$$
+para una bobina de alambre de N espiras de la misma área.
+$$U=-\vec{\mu}\cdot\vec{B}$$
 
 Tags: #carga #electrico #magnética
