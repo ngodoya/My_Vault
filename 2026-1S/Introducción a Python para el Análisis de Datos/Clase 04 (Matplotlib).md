@@ -156,5 +156,63 @@ ax.plot(x, x+16, color="purple", lw=1, ls='-', marker='s', markersize=8,
 
 >[!Example] Ejercicio
 >Graficar $y = x^5 + 3$ varias veces, desplanzando la curva en el eje x. Modifique de cada línea, color, ancho de línea y estilo de línea.
+## Ejes
+
+### Rango
+
+Podemos configurar los rangos de los ejes usando los métodos `set_ylim` y `set_xlim` del objeto del eje, o llamando al método `axis ('tight')` para obtener automáticamente rangos de ejes "ajustados":
+```python
+fig, axes = plt.subplots(1, 3, figsize=(12, 4))
+
+axes[0].plot(x, x**2) # Se puede graficar sobre la misma figura llamando varias veces a plot()
+axes[0].plot(x, x**3)
+axes[0].set_title("Rango de ejes por defecto")
+
+axes[1].plot(x, x**2, x, x**3) # Se puede hacer esto en una sola línea
+#axes[1].axis('tight')
+axes[1].autoscale(enable=True, axis='both', tight=True) #axis : ['both' | 'x' | 'y']; default is 'both'
+axes[1].set_title("Rango ajustado")
+
+axes[2].plot(x, x**2, x, x**3)
+axes[2].set_ylim([0, 10])
+axes[2].set_xlim([2, 3])
+axes[2].set_title("Rango personalizado");
+```
+## Tipos de gráficos especiales
+
+Al igual que con Pandas, en Matplotlib se pueden crear varios tipos de gráficos: barplots, histogramas, scatter plots, y muchos más. La mayoría de estos gráficos los crearemos usando Seaborn, una librería para gráficos estadísticos para Python. Pero aquí se presentan algunos ejemplos con matplotlib:
+La forma de uso de estas funciones, es similar al de la función plot, se envían como argumentos básicos los datos a graficar contenidos en dos arreglos, y es posible la personalización de algunas propiedades del gráfico de acuerdo con el tipo de gráfico que se este usando mediante el envío de parametros opcionales.
+### scatter()
+
+En el ejemplo siguiente se usa la función scatter, con esta se grafican los datos de una manera despersa como se ve en el resultado, adicionalmente permite uso de algunos modificadores como el caso de ''marker' para definir la representación de los puntos en la gráfica,
+### hist()
+
+Esta función permite la diagramación de los datos con estilo tipo histograma, en donde los datos son representados por barras verticales a lo largo del eje x, en el ejemplo siguiente se ilustra su uso para lo cual se generan previamente los arrays con los datos a diagramar.
+
+El parametro bins define la cantidad de barras para el diagrama, este puede ser un valor númerico, un rango, o una cadena. (para el caso de una cadena, esta debe correponder a uno de los valores preestablecidos de acuerdo, los cuales puede consultar en la documentación en donde también se detallan los parámetros que acepta esta función https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html )
+```python
+from random import sample
+data = sample(range(1, 100), 50)  #De esta forma se genera un arreglo de 50 elementos con valores aleatorios comprendidos entre 1 y 100
+plt.hist(data, bins=10, width=5)   #bins define el número de barras (10 por defecto)
+```
+### boxplot()
+
+Mediante esta función se gráfican los datos en un diagrama de cajas, para el ejemplo siguiente se grafican los diagramas de caja de tres arreglos generados aleatoriamente con desviación estandar de 1, 2 y 3 respectivamente:
+```python
+data = [np.random.normal(0, std, 100) for std in range(1, 4)] #contendrá 3 arreglos de 100 elementos cada uno, con valores aleatorios de distribución normal
+#con desviación estandar variando entre 1 y 3
+# boxplot rectangular
+plt.boxplot(data,vert=True,patch_artist=True)
+plt.show()
+
+```
+## Lecturas adicionales
+
+Los siguientes enlaces corresponden a sitios en donde encontrará información muy útil para profundizar en el conocimiento de las funcionalides de la libreria Matplotlib:
+* http://www.matplotlib.org
+* http://matplotlib.org/gallery.html - Ejemplos - **muy recomendado.**
+* http://www.labri.fr/perso/nrougier/teaching/matplotlib/ - Excelente tutorial.
+* http://scipy-lectures.github.io/matplotlib/matplotlib.html
+
 
 Tags: #Numpy #Matplotlib 
