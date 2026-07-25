@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Campos Mágneticos"
             }
+          },
+          {
+            "id": "74bc699129fd4632",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2026-1S/FEM/Libros/Serway.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Serway"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -217,10 +231,10 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "485f8d8843a98f3d",
+  "active": "74bc699129fd4632",
   "lastOpenFiles": [
-    "Serway.pdf.md",
     "2026-1S/FEM/Temas/Campos Mágneticos.md",
+    "Serway.pdf.md",
     "2026-1S/FEM/Libros/Serway.pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724131129.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724125151.png",

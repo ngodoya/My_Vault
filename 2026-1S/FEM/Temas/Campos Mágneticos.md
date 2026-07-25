@@ -58,5 +58,24 @@ esta se conoce como la fuerza de **Lorentz**
 En muchos experimentos que incluyen partículas con carga en movimiento, es impor- tante que todas las partículas se muevan a la misma velocidad, esto se puede lograr apli- cando la combinación de un campo eléctrico con uno magnético orientados como se ilustra en la figura 29.12.
 la partícula con carga se modela como una partícula en equilibrio y se mueve en línea recta vertical a través de la región de los campos. (Fuerza = 0) pruebe el despeje.
 Sólo aquellas partículas que tengan esta rapidez pasarán sin desviarse a través de los campos eléctrico y magnético mutuamente perpendiculares. La fuerza magnética que se ejerce sobre partículas que se mueven con magnitudes de velocidad más elevadas es mayor a la fuerza eléctrica, lo que desvía las partículas hacia la izquierda. Las que se muevan con magnitudes de velocidad menores se desviarán hacia la derecha.
+Ejemplos como estos pueden concluir a balances de energía donde se hace uso de que ambas fuerzas al llegar a un equilibrio se anulan y resultan en la expresión:
+$$v=\dfrac{E}{B}$$
+imagine las posibilidades de manipular cargas utilizando sistemas de campos magneticos donde el campo apunta en una dirección conveniente y luego se combina con el radio del MCU que generan las particulas.
+## 29.4 Conductor que Transporta Corriente
+Hasta el momento hemos realizado estos procedimientos con unas cuantas cargas, pero recordemos la definición de [[5. Corriente (Conceptos de Circuitos)#Corriente (I)|Corriente]] que son una cantidad de cargas dadas moviendose en un conductor, un experimento sencillo donde se pone un alambre de forma perpendicular a un iman en forma de C puede dar 3 resultados posibles.
+>[!check] 1. Quedarse estatico cuando $I=0$
+>2. Cuando la corriente conduce hacía arriba del alambre se ira a la derecha (note que por la regla de la mano derecha la fuerza apunta en la misma dirección).
+>3. Resultado opuesto a **2.**
+
+para encontrar la fuerza en el alambre, multiplique la fuerza magnética sobre una carga por el número de cargas en el segmento. $nAL$  donde $AL$ es el volumen del alambre ($A$ area transversal y $L$ longitud del alambre, $n$ representa la cantidad de cargas por unidad de volumen), como resultado obtiene:
+$$\vec{F}=(q\vec{v}\times\vec{B})nAL$$
+la corriente en un alambre es $I=nqv_dA$ y la ecuación anterior se visualiza como:
+$$\vec{F}=I\vec{L}\times\vec{B}$$
+donde $\vec{L}$ define la dirección de la corriente $I$ y su magnitud es igual a la longitud del segmento $L$.
+Ahora imagine que doblamos ese iman en una figura a convenir, podemos visualiza, mientras su seccion transversal sea uniforme, se puede integrar la ecuación y quedaría definida de la siguien forma.
+$$\vec{F}=I\int_a^bd\vec{s}\times \vec{B}$$
+puede separar la integral en más integral aprovechando la simetría y visualizando los casos donde el producto cruz **maximice** o **minimice** su valor siendo perpendicular o paralelo respectivamente.
+
+
 
 Tags: #carga #electrico #magnética
