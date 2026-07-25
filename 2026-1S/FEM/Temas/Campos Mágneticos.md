@@ -94,5 +94,5 @@ definimos el momento magnético como $$\vec{u}=I\vec{A}$$
 $$\vec{\mu}=NI\vec{A}$$
 para una bobina de alambre de N espiras de la misma área.
 $$U=-\vec{\mu}\cdot\vec{B}$$
-
+$$\tau = \vec{\mu}\times\vec{B}$$
 Tags: #carga #electrico #magnética
