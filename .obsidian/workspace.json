@@ -25,12 +25,14 @@
             "id": "74bc699129fd4632",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/FEM/Libros/Serway.pdf"
+                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Serway"
+              "icon": "lucide-file",
+              "title": "Clase 04 (Matplotlib)"
             }
           }
         ],
@@ -110,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -233,8 +234,10 @@
   },
   "active": "74bc699129fd4632",
   "lastOpenFiles": [
-    "2026-1S/FEM/Temas/Campos Mágneticos.md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
     "2026-1S/FEM/Libros/Serway.pdf",
+    "2026-1S/FEM/Temas/Campos Mágneticos.md",
     "Pasted image 20260724222733.png",
     "Serway.pdf.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724131129.png",
@@ -253,7 +256,6 @@
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260723132434.png",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/POO/Parcial 2 Ideas.md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Taller 3 - Métodos Numéricos (2026-1).pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
@@ -277,7 +279,6 @@
     "2026-1S/Métodos Númericos/Talleres",
     "2026-1S/Métodos Númericos/Collabs/Second_Exam.ipynb",
     "2026-1S/Métodos Númericos/PDFs/5. Curve Fitting.pdf",
-    "2026-1S/Métodos Númericos/Temas/Repaso Parcial 1.md",
     "Sin título.canvas"
   ]
 }

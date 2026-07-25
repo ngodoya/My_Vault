@@ -1,6 +1,6 @@
 **NumPy: Librería de álgebra lineal para Python.**
 
-NumPy es el paquete fundamental para la computación científica con Python. Contiene, entre otras cosas:
+#NumPy es el paquete fundamental para la computación científica con Python. Contiene, entre otras cosas:
 * una poderoso tipo de datos de matrices N-dimensionales: arreglos numpy
 * funciones sofisticadas (broadcast)
 * herramientas para integrar código C/C ++ y Fortran
