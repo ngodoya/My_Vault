@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2026-1S/FEM/Libros/Serway.pdf"
+                "file": "2026-1S/FEM/Talleres/Taller_8.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Serway"
+              "title": "Taller_8"
             }
           }
         ]
@@ -215,10 +215,10 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "306f1e88c136376f",
+  "active": "f4c69b880bfebc30",
   "lastOpenFiles": [
-    "2026-1S/FEM/Imagenes/Pasted image 20260725204311.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260724222733.png",
+    "2026-1S/FEM/Imagenes/Pasted image 20260725204311.png",
     "2026-1S/FEM/Temas/Campos Mágneticos.md",
     "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Talleres",
