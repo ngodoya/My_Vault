@@ -109,6 +109,8 @@ reemplace la ecuación anterior con la ante penultima para obtener:
 $$\Delta V_H = \dfrac{IBd}{nqv_dA}$$
 puede simplificar más la ecuación viendo que $A=td$ , donde $R_H = \dfrac{1}{nq}$ es el **coeficiente de hall** 
 	Sin embargo, este modelo clásico no resulta válido para metales como el hierro (Fe), el bismuto (Bi) y el cadmio (Cd), o para los semiconductores.
+Ejercicios
+![[Taller_8.pdf]]
 
 Tags: #carga #electrico #magnética #corriente 
  
