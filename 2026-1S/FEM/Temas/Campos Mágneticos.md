@@ -95,4 +95,20 @@ $$\vec{\mu}=NI\vec{A}$$
 para una bobina de alambre de N espiras de la misma área.
 $$U=-\vec{\mu}\cdot\vec{B}$$
 $$\tau = \vec{\mu}\times\vec{B}$$
-Tags: #carga #electrico #magnética
+## 29.6 Efecto Hall
+Cuando colocamos un conductor de #corriente en un campo magnético, se genera una diferencia de potencial en una dirección perpendicular tanto a la corriente como al campo magnético.
+![[Pasted image 20260725204311.png]]
+
+Esta acumulación de carga en los bordes establece un campo eléctrico en el conductor y se incrementa hasta que la fuerza eléctrica en los por- tadores que quedan en el resto del conductor equilibran la fuerza magnética que actúa sobre los portadores. Cuando se alcanza el equilibrio, los electrones ya no son desviados hacia arriba. Como se ve en la figura 29.26, se puede medir la diferencia de potencial, conocida como el voltaje Hall VH, generado en el conductor, mediante un voltímetro suficientemente sensible conectado a través de la muestra.
+En la deducción de una expresión que defina el voltaje Hall, primero observe que la fuerza magnética ejercida sobre los portadores tiene una magnitud igual $qv_dB$ En reposo, esta fuerza está equilibrada por la fuerza eléctrica $qE_h$ donde $E_h$ es la magnitud del campo eléctrico debido a la separación de las cargas (conocido a veces como campo Hall). Debido a eso
+Si $d$ es el ancho del conductor, el voltaje Hall es igual a:
+$$\Delta V_H = E_Hd=v_dBd$$
+Se puede obtener el valor de la rapidez de arrastre como:
+$\dfrac{I}{I}=1 \rightarrow \dfrac{I}{nqv_dA}=1$
+reemplace la ecuación anterior con la ante penultima para obtener:
+$$\Delta V_H = \dfrac{IBd}{nqv_dA}$$
+puede simplificar más la ecuación viendo que $A=td$ , donde $R_H = \dfrac{1}{nq}$ es el **coeficiente de hall** 
+	Sin embargo, este modelo clásico no resulta válido para metales como el hierro (Fe), el bismuto (Bi) y el cadmio (Cd), o para los semiconductores.
+
+Tags: #carga #electrico #magnética #corriente 
+ 

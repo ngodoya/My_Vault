@@ -22,21 +22,18 @@
             }
           },
           {
-            "id": "74bc699129fd4632",
+            "id": "f4c69b880bfebc30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
-                "mode": "source",
-                "source": false
+                "file": "2026-1S/FEM/Libros/Serway.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Clase 04 (Matplotlib)"
+              "icon": "lucide-file-text",
+              "title": "Serway"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,12 +229,13 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "74bc699129fd4632",
+  "active": "485f8d8843a98f3d",
   "lastOpenFiles": [
-    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
     "2026-1S/FEM/Libros/Serway.pdf",
     "2026-1S/FEM/Temas/Campos Mágneticos.md",
+    "Pasted image 20260725204311.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
     "Pasted image 20260724222733.png",
     "Serway.pdf.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724131129.png",
@@ -266,7 +264,6 @@
     "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260615134113.png",
     "2026-1S/FEM/Parcial 3.md",
     "2026-1S/FEM/Bienvenida Fem.md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260704094919.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso POO.md",
     "2026-1S/Para entrar a la U (Tips)/Ideas.md",
