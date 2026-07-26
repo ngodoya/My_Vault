@@ -515,3 +515,60 @@ Y tener la posibilidad de elegir entre:
 3. Investigación académica.
 4. Profesor universitario.
 5. Consultoría especializada.
+# Diagnóstico y Plan de Actualización de PC
+
+Este documento detalla el estado actual de tu equipo (Intel Core i3-7100) y las mejoras necesarias para adaptarlo a tareas de **Ciencia de Datos** y **Videojuegos ligeros** (era de Xbox 360).
+
+---
+
+## 📋 Estado Actual del Sistema
+
+Según el reporte del comando `lscpu`, tu procesador cuenta con las siguientes características básicas:
+
+*   **Modelo:** Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz (7.ª Generación)
+*   **Arquitectura:** x86_64 (Kaby Lake)
+*   **Núcleos / Hilos:** 2 núcleos físicos / 4 hilos de procesamiento
+*   **Frecuencia Máxima:** 3.90 GHz
+*   **Caché L3:** 3 MiB
+*   **Sistema Operativo:** Linux (Entorno de terminal Bash)
+
+---
+
+## 🛠️ Plan de Mejoras Recomendadas
+
+Para que tu equipo pueda procesar datos de manera fluida y ejecutar videojuegos sin problemas, es sumamente necesario actualizar los siguientes componentes componentes de hardware:
+
+### 1. Memoria RAM (Prioridad Alta)
+La manipulación de grandes volúmenes de datos con librerías de Python (como Pandas) y el uso de navegadores web consumen mucha memoria.
+*   **Requisito Mínimo:** 16 GB de RAM en total.
+*   **Especificación:** Módulos DDR4 a 2400 MHz o 2666 MHz (el procesador limitará la velocidad a 2400 MHz de forma automática, lo cual es normal).
+*   **Marcas sugeridas:** Corsair Vengeance LPX, Kingston Fury o Crucial.
+
+### 2. Tarjeta Gráfica / Video (Esencial)
+Los gráficos integrados del procesador son insuficientes. Necesitas una tarjeta dedicada **NVIDIA**, ya que cuenta con núcleos **CUDA**, el estándar absoluto e indispensable para acelerar procesos y modelos en Ciencia de Datos.
+*   **Opción Económica:** **NVIDIA GTX 1650 (4GB)**. Ideal para juegos de la época de Xbox 360 a resolución Full HD (1080p) con gráficos en calidad media/alta y para flujos básicos de datos.
+*   **Opción Recomendada:** **NVIDIA RTX 3050 (6GB)**. Te ofrece mayor vigencia tecnológica, mejor rendimiento en juegos "chill" modernos y soporte optimizado para Inteligencia Artificial.
+
+### 3. Almacenamiento SSD (Obligatorio)
+Si tu sistema operativo Linux y tus archivos se encuentran en un disco mecánico tradicional (HDD), el rendimiento general se verá severamente afectado.
+*   **Recomendación:** Instalar un disco de estado sólido (**SSD**) con conexión SATA de al menos 480 GB o 1 TB.
+*   **Marcas sugeridas:** Crucial BX500 o Kingston A400.
+
+---
+
+## 📊 Rendimiento Estimado Post-Actualización
+
+Una vez aplicados los cambios, este será el comportamiento esperado de tu computador:
+
+| Tarea                    | Rendimiento Esperado                                                                                                                                                                                          |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Ciencia de Datos**     | Excelente para el manejo de bases de datos medianas en Python/R, consultas SQL y aprendizaje local. *Nota: Los modelos masivos de Deep Learning deberán ejecutarse en entornos en la nube como Google Colab.* |
+| **Juegos Tipo Xbox 360** | Excelente. Títulos como *GTA V*, *Skyrim*, *Bioshock Infinite* o *Fallout* se ejecutarán de forma fluida a más de 60 FPS estables en resolución 1080p.                                                        |
+
+---
+
+## 🔍 Próximos pasos para validar compatibilidad
+
+Para asegurarnos de que estas piezas se puedan instalar de forma segura en tu gabinete actual, sería de gran ayuda saber:
+*   ¿Cuánta **memoria RAM** tienes actualmente instalada en el sistema?
+*   ¿De cuántos **Watts** es tu fuente de poder actual? 

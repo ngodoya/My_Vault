@@ -11,12 +11,14 @@
             "id": "f4c69b880bfebc30",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/FEM/Talleres/Taller_8.pdf"
+                "file": "2026-1S/Para entrar a la U (Tips)/Ideas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Taller_8"
+              "icon": "lucide-file",
+              "title": "Ideas"
             }
           }
         ]
@@ -217,10 +219,10 @@
   },
   "active": "f4c69b880bfebc30",
   "lastOpenFiles": [
+    "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Imagenes/Pasted image 20260724222733.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260725204311.png",
     "2026-1S/FEM/Temas/Campos Mágneticos.md",
-    "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Talleres",
     "2026-1S/FEM/Libros/Serway.pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
