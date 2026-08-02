@@ -122,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -244,9 +245,9 @@
   },
   "active": "24e3173d5f81e789",
   "lastOpenFiles": [
-    "2026-1S/FEM/Temas/7. Fuentes de Campo Magnético.md",
     "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Libros/Serway.pdf",
+    "2026-1S/FEM/Temas/7. Fuentes de Campo Magnético.md",
     "2026-1S/Para entrar a la U (Tips)/Ideas.md",
     "2026-1S/FEM/Imagenes/Pasted image 20260724222733.png",
     "2026-1S/FEM/Imagenes/Pasted image 20260725204311.png",
