@@ -572,3 +572,49 @@ Una vez aplicados los cambios, este será el comportamiento esperado de tu compu
 Para asegurarnos de que estas piezas se puedan instalar de forma segura en tu gabinete actual, sería de gran ayuda saber:
 *   ¿Cuánta **memoria RAM** tienes actualmente instalada en el sistema?
 *   ¿De cuántos **Watts** es tu fuente de poder actual? 
+
+# Resumen 2026-1
+- Métodos Númericos: (Por definir, entre 4.4-4.7)
+- Modelación Matemática: 4.7
+- POO: 4.8
+- FEM: 3.3
+- Explora: 4.7
+>[!math]- Caćulo de materias
+>```text
+>Cálculo en varias variables, 4, 4.4
+Ecuaciones Diferenciales, 4, 5.0
+Ingeniería estratégica, 3, 4.6
+Intensive english I - Internationalization, 4, 4.8
+Análisis computacional de datos ambientales, 4, 5.0
+Álgebra Lineal, 4, 4.7
+Cálculo Integral, 4, 4.7
+Fundamentos de mecánica, 4, 3.6
+Probabilidad y estadística fundamental, 3, 4.3
+Tecnologías cuánticas 100 años revolucionando el mundo., 3, 4.9
+Cálculo diferencial, 4, 4.8
+Programación de computadores, 3, 4.5
+Estadística social fundamental, 3, 4.2
+Investigación de mercados, 3, 4.2
+Biología general, 3, 3.9
+Principios de química, 3, 4.3
+Introducción a la ingeniería agrícola, 3, 3.9
+Matemáticas Básicas, 4, 4.0
+>```
+
+
+## Posibles Materias 2026-2
+### Caso 1
+- Introducción a la ingeniería Industrial **(OBLIGATORIA)**, 3 créditos
+- Sociología especial: industrial y del trabajo **(OBLIGATORIA)**, 3 créditos
+- Probabilidad fundamental **(OBLIGATORIA)**, 4 créditos
+- Optimización, 3 créditos
+- Explora Portugues, 4 créditos
+- Seguridad industrial, 3 créditos
+- **Total de créditos:** 20
+### Caso 2
+- Introducción a la ingeniería Industrial **(OBLIGATORIA)**, 3 créditos
+- Sociología especial: industrial y del trabajo **(OBLIGATORIA)**, 3 créditos
+- Probabilidad fundamental **(OBLIGATORIA)**, 4 créditos
+- Álgebra Matricial, 4 créditos o Fundamentos de matemáticas 4 créditos
+- Explora Portugués, 4 créditos
+- **Total de Créditos:** 18 créditos

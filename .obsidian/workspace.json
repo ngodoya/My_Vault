@@ -37,12 +37,14 @@
             "id": "24e3173d5f81e789",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "2026-1S/FEM/Libros/Serway.pdf"
+                "file": "2026-1S/Para entrar a la U (Tips)/Ideas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Serway"
+              "icon": "lucide-file",
+              "title": "Ideas"
             }
           }
         ],
@@ -122,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5,
-    "collapsed": true
+    "width": 318.5
   },
   "right": {
     "id": "cadcf9615240823b",
@@ -245,8 +246,8 @@
   },
   "active": "24e3173d5f81e789",
   "lastOpenFiles": [
-    "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Libros/Serway.pdf",
+    "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Temas/7. Fuentes de Campo Magnético.md",
     "2026-1S/Para entrar a la U (Tips)/Ideas.md",
     "2026-1S/FEM/Imagenes/Pasted image 20260724222733.png",
