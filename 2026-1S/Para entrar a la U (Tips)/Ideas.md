@@ -618,3 +618,5 @@ Matemáticas Básicas, 4, 4.0
 - Álgebra Matricial, 4 créditos o Fundamentos de matemáticas 4 créditos
 - Explora Portugués, 4 créditos
 - **Total de Créditos:** 18 créditos
+>[!Absctract]- Historia Acádemica
+>siabog.unal.edu.co/academia/archivo/historia-academica.do;jsessionid=
