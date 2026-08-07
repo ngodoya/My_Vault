@@ -619,4 +619,4 @@ Matemáticas Básicas, 4, 4.0
 - Explora Portugués, 4 créditos
 - **Total de Créditos:** 18 créditos
 >[!Absctract]- Historia Acádemica
->siabog.unal.edu.co/academia/archivo/historia-academica.do;jsessionid=
+>	siabog.unal.edu.co/academia/archivo/historia-academica.do;jsessionid=
