@@ -12,6 +12,7 @@
   "knownTags": {
     "abstracción": 16,
     "ampère": 73,
+    "arreglo": 74,
     "atributos": 19,
     "binomial": 66,
     "built-in": 52,
@@ -25,6 +26,7 @@
     "coulomb": 2,
     "coulumb": 11,
     "data": 60,
+    "dataframe": 75,
     "derivatives": 41,
     "dry": 17,
     "duck-typing": 53,

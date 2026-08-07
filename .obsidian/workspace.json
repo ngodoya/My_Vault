@@ -8,38 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f4c69b880bfebc30",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2026-1S/FEM/Talleres/Taller_8.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Taller_8"
-            }
-          },
-          {
-            "id": "93938a77a25fc335",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-1S/FEM/Temas/7. Fuentes de Campo Magnético.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Fuentes de Campo Magnético"
-            }
-          },
-          {
             "id": "24e3173d5f81e789",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Informe/Clase 05 (Pandas).md",
+                "file": "2026-1S/Introducción a Python para el Análisis de Datos/Clase 05 (Pandas).md",
                 "mode": "source",
                 "source": false
               },
@@ -47,8 +21,7 @@
               "title": "Clase 05 (Pandas)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,8 +221,18 @@
   },
   "active": "24e3173d5f81e789",
   "lastOpenFiles": [
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Taller 3 - Métodos Numéricos (2026-1).pdf",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724131129.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724124909.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260723132434.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260704094919.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627084509.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260627112615.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724125151.png",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 05 (Pandas).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 04 (Matplotlib).md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Informe/Clase 05 (Pandas).md",
     "2026-1S/Para entrar a la U (Tips)/Ideas.md",
     "2026-1S/FEM/Libros/Serway.pdf",
     "2026-1S/FEM/Talleres/Taller_8.pdf",
@@ -260,12 +243,9 @@
     "2026-1S/FEM/Talleres",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
     "Serway.pdf.md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724131129.png",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724125151.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Informe/Informe.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Logistic Regression.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Informe",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260724124909.png",
     "2026-1S/Métodos Númericos/Temas/Second Exam.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso Python.md",
     "2026-1S/Métodos Númericos/Temas/Linear Model and Residual.md",
@@ -273,25 +253,17 @@
     "2026-1S/Métodos Númericos/Temas/Runge-Kutta-Methods.md",
     "2026-1S/Métodos Númericos/Bienvenida Métodos Númericos.md",
     "2026-1S/FEM/Temas/5. Corriente (Conceptos de Circuitos).md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Pasted image 20260723132434.png",
     "2026-1S/FEM/Temas/4. Potencial Eléctrico.md",
     "2026-1S/POO/Parcial 2 Ideas.md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Taller 3 - Métodos Numéricos (2026-1).pdf",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
     "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
     "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
-    "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260708144725.png",
-    "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260708143907.png",
-    "2026-1S/Métodos Númericos/Imagenes/Pasted image 20260615134113.png",
     "2026-1S/FEM/Parcial 3.md",
     "2026-1S/FEM/Bienvenida Fem.md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Repaso POO.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes",
     "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos",
-    "2026-1S/Métodos Númericos/Talleres/Workshop 2 (Optimization and Curve Fitting).md",
     "2026-1S/Métodos Númericos/PDFs/6. Numerical Differentiation and Integration.pdf",
     "2026-1S/Métodos Númericos/Talleres",
     "Sin título.canvas"
