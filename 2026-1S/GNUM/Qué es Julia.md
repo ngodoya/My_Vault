@@ -57,4 +57,22 @@ El siguiente [enlace](https://julialang.org/community/) da información sobre lo
 - **JuliaLang Athens, Greece**
 - **JuliaLangJa**
 # Clases y Multiple Dispatch en Julia
+## Preguntas Guía hasta el momento
+- ¿Por qué Julia fue diseñado de esta manera?
+
+- ¿Qué problemas intenta resolver?
+
+- ¿Qué significa que Julia tenga multiple dispatch?
+
+- ¿Cómo afecta el modelo de tipos al diseño de programas científicos?
+
+- ¿Por qué Python tiene un ecosistema de ciencia de datos tan dominante?
+
+- ¿Qué hace NumPy realmente por Python?
+
+- ¿Qué significa que Julia pueda expresar operaciones matemáticas de forma tan directa?
+
+- ¿En qué situaciones tendría sentido elegir Julia en lugar de Python?
+
+
 Tags: #Tipado_Dinámico #python #Numpy #C #Linux #JupyterLab
