@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiJupyter",
       "SiJulia",
       "SiPython",
       "SiScipy",
-      "LiDatabase",
-      "SiCoursera"
+      "LiDatabase"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,10 +41,9 @@
   "2026-1S/POO": "SiGithub",
   "2026-1S/Terminal y Linux": "SiLinux",
   "2026-1S/Para entrar a la U (Tips)": "LiUniversity",
-  "2026-1S/Cursos": {
-    "iconName": "SiCoursera",
-    "iconColor": "#d96b30"
-  },
+  "2026-1S/Cursos": "SiJupyter",
   "2026-1S/Cursos/Data CódigoFacilito": "LiDatabase",
-  "2026-1S/Introducción a Python para el Análisis de Datos": "SiPython"
+  "2026-1S/Introducción a Python para el Análisis de Datos": "SiPython",
+  "2026-1S/GNUM/Qué es Julia.md": "SiJulia",
+  "2026-1S/GNUM": "SiJulia"
 }
