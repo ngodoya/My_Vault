@@ -206,7 +206,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-importer:Open Importer": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Abrir selector rápido": false,
@@ -216,11 +215,13 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
       "graph:Abrir vista gráfica": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian-importer:Import notes": false
     }
   },
   "active": "24e3173d5f81e789",
   "lastOpenFiles": [
+    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/7 Un recibo público reciente del lugar de residencia.pdf",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 01 (Introducción a Python).md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/Taller 3 - Métodos Numéricos (2026-1).pdf",

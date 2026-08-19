@@ -1,4 +1,4 @@
-## ¿Qué es pandas?
+n## ¿Qué es pandas?
 Es una librería de análisis de datos que se compone de una serie de estructuras de datos con funcionalidades para limpiar, analizar y preprocesar los datos para tareas siguientes al análisis.
 
 ![[download.png]]
@@ -66,6 +66,6 @@ Al imprimir el DataFrame, podemos observar que su estructura es similar a la de 
 | 10  | Rodriguez | 180.0  | 75.0 |     |
 >[!Example]  Ejercicio
 Crear un data frame que modele la información de 10 mascotas
-
+## Acceso a los registros del DataFrame por el índice
 
 Tags: #arreglo #DataFrame 
