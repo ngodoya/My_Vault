@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-1S/GNUM/Qué es Julia.md",
+                "file": "2026-1S/GNUM/Modelica/Modelica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Qué es Julia"
+              "title": "Modelica"
             }
           }
         ]
@@ -219,10 +219,14 @@
       "obsidian-importer:Import notes": false
     }
   },
-  "active": "306f1e88c136376f",
+  "active": "24e3173d5f81e789",
   "lastOpenFiles": [
+    "2026-1S/GNUM/Julia/Qué es Julia.md",
+    "2026-1S/Introducción a Python para el Análisis de Datos/Clase 05 (Pandas) 1.md",
+    "2026-1S/GNUM/Modelica/Modelica.md",
+    "2026-1S/GNUM/Modelica",
+    "2026-1S/GNUM/Julia",
     "2026-1S/Cursos/Sin título.md",
-    "2026-1S/GNUM/Qué es Julia.md",
     "2026-1S/GNUM/Imagenes",
     "2026-1S/GNUM/Imagenes/Pasted image 20260818224250.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
@@ -263,9 +267,6 @@
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
     "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
     "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
-    "2026-1S/FEM/Parcial 3.md",
-    "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes",
-    "2026-1S/Métodos Númericos/Talleres/Taller 2 - Métodos Numéricos (2026-1).pdf",
     "Sin título.canvas"
   ]
 }
