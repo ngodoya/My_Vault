@@ -65,6 +65,7 @@
     "mse": 62,
     "notebook": 44,
     "numpy": 69,
+    "omedit": 89,
     "openmodelica": 84,
     "pep8": 27,
     "polimorfismo": 25,
@@ -87,7 +88,7 @@
     "vectoriales": 37,
     "venn": 47,
     "venv": 48,
-    "vscode": 86,
+    "vscode": 88,
     "windows": 87
   },
   "tagColors": {},

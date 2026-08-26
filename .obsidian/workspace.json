@@ -216,19 +216,21 @@
       "bases:Crear nueva base": false,
       "graph:Abrir vista gráfica": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-importer:Import notes": false
+      "obsidian-importer:Import notes": false,
+      "obsidian-importer:Importar notas": false
     }
   },
   "active": "24e3173d5f81e789",
   "lastOpenFiles": [
+    "2026-1S/GNUM/Imagenes/Modelica Cpu_arch.png",
+    "2026-1S/GNUM/Imagenes/Pasted image 20260818224250.png",
+    "2026-1S/GNUM/Modelica/Modelica.md",
     "2026-1S/GNUM/Julia/Qué es Julia.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 05 (Pandas) 1.md",
-    "2026-1S/GNUM/Modelica/Modelica.md",
     "2026-1S/GNUM/Modelica",
     "2026-1S/GNUM/Julia",
     "2026-1S/Cursos/Sin título.md",
     "2026-1S/GNUM/Imagenes",
-    "2026-1S/GNUM/Imagenes/Pasted image 20260818224250.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Imagenes/download.png",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 05 (Pandas).md",
     "2026-1S/GNUM",
@@ -247,7 +249,6 @@
     "2026-1S/FEM/Libros/Serway.pdf",
     "2026-1S/FEM/Talleres/Taller_8.pdf",
     "2026-1S/FEM/Temas/7. Fuentes de Campo Magnético.md",
-    "2026-1S/FEM/Imagenes/Pasted image 20260724222733.png",
     "2026-1S/FEM/Temas/6. Campos Mágneticos.md",
     "2026-1S/FEM/Talleres",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 03 (Numpy).md",
@@ -266,7 +267,6 @@
     "2026-1S/POO/Parcial 2 Ideas.md",
     "2026-1S/Introducción a Python para el Análisis de Datos/Clase 02 (Funciones en Python).md",
     "2026-1S/Métodos Númericos/Temas/Sistemas de Ecuaciones.md",
-    "2026-1S/Métodos Númericos/Temas/Systems of Nonlinear Equations (By Newthon rhapson method).md",
     "Sin título.canvas"
   ]
 }
