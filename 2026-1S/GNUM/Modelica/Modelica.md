@@ -3,7 +3,13 @@ La idea del presente repositorio busca responder una pregunta en concreto:
 **Cómo puede ser usado Modelica como un lenguaje computacional para modelación matemática, simulación y experimentación númerica en Ingeniería**
 Se busca que todo lo que se realice en este repositorio sea reproducible para el aprendizaje de los estudiantes en el Lenguaje de Modelica, pero más importante, en el razonamiento y comprensión del Lenguaje, limitaciones, casos de uso, ejemplos, proyectos o incluso como aplicarlo en las diversas áreas de la ingeniería.
 ## Qué es Modelica?
+Modelica es un lenguaje paraa modelado de sistemas **ciber-fisicos** (Union de sistemas físicos con programas de computación y redes, las redes se utilizan para enviar datos y información del problema), el lenguaje es de uso libre y gratuito, esta a cargo de la asociación **Modelica**, además de ser un lenguaje de ***código abierto*** . Utilizado por los siguientes softwares de Modelación:
+- **Dassault Systemes Dymola:** Enfocado al entorno integral de modelado y simulación en sistemas complejos y multidisciplinarios. 
+- **Modelon Impact:** Plataforma en la nube la cual cuenta con conexiones nativas e integraciones con  herramientas como Python, Microsoft Excel y Jupyter Notebooks mediante APIs
+- **Wolfram System Modeller:** Tiene una ventaja frente al analisis de sistemas físicos multidimensionales, es una ventaja ya que permite elaborar tareas y trabajos de varias áreas al mismo tiempo.
+- **OpenModelica:** Entorno de código abierto (open-source) enfocado en la investigación y educación, que destaca por su flexibilidad para el desarrollo, prueba y simulación gratuita de librerías multidominio sin restricciones de licenciamiento.
 ### Es orientado a Objetos?
+
 ### Es Declarativo o Imperativo?
 ### Esta basado en Ecuaciones?
 ### Es multiparadigma?
