@@ -216,7 +216,6 @@
       "bases:Crear nueva base": false,
       "graph:Abrir vista gráfica": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-importer:Import notes": false,
       "obsidian-importer:Importar notas": false
     }
   },
