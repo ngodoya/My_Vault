@@ -28,3 +28,9 @@ Para esta primera fase se realizo una análisis de la dinámica del cerebro al r
 La señal es transmitida a **MN9** la cual es neurona de salida (motora) la cual procesa la señal y dispara para ordenar la extensión de la probóscide (la trompa de la mosca).
 >[!julia]- $i \rightarrow j$ o $j \rightarrow i$
 >Con Graphs.jl: `SimpleDiGraph` + `adjacency_matrix` da $A$, y `SimpleWeightedDiGraph(pre, post, peso)` + `weights` da $W$. Graphs.jl usa la convención $i \to j$; el documento usa $j \to i$, por eso el código traspone.
+
+Además de tener en cuenta que se hace un filtro para las matrices donde todas las neuronas que tengan  sinapsis $\geq$ 5, esto se hace debido a un filtro donde la comunidad cientifica concluye que es el estandar.
+**Conservar la estructura funcional:** Como demuestra el análisis de la subred, este filtro elimina el **64.9 %** de las conexiones débiles pero conserva el **90.6 %** del total de sinapsis, dejando intactas las rutas principales (como la vía azúcar $\to$ MN9 en 2 saltos). 
+>[!note] Nota
+>Aunque sirve para estudiar la estructura, para simular actividad dinámica conviene usar el dataset sin filtro porque ese 9.4 % de sinapsis eliminadas altera la tasa de disparo de varias neuronas).
+

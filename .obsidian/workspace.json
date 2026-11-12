@@ -35,7 +35,8 @@
               "title": "Primera Entrega Relevante"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,10 +234,10 @@
       "obsidian-importer:Importar notas": false
     }
   },
-  "active": "24e3173d5f81e789",
+  "active": "c48ba022d72d7ead",
   "lastOpenFiles": [
-    "2026-2S/GNUM/Julia/Primera Entrega/Primera Entrega Relevante.md",
     "2026-2S/GNUM/Julia/Primera Entrega/Primera Entrega.md",
+    "2026-2S/GNUM/Julia/Primera Entrega/Primera Entrega Relevante.md",
     "2026-2S/GNUM/Julia/Primera Entrega",
     "2026-2S/GNUM/Julia/Qué es Julia.md",
     "2026-2S/GNUM/Modelica/Modelica.md",
