@@ -24,17 +24,19 @@ El script 1 lee los dos archivos grandes. Ponlos en `datos/` con esos nombres, o
 `export DATOS_FILTRADO=/ruta/connections_princeton.csv.gz` y `export DATOS_SIN_FILTRO=/ruta/connections_princeton_no_threshold.csv.gz`.
 Los scripts 2, 3 y 4 no los necesitan: usan las tablas pequeñas que ya están en `datos/` (`aristas_filtrado.csv`, `aristas_sin_filtro.csv`, `aristas_repo.csv`).
 
-| Archivo | Qué hace |
-|---|---|
-| `comun.jl` | Constantes, `matrices()`, `phi`, `phi0`, `ode!` |
+| Archivo                    | Qué hace                                                   |
+| -------------------------- | ---------------------------------------------------------- |
+| `comun.jl`                 | Constantes, `matrices()`, `phi`, `phi0`, `ode!`            |
 | `1_matrices_y_datasets.jl` | $A$ y $W$ con Graphs.jl para los dos datasets; comparación |
-| `2_ode.jl` | La ODE con cada matriz y con cada dataset |
-| `3_continuidad.jl` | Puntos no definidos / no continuos y sus arreglos |
-| `4_de_ode_a_ude.jl` | La UDE como "ODE + un término" |
+| `2_ode.jl`                 | La ODE con cada matriz y con cada dataset                  |
+| `3_continuidad.jl`         | Puntos no definidos / no continuos y sus arreglos          |
+| `4_de_ode_a_ude.jl`        | La UDE como "ODE + un término"                             |
 
 ## 1. Las tres matrices
 
 Cada renglón de los archivos de FlyWire es `(pre, post, neuropilo, nº de sinapsis, neurotransmisor)`. Sumando los neuropilos de cada par queda una tabla de aristas `pre, post, sinapsis, nt`. De esa tabla salen:
+>[!Example]- ACH
+>La ==**acetilcolina**== (abreviada comúnmente como **ACh**) es el **primer neurotransmisor** que se descubrió. Es una sustancia química fundamental que utiliza el sistema nervioso para comunicarse con los músculos y entre las propias neuronas.
 
 | Matriz | Definición | Qué responde |
 |---|---|---|
@@ -48,14 +50,14 @@ Con Graphs.jl: `SimpleDiGraph` + `adjacency_matrix` da $A$, y `SimpleWeightedDiG
 
 ### Qué muestra `figuras/1_matrices_y_datasets.png`
 
-| Panel | Qué representa |
-|---|---|
-| A filtrado / A sin filtro | Cada punto negro es una conexión $j \to i$. Columnas = neurona que envía, filas = neurona que recibe. Las neuronas están ordenadas por fuerza de salida, por eso la izquierda es más densa |
-| W filtrado / W sin filtro | Lo mismo, pero el color es el peso: rojo excita, azul inhibe, más intenso = más sinapsis. Una columna toda roja o toda azul es una neurona excitatoria o inhibitoria |
-| Distribución de pesos | Cuántas conexiones hay con 1, 2, 3… sinapsis (eje vertical logarítmico). La línea punteada es el umbral del filtro: todo lo que está a su izquierda desaparece en el dataset filtrado |
-| Conexiones de entrada por neurona | Cada punto es una neurona: cuántas conexiones recibe sin filtro (horizontal) y con filtro (vertical). Todos caen muy por debajo de la diagonal: el filtro quita muchas conexiones |
-| Sinapsis de entrada por neurona | Igual, pero contando sinapsis. Aquí casi todos están sobre la diagonal: se pierden pocas sinapsis |
-| Efecto del filtro en cada neurona | Histograma del % de sinapsis de entrada que pierde cada neurona |
+| Panel                             | Qué representa                                                                                                                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| A filtrado / A sin filtro         | Cada punto negro es una conexión $j \to i$. Columnas = neurona que envía, filas = neurona que recibe. Las neuronas están ordenadas por fuerza de salida, por eso la izquierda es más densa |
+| W filtrado / W sin filtro         | Lo mismo, pero el color es el peso: rojo excita, azul inhibe, más intenso = más sinapsis. Una columna toda roja o toda azul es una neurona excitatoria o inhibitoria                       |
+| Distribución de pesos             | Cuántas conexiones hay con 1, 2, 3… sinapsis (eje vertical logarítmico). La línea punteada es el umbral del filtro: todo lo que está a su izquierda desaparece en el dataset filtrado      |
+| Conexiones de entrada por neurona | Cada punto es una neurona: cuántas conexiones recibe sin filtro (horizontal) y con filtro (vertical). Todos caen muy por debajo de la diagonal: el filtro quita muchas conexiones          |
+| Sinapsis de entrada por neurona   | Igual, pero contando sinapsis. Aquí casi todos están sobre la diagonal: se pierden pocas sinapsis                                                                                          |
+| Efecto del filtro en cada neurona | Histograma del % de sinapsis de entrada que pierde cada neurona                                                                                                                            |
 
 ## 2. ¿Qué matriz define la actividad?
 
