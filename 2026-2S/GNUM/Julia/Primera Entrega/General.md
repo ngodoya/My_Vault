@@ -26,9 +26,18 @@ El signo sale del neurotransmisor de la neurona presináptica:
 Es la regla del modelo de [Shiu et al](https://www.nature.com/articles/s41586-024-07763-9#Fig1). (A _Drosophila_ computational brain model reveals sensorimotor processing) En los dos archivos cada neurona tiene un solo neurotransmisor.
 Para esta primera fase se realizo una análisis de la dinámica del cerebro al recibir un estimulo, 21 **neuronas** reciben un estimulo externo a $I(t)$ a 150(Hz) (ciclos por segundo), después de eso 343 **interneuronas** se activan para transportar el estimulo, formando la red intermedia que **procesa** y **transmite** la señal.
 La señal es transmitida a **MN9** la cual es neurona de salida (motora) la cual procesa la señal y dispara para ordenar la extensión de la probóscide (la trompa de la mosca).
->[!julia]- $i \rightarrow j$ o $j \rightarrow i$
+>[!julia] $i \rightarrow j$ o $j \rightarrow i$
 >Con Graphs.jl: `SimpleDiGraph` + `adjacency_matrix` da $A$, y `SimpleWeightedDiGraph(pre, post, peso)` + `weights` da $W$. Graphs.jl usa la convención $i \to j$; el documento usa $j \to i$, por eso el código traspone.
+```julia
+# 1. Crea la estructura del grafo dirigido (solo conexiones, sin pesos)
+g = SimpleDiGraph(n_neuronas)
+for (u, v) in zip(pre, post)
+    add_edge!(g, u, v)
+end
 
+# 2. Extrae la matriz de adyacencia (1 donde hay flecha, 0 donde no) y la traspone
+A = Float64.(adjacency_matrix(g)')
+```
 Además de tener en cuenta que se hace un filtro para las matrices donde todas las neuronas que tengan  sinapsis $\geq$ 5, esto se hace debido a un filtro donde la comunidad cientifica concluye que es el estandar.
 **Conservar la estructura funcional:** Como demuestra el análisis de la subred, este filtro elimina el **64.9 %** de las conexiones débiles pero conserva el **90.6 %** del total de sinapsis, dejando intactas las rutas principales (como la vía azúcar $\to$ MN9 en 2 saltos). 
 >[!note] Nota
