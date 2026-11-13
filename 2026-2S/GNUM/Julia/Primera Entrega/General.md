@@ -33,4 +33,22 @@ Además de tener en cuenta que se hace un filtro para las matrices donde todas l
 **Conservar la estructura funcional:** Como demuestra el análisis de la subred, este filtro elimina el **64.9 %** de las conexiones débiles pero conserva el **90.6 %** del total de sinapsis, dejando intactas las rutas principales (como la vía azúcar $\to$ MN9 en 2 saltos). 
 >[!note] Nota
 >Aunque sirve para estudiar la estructura, para simular actividad dinámica conviene usar el dataset sin filtro porque ese 9.4 % de sinapsis eliminadas altera la tasa de disparo de varias neuronas).
+# 2. ODE
+El script resuelve la siguiente ecuación diferencial ordinaria (ODE) de tasa de disparo (_firing-rate model_):
+$$\tau_i\dfrac{dx_i(t)}{dt}=-x_i(t)+\phi\left(\sum_{j=1}^Nw_{ij}x_j+I_i(t)\right)$$
+## 2.1 ¿Qué es el modelo LIF?
 
+A diferencia de la ODE (que solo calcula un promedio continuo), el LIF simula **neurona por neurona y milisegundo a milisegundo**:
+
+- **Integración (_Integrate_):** Cada vez que una neurona recibe una señal de otra, su voltaje interno sube (si es excitatoria) o baja (si es inhibitoria).
+- **Fuga (_Leaky_):** Si no recibe señales nuevas, su membrana tiene una "fuga" natural y el voltaje vuelve lentamente a su estado de reposo.
+- **Disparo (_Fire_):** Cuando el voltaje acumulado cruza un umbral crítico, la neurona lanza un pulso eléctrico discreto (un _spike_ o potencial de acción) hacia sus vecinas y su voltaje se reinicia de golpe.
+>[!scipy] `Tsit5`
+>**¿Por qué `Tsit5()` con `tstops=[0.1, 0.6]`?** `Tsit5()` (Tsitouras 5/4) es el método Runge-Kutta explícito estándar de alto rendimiento en `DifferentialEquations.jl` para ecuaciones no rígidas. Como el estímulo $I(t)$ se enciende y apaga de golpe en $0.1\text{ s}$ y $0.6\text{ s}$ (discontinuidades), `tstops=[0.1, 0.6]` obliga al integrador a detenerse exactamente en esos instantes para no perder precisión.
+**El techo artificial de la sigmoide ($\approx 76.4\text{ Hz}$):**
+
+- En el modelo LIF real, si una neurona recibe mucha excitación, puede disparar a **120, 150 o hasta 180 Hz** (solo limitada por su periodo refractario de unos pocos milisegundos).
+- En cambio, la ODE utiliza una función matemática sigmoide ($\phi_0$) que tiene un límite superior fijo calibrado en **$76.4\text{ Hz}$**. Por eso, en la gráfica de puntos, todas las neuronas que en el LIF disparan por encima de 80 Hz quedan aplastadas formando una línea horizontal plana en 76 Hz (el RMSE de $27.7\text{ Hz}$ viene en gran parte de ese corte).
+**Pérdida de la dinámica de pulsos y tiempos de espera:**
+- La ODE reemplaza los disparos individuales (_spikes_) por una **tasa de disparo continua promedio** y asume que todas las neuronas responden con una misma curva sigmoide estándar.
+- En el LIF real, la sincronización exacta de cuándo llegan los pulsos, los periodos refractarios después de cada disparo y el umbral de voltaje de cada neurona generan respuestas no lineales que una sigmoide simple no alcanza a capturar.

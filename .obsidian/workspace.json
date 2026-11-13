@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-2S/GNUM/Julia/Primera Entrega/Primera Entrega Relevante.md",
+                "file": "2026-2S/GNUM/Julia/Primera Entrega/General.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primera Entrega Relevante"
+              "title": "General"
             }
           }
         ],
@@ -234,10 +234,10 @@
       "obsidian-importer:Importar notas": false
     }
   },
-  "active": "c48ba022d72d7ead",
+  "active": "4d722bb487138fba",
   "lastOpenFiles": [
+    "2026-2S/GNUM/Julia/Primera Entrega/General.md",
     "2026-2S/GNUM/Julia/Primera Entrega/Primera Entrega.md",
-    "2026-2S/GNUM/Julia/Primera Entrega/Primera Entrega Relevante.md",
     "2026-2S/GNUM/Julia/Primera Entrega",
     "2026-2S/GNUM/Julia/Qué es Julia.md",
     "2026-2S/GNUM/Modelica/Modelica.md",
